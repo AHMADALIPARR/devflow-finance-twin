@@ -1,6 +1,6 @@
 # quantum-simulator execution transcript
 
-Source baseline as recorded in the index. Console check counts retained verbatim.
+Source baseline as recorded in the index. Console check counts retained; trailing whitespace trimmed for Markdown.
 
 ```text
 ======================================================================
@@ -32,7 +32,7 @@ SIMULATOR TEST COMPLETE: 68 PASSED, 1 FAILED
 ======================================================================
 
 Failed tests:
-  FAIL: sv_bell_measure - 
+  FAIL: sv_bell_measure -
 
 Total tests: 69
 Pass rate: 98.6%
