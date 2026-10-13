@@ -1,3 +1,5 @@
+/* SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001 */
+
 /* examples/factorial.b */
 fact(n) {
     if (n < 2) { return 1; }

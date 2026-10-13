@@ -1,3 +1,5 @@
+; SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+
 ; Channel create / write / read
     LOAD_IMM R1, 4
     CHAN_CREATE R0, 4

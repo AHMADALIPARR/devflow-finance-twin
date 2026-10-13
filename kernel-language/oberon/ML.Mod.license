@@ -3,4 +3,4 @@ SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
 Existing file, component and third-party notices and grants are preserved.
 Source-Path: kernel-language/oberon/ML.Mod
-Source-SHA256: 386ed82a5b3ef37b506643fb84c1f1040a240848e9a5be4f396f10745a8f1ce1
+Source-SHA256: bfb7c8b4105bf7b1960aeb535f9b2196d0a8949d10398ca11868749f2f57f5d6

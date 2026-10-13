@@ -1,3 +1,5 @@
+;;; SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; QA5-REACTIVE-THEOREM-PROVER.l
 ;;; Novel ~700 LOC Lisp theorem prover

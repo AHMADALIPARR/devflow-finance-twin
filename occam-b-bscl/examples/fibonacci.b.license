@@ -3,4 +3,4 @@ SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
 Existing file, component and third-party notices and grants are preserved.
 Source-Path: occam-b-bscl/examples/fibonacci.b
-Source-SHA256: 5757aad72702024887b933e800457991bc9c7efed797faffb7017c51f0c15e18
+Source-SHA256: 1ed652f696a678fc34a46c562ff294ea736f2d002c938fea3ba702d892c27383

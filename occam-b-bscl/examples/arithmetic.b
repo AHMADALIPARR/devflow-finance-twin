@@ -1,3 +1,5 @@
+/* SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001 */
+
 /* examples/arithmetic.b */
 main() {
     x = 17; y = 5;

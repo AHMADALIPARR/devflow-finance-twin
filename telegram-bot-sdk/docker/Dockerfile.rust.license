@@ -3,4 +3,4 @@ SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
 Existing file, component and third-party notices and grants are preserved.
 Source-Path: telegram-bot-sdk/docker/Dockerfile.rust
-Source-SHA256: dd3b1c712d74464057eb524418fa8d1b31784a09b7712f6667b3fa10e128bb76
+Source-SHA256: 6307d65aeb88e7610d1c3bf5c3f2784be2c9a13984eda2394c812415fb3cd490

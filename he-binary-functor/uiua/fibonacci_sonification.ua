@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+
 ; --- Fibonacci Cantor Sonification ---
 
 ; 1. Generate Fibonacci Sequence (Substitution Rule)

@@ -1,3 +1,5 @@
+! SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+
 ! Word-oriented arithmetic - BLISS expression style + CORAL structure
 MODULE WordArith;
 

@@ -3,4 +3,4 @@ SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
 Existing file, component and third-party notices and grants are preserved.
 Source-Path: src/a68/attn_core.a68
-Source-SHA256: 565c7a587efab6239b88fb0359b3f1206a0c18bb0309b2e8eecd74229f7c5d00
+Source-SHA256: 7607df03c54d048f9d7e7b38bc5a110f20f6a231669e560736877f6c7ca55595

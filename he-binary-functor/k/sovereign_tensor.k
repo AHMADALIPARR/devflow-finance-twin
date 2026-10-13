@@ -1,3 +1,5 @@
+/ SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+
 / SOVEREIGN HOMOGENEOUS TENSOR CIRCUIT (ngn/k)
 / Contiguous memory execution via tacit tensor mapping
 

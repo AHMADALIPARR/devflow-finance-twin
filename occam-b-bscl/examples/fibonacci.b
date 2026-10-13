@@ -1,3 +1,5 @@
+/* SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001 */
+
 /* examples/fibonacci.b */
 fib(n) {
     a = 0; b = 1; i = 0;

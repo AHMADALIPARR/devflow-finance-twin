@@ -1,3 +1,5 @@
+! SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+
 ! Parallel kernel - CORAL structure + explicit PARALLEL + barrier
 ! Lowers to KERNEL IR warp/CTA constructs for SM_86
 MODULE ParallelAdd;

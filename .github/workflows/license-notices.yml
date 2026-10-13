@@ -1,0 +1,13 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+name: Covenant license notices
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Require in-file SPDX headers on code and notices on other artifacts
+        shell: pwsh
+        run: ./scripts/audit_license_notices.ps1

@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001 #
+
 # agol86_model.a86 - LINES: 0000
 # AGOL‑86 transformer: copy task, causal multi‑head attention, residual MLP.
 

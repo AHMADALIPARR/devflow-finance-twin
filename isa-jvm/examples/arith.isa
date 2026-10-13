@@ -1,3 +1,5 @@
+; SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+
 ; Simple arithmetic and branch
     LOAD_IMM R0, 10
     LOAD_IMM R1, 32

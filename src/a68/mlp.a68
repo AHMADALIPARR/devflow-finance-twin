@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001 #
+
 ! mlp.a68
 ! TRANSFORMER FEED-FORWARD NETWORK (MLP) COMPONENT — OSS 1230
 ! TARGET: MLP = Linear -> GELU -> Linear

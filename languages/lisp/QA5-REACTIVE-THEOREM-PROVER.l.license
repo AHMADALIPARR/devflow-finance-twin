@@ -3,4 +3,4 @@ SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
 Existing file, component and third-party notices and grants are preserved.
 Source-Path: languages/lisp/QA5-REACTIVE-THEOREM-PROVER.l
-Source-SHA256: f2e1674d0681c26e148e54dbe5765227d243bee7d7097d6372b1a3ab8094daf1
+Source-SHA256: 0979d68a478f617778ac0ae90619db97a646c785cac0598c7321ba4121270846
