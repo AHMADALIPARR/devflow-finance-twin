@@ -1,0 +1,186 @@
+[
+  {
+    "product": "build-your-own-bank",
+    "artifact": "build-your-own-bank.zip",
+    "bytes": 240244,
+    "files": 124,
+    "sha256": "5538aa4eb9d12a91e38e557a76ee780df595cb1fdfeb91625a73e6b9b4b76710",
+    "integrity_verified": true
+  },
+  {
+    "product": "sovereign-ledger",
+    "artifact": "sovereign-ledger.zip",
+    "bytes": 70374,
+    "files": 22,
+    "sha256": "7abee4ccceaabe73e1746bf8203962946cf505f44e11898a6f35ef118671fbaf",
+    "integrity_verified": true
+  },
+  {
+    "product": "constraint-runtime",
+    "artifact": "constraint-runtime.zip",
+    "bytes": 84295,
+    "files": 53,
+    "sha256": "a453cc0c8cfa258947024c7c3e5d7abd58580adae83ba7b8ae7968c8b6eff173",
+    "integrity_verified": true
+  },
+  {
+    "product": "decision-classifier",
+    "artifact": "decision-classifier.zip",
+    "bytes": 84450,
+    "files": 26,
+    "sha256": "1c982b211cd2d77f4bc69caea8bd8796f2551a83b3f7d6fa500e6ffb07f15f1e",
+    "integrity_verified": true
+  },
+  {
+    "product": "symbolic-reasoning",
+    "artifact": "symbolic-reasoning.zip",
+    "bytes": 215122,
+    "files": 73,
+    "sha256": "ddfcae6ee83a973cfc831ae05650f4e253941b052bf303a7020734f125f3a49f",
+    "integrity_verified": true
+  },
+  {
+    "product": "dream-rsi",
+    "artifact": "dream-rsi.zip",
+    "bytes": 78997,
+    "files": 49,
+    "sha256": "8bbbe2ea8d05805ef863ff62fd3b222393a745d053226ae94a9f150970344005",
+    "integrity_verified": true
+  },
+  {
+    "product": "tensor-core",
+    "artifact": "tensor-core.zip",
+    "bytes": 85390,
+    "files": 31,
+    "sha256": "985130d897dc0979c5f6e3695e648e744fd7592e1a8ab0ce5a60c950303e5e28",
+    "integrity_verified": true
+  },
+  {
+    "product": "governed-tensor",
+    "artifact": "governed-tensor.zip",
+    "bytes": 72633,
+    "files": 25,
+    "sha256": "10ccb2f6b5d7a878b162b2271cfa6e0d75a74dcc4de0e9537fd65ea9a6861c15",
+    "integrity_verified": true
+  },
+  {
+    "product": "apple-inference",
+    "artifact": "apple-inference.zip",
+    "bytes": 127486,
+    "files": 72,
+    "sha256": "969b1c101ab50951f5775f7e602d438a472c8a41408a28b377df6a9ed7d39220",
+    "integrity_verified": true
+  },
+  {
+    "product": "apple-design",
+    "artifact": "apple-design.zip",
+    "bytes": 85937,
+    "files": 23,
+    "sha256": "a2172eea075e3939a4826f0b3e3badb8ec1eedb438edde6699ea7963ec6aea46",
+    "integrity_verified": true
+  },
+  {
+    "product": "neural-model-lab",
+    "artifact": "neural-model-lab.zip",
+    "bytes": 198543,
+    "files": 86,
+    "sha256": "4557ba591195e7ed0d39b5150c115a41772aca336b3bc88071378f47a5532b85",
+    "integrity_verified": true
+  },
+  {
+    "product": "formal-assurance",
+    "artifact": "formal-assurance.zip",
+    "bytes": 463407,
+    "files": 141,
+    "sha256": "139645802bd9328fd1d55368c1776372c511321db5c06a24b723e2883ef4d340",
+    "integrity_verified": true
+  },
+  {
+    "product": "compiler-platform",
+    "artifact": "compiler-platform.zip",
+    "bytes": 1055385,
+    "files": 461,
+    "sha256": "4c187a7c0fbaf2267df85fea3e5c2b5347c188e70a2f755fea5237f0150af5bb",
+    "integrity_verified": true
+  },
+  {
+    "product": "virtual-switchboard",
+    "artifact": "virtual-switchboard.zip",
+    "bytes": 91234,
+    "files": 16,
+    "sha256": "44b230a19ea2c52dbb74866fd8177ad590724760d5fa3335115c2b29b1917c45",
+    "integrity_verified": true
+  },
+  {
+    "product": "hardware-design",
+    "artifact": "hardware-design.zip",
+    "bytes": 600412,
+    "files": 174,
+    "sha256": "58d220e85771ace316a2ea525360d55c8d937a7ff72d0e4ae5031c562062609d",
+    "integrity_verified": true
+  },
+  {
+    "product": "retro-compute",
+    "artifact": "retro-compute.zip",
+    "bytes": 329067,
+    "files": 127,
+    "sha256": "e077cadcb936a24230c1a0a7d97ee00d08d2fecd330ff97470d20f724359ae2a",
+    "integrity_verified": true
+  },
+  {
+    "product": "quantum-simulation",
+    "artifact": "quantum-simulation.zip",
+    "bytes": 203114,
+    "files": 85,
+    "sha256": "f56fec1e5667edd591f0e2228572c17d500c8aefca8d37c26ff86a364e432043",
+    "integrity_verified": true
+  },
+  {
+    "product": "telegram-agent-sdk",
+    "artifact": "telegram-agent-sdk.zip",
+    "bytes": 180043,
+    "files": 57,
+    "sha256": "cee9c9737c9c0c31f5b56f976a390cf8a70f1cec1c50f0ed87c9d3925455f10a",
+    "integrity_verified": true
+  },
+  {
+    "product": "workflow-workplace",
+    "artifact": "workflow-workplace.zip",
+    "bytes": 179037,
+    "files": 24,
+    "sha256": "f92fce64796b71ef5c63407fb5c3757733de0a7ba834188dcb6824931fdd4af5",
+    "integrity_verified": true
+  },
+  {
+    "product": "audit-archive",
+    "artifact": "audit-archive.zip",
+    "bytes": 136893,
+    "files": 46,
+    "sha256": "1533f22abd61e95d399366755e2d63d4aba281473fe443b95f8fbd2a581ca004",
+    "integrity_verified": true
+  },
+  {
+    "product": "boyer-moore",
+    "artifact": "boyer-moore.zip",
+    "bytes": 54464,
+    "files": 17,
+    "sha256": "1352fa62f1194f1ddc3bbea783cd13d89c2c3f6e9c62a0c3b127a9956c40e7db",
+    "integrity_verified": true
+  },
+  {
+    "product": "lua-rsi",
+    "artifact": "lua-rsi.zip",
+    "bytes": 99685,
+    "files": 35,
+    "sha256": "1d9d1a021681e1fb8ba7f76c8c5cd9f5ab7ff21465dfd1c9798ce8b2c10ced00",
+    "integrity_verified": true
+  },
+  {
+    "product": "platform-support",
+    "artifact": "platform-support.zip",
+    "bytes": 93259943,
+    "files": 254,
+    "sha256": "e90fb3b6b450b2fb2ddbf29482cc2c0056214436c5070326f4d377ab9113a840",
+    "integrity_verified": true
+  }
+]
