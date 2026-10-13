@@ -7,6 +7,8 @@ Existing file, component and third-party notices and grants are preserved.
 
 <!-- DEVFLOW FINANCE TWIN — MASTER README — PART 1 OF 2 -->
 
+CloneGate work: [Idris models and native launchers](formal/clone-gate/README.md), [WAT holographic frontend](frontend/shadow-header/README.md), and [browser demo](frontend/shadow-header/index.html). The browser shows the toy model's actual check result; it does not authenticate a license or restrict public downloads.
+
 Current product entry point: [29-product source suite](products/README.md), [production staging and architecture](products/PRODUCTION_STAGING.md), [current inventory and 83-commit mapping](products/reports/INVENTORY.md), and [release readiness evidence](products/RELEASE_READINESS.md). Start with [Build Your Own Bank](products/build-your-own-bank.md). The main license is the [Sovereign Leviathan mutated AGPLv3 covenant](LICENSE_POLICY.md), preserving component exceptions. The earlier governance atlas describes a historical snapshot; product readiness is established by the scoped checks and gates, rather than the production labels below.
 
 <!-- ══════════════════════════════════════════════════════════════════════ -->

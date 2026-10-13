@@ -69,10 +69,17 @@ jobs:
               exit 1
             fi
             cat "evidence/$name.txt"
-            grep -Eiq 'mismatch|linear|accessible|undefined name|multiplicit|used|private' "evidence/$name.txt"
+            grep -Eiq 'mismatch|linear|accessible|undefined name|multiplicit|used|private|constraint' "evidence/$name.txt"
           done
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:
           name: clone-gate-evidence
           path: formal/clone-gate/evidence/
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: clone-gate-native-linux
+          path: |
+            formal/clone-gate/build/exec/
+            formal/clone-gate/build/libclonegate.so
+            formal/clone-gate/c/clonegate.h
