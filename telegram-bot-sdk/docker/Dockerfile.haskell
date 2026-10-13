@@ -17,7 +17,7 @@
 # runtime base image) but has no Haskell runtime overhead beyond what GHC
 # bakes in at link time.
 #
-# License: GPL-3.0-or-later OR Apache-2.0
+# License: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 # ---------------------------------------------------------------------------
 
 # ---- Stage 1: base with Stack + system dependencies -----------------------
@@ -91,6 +91,6 @@ USER botuser
 LABEL org.opencontainers.image.title="telegram-bot-sdk-haskell" \
       org.opencontainers.image.description="Haskell Telegram bot — devflow-finance-twin" \
       org.opencontainers.image.source="https://github.com/SNAPKITTYWEST/devflow-finance-twin" \
-      org.opencontainers.image.licenses="GPL-3.0-or-later OR Apache-2.0"
+      org.opencontainers.image.licenses="LicenseRef-Sovereign-Leviathan-SL-AGPL3-001"
 
 ENTRYPOINT ["./telegram-bot"]

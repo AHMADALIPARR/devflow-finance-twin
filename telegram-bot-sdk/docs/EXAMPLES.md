@@ -6,7 +6,7 @@ Existing file, component and third-party notices and grants are preserved.
 
 # Telegram Bot SDK — Usage Examples
 
-**License:** GPL-3.0-or-later OR Apache-2.0
+**License:** LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 
 All examples assume the environment variables in `.env` are correctly set
 (see [INTEGRATION.md](INTEGRATION.md#6-environment-variables-reference)).

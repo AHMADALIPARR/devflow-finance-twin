@@ -6,7 +6,7 @@ Existing file, component and third-party notices and grants are preserved.
 
 # Telegram Bot SDK — Architecture
 
-**License:** GPL-3.0-or-later OR Apache-2.0
+**License:** LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 
 ---
 

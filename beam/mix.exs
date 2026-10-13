@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: GPL-3.0-or-later AND Apache-2.0
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 # SPDX-FileCopyrightText: 2026 SNAPKITTYWEST
 
 defmodule Swarm.MixProject do

@@ -19,7 +19,7 @@
 # receive updates at a time (use TELEGRAM_ACTIVE_BOT env var to select which).
 # Alternatively, register three separate bot tokens via BotFather.
 #
-# License: GPL-3.0-or-later OR Apache-2.0
+# License: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 # ---------------------------------------------------------------------------
 
 version: "3.9"

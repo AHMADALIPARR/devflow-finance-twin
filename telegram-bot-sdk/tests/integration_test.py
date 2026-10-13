@@ -9,7 +9,7 @@ Tests message format compatibility, command interface consistency,
 and error response formats across the Node.js, Rust, and Haskell
 implementations using a mocked Telegram API.
 
-License: GPL-3.0-or-later OR Apache-2.0
+License: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 """
 
 import asyncio
