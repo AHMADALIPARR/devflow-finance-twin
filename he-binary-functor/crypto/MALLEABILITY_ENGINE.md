@@ -1,3 +1,10 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Malleability Engine
 
 A **malleability engine** that, given a fixed-length digest (e.g. 256-bit hash), produces a deterministic family of points on the critical line that are related to the nontrivial zeros of the Riemann zeta function zeta(s).

@@ -1,0 +1,6 @@
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: benchmarks/rsi_lua/results/rsi-test-results.txt
+Source-SHA256: ecf89ebe6f16792ba2604efc1f40f6cb2421d675d19f98bef4eaea2d2ed0ab30

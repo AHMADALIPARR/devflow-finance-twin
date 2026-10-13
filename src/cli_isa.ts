@@ -14,7 +14,7 @@
 // ========================================================================
 
 // Copyright (c) 2026 SnapKittyWest. Ahmad Ali Parr, Bel Esprit D'Accord Irrevocable Trust.
-// SPDX-License-Identifier: FSL-1.1
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 
 const ACCOUNT_BASE_ADDR: i32 = 1024;
 const ACCOUNT_ENTRY_SIZE: i32 = 16;

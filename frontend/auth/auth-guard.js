@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-or-later OR Apache-2.0
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 // Copyright (c) 2026 SNAPKITTYWEST. All rights reserved.
 
 import { getToken, isExpired, authHeader } from "./jwt.js";

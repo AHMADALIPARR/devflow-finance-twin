@@ -1,0 +1,6 @@
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: telegram-bot-sdk/docker/Dockerfile.rust
+Source-SHA256: dd3b1c712d74464057eb524418fa8d1b31784a09b7712f6667b3fa10e128bb76

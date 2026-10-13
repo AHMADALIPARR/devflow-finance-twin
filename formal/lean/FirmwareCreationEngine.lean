@@ -16,7 +16,7 @@
 -/
 
 -- Copyright (c) 2026 SnapKittyWest. Ahmad Ali Parr, Bel Esprit D'Accord Irrevocable Trust.
--- SPDX-License-Identifier: FSL-1.1
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 -- â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
 -- â”‚ SOVEREIGN DEED: FIRMWARE_CREATION_ENGINE                                    â”‚
 -- â”‚ "The BIOS Is The Seed. Ring -3 Is The Root. The Grasp Writes Silicon."     â”‚

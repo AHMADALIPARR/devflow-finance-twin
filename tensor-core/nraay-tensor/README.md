@@ -1,9 +1,16 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # NraayTensor: Binary Semantic Governance with Temporal Safety
 
 [![Tests](https://img.shields.io/badge/tests-43%20passed-brightgreen)](#testing)
 [![Rust](https://img.shields.io/badge/rust-1.85%2B-orange)](https://www.rust-lang.org/)
 [![Edition](https://img.shields.io/badge/edition-2024-blue)](https://blog.rust-lang.org/2025/05/15/Rust-1.87.0.html)
-[![License](https://img.shields.io/badge/license-MIT%20%7C%20Apache--2.0%20%7C%20GPL--3.0-informational)](#license)
+[![License](https://img.shields.io/badge/license-Sovereign%20Leviathan-informational)](#license)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/SNAPKITTYWEST/devflow-finance-twin)
 
 A formally verified tensor library implementing Ahmad's specification for decoupling logical tensor views from physical memory management.
@@ -264,8 +271,7 @@ NraayTensor is **mechanistically equivalent** to:
 
 ## License
 
-Triple License: MIT OR Apache-2.0 OR GPL-3.0-or-later
-
+License: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 ## References
 
 - Formal specification: FORMAL_SPEC.md

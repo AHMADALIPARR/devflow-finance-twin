@@ -12,7 +12,7 @@
 # Stage 3: minimal runtime
 #   Copies only the stripped binary into a distroless/scratch image.
 #
-# License: GPL-3.0-or-later OR Apache-2.0
+# License: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 # ---------------------------------------------------------------------------
 
 # ---- Stage 1: cargo chef (dependency cache) --------------------------------
@@ -83,6 +83,6 @@ EXPOSE 8080
 LABEL org.opencontainers.image.title="telegram-bot-sdk-rust" \
       org.opencontainers.image.description="Rust Telegram bot — devflow-finance-twin" \
       org.opencontainers.image.source="https://github.com/SNAPKITTYWEST/devflow-finance-twin" \
-      org.opencontainers.image.licenses="GPL-3.0-or-later OR Apache-2.0"
+      org.opencontainers.image.licenses="LicenseRef-Sovereign-Leviathan-SL-AGPL3-001"
 
 ENTRYPOINT ["/usr/local/bin/telegram-bot"]

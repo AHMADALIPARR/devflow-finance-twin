@@ -1,0 +1,6 @@
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: wasm/account_registry.wasm
+Source-SHA256: 5d34ed6897ae837c35c2cdd26da84609f023375fe6ec96e8479ec8ff40e009b0

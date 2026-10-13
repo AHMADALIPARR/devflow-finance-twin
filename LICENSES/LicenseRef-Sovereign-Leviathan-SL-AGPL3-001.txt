@@ -1,3 +1,5 @@
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+
 # SOVEREIGN LEVIATHAN COVENANT
 
 ## THE MUTATED GENERAL PUBLIC LICENSE v3
@@ -398,6 +400,8 @@ Nothing herein shall be construed as removing rights expressly granted by that l
  * ========================================================================
  *
  * License-ID: SL-AGPL3-001
+ * SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+ * SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
  * Covenant-Version: 1.0
  * Clause-Registry: sovereign-leviathan://clauses
  * Node-ID: <NODE-ID>

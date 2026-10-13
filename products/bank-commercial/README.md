@@ -1,3 +1,10 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Build Your Own Bank
 
 Build Your Own Bank is a commercial product in development: a local treasury engine and integration kit for building financial software. This extracted workspace contains the Python engine, polyglot finance sources, constraint runtime, Go ledger dependency, tests, and original license notices.

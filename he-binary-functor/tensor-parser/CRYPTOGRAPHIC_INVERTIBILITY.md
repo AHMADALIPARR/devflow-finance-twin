@@ -1,3 +1,10 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Cryptographic Invertibility Bounds
 
 Reversing a cryptographic hash function like SHA-256 implies finding a pre-image m such that H(m) = h for a given digest h. Mathematically, SHA-256 maps arbitrary-length byte arrays to a fixed 256-bit space via the Merkle-Damgård construction, making the mapping many-to-one and information-theoretically non-invertible. The compression function CF: {0,1}^{512} × {0,1}^{256} → {0,1}^{256} destroys entropy through non-linear bitwise operations and modular additions.

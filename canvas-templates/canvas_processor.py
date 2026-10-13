@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# SPDX-License-Identifier: GPL-3.0-or-later OR Apache-2.0
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 """Canvas processor: XML + XSLT -> LaTeX + Swift stubs + optional PDF."""
 from __future__ import annotations
 import argparse, re, subprocess, sys

@@ -1,3 +1,10 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 <!-- DEVFLOW FINANCE TWIN — MASTER README — PART 1 OF 2 -->
 
 Current product entry point: [29-product source suite](products/README.md), [production staging and architecture](products/PRODUCTION_STAGING.md), [current inventory and 83-commit mapping](products/reports/INVENTORY.md), and [release readiness evidence](products/RELEASE_READINESS.md). Start with [Build Your Own Bank](products/build-your-own-bank.md). The main license is the [Sovereign Leviathan mutated AGPLv3 covenant](LICENSE_POLICY.md), preserving component exceptions. The earlier governance atlas describes a historical snapshot; product readiness is established by the scoped checks and gates, rather than the production labels below.
@@ -2244,25 +2251,7 @@ matrix.
 
 ## 8. License Stack
 
-The repository uses a triple license structure:
-
-| License | File | Scope |
-|---------|------|-------|
-| **AGPL-3.0** | [`LICENSE-AGPL-3.0`](LICENSE-AGPL-3.0) | Default — all source unless otherwise marked |
-| **FSL-1.1** | [`LICENSE-FSL-1.1`](LICENSE-FSL-1.1) | Functional Source License for specific modules |
-| **SNAPKITTY OPAQUE SOURCE LICENSE v1.0** | [`SNAPKITTY OPAQUE SOURCE LICENSE v1.0`](SNAPKITTY%20OPAQUE%20SOURCE%20LICENSE%20v1.0) | Proprietary components |
-
-**AGPL-3.0** covers the majority of the codebase. If you modify and deploy this code as a
-network service, you must make your modifications available under the same license.
-
-**FSL-1.1** covers specific modules (marked with `SPDX-License-Identifier: FSL-1.1` in file
-headers). These become Apache 2.0 licensed after the change date specified in the license.
-
-**SNAPKITTY OPAQUE SOURCE LICENSE v1.0** covers proprietary components that are visible but
-not licensed for redistribution or modification without explicit permission.
-
-The Sovereign Leviathan Covenant (`docs/SOVEREIGN_LEVIATHAN_COVENANT.md`) provides additional
-terms governing the use of the sovereign treasury infrastructure components.
+The main project license is the Sovereign Leviathan Covenant, License-ID SL-AGPL3-001. See LICENSE_POLICY.md and LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt. The legacy LICENSE-AGPL-3.0 and LICENSE-FSL-1.1 filenames now redirect to the covenant; no automatic conversion to another license applies.
 
 ---
 

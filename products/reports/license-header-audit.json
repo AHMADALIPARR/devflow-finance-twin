@@ -1,3 +1,5 @@
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+
 {
   "policy": "Preserve all existing grants and attribution; neutral references do not resolve conflicting scope.",
   "scope": "Tracked and nonignored source files with supported comment syntax; binary, data and unsupported-language files are not edited.",

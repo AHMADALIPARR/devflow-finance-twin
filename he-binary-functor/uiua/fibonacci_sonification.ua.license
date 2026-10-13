@@ -1,0 +1,6 @@
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: he-binary-functor/uiua/fibonacci_sonification.ua
+Source-SHA256: 3f565bc6901bfae9240c630c163e106fcc9e2ef98ddca7bf5fdfa9680be0774e

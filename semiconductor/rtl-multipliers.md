@@ -1,3 +1,10 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # RTL Multipliers: Booth + Wallace Tree + RISC-V Vector
 *Radix-2 Booth, Radix-4 Booth, Wallace-Tree Reduction, Vector Unit — Chisel & VHDL*
 

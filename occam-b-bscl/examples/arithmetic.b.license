@@ -1,0 +1,6 @@
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: occam-b-bscl/examples/arithmetic.b
+Source-SHA256: a20f5a945df2ddee023a7497344a62426a960c35a055d33e81cd43de4e454d3d

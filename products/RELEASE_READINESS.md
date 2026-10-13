@@ -1,3 +1,10 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Release readiness at current revision
 
 Reviewed upstream: `1c187bbbd8e73ad60542f75b0db673ff2c3f6bb2`, including 83 commits since `289e05876f15965a95f990ed178961aee0ebcb73`. Every current tracked file has product ownership and a hash inventory. Every commit has changed paths and affected products in [commit-review.json](reports/commit-review.json). This is a structural and executable-entry-point review; it is not a manual audit of every line or universal proof of correctness.
@@ -16,7 +23,7 @@ The deliverables now cover 29 source products, including an installable Build Yo
 | Proof completion varies | `formal/lean/lean_jacobian_tensor_framework.lean` and other Lean files contain `sorry`; formal-engine README describes experimental cipher/ZK and structural checking; Dafny files also contain placeholder annotations | Package as verification sources until pinned prover runs establish each obligation; do not infer full correctness from filenames |
 | Existing CI uses obsolete paths/tooling | `.github/workflows/kraus_ci.yml` references `python/tests`, `python/simulate_gate_list.py` and `julia/julia_driver.jl`; these are not current tracked entry points | The old CI workflow does not validate this expanded suite |
 | Quantum tests run during import | `quantum_computer/tests/test_simulator.py` runs large test loops and calls `sys.exit`; the combined pytest invocation consumed several minutes of CPU and was stopped | Run separately with resource/time limits; no quantum pass is reported |
-| License declarations differ | Constraint package metadata says MIT while file headers carry additional terms; root and component files use other licenses | Preserve original notices in source kits; resolve distribution terms before a uniform product release |
+| License declarations differ | Component metadata and root license texts require reconciliation with the Sovereign Leviathan main project policy | Preserve original notices in source kits; resolve distribution terms before a uniform product release |
 
 Executed on Windows/Python 3.12, without loading models or using GPU inference:
 

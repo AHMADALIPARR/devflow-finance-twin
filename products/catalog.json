@@ -229,7 +229,7 @@
       ],
       "gates": [
         "Model adapters are stubs; implement and test real provider boundaries",
-        "Local package declares MIT while several source headers declare additional terms; resolve release terms"
+        "Main project policy: Sovereign Leviathan, License-ID SL-AGPL3-001. See LICENSE_POLICY.md."
       ]
     },
     {

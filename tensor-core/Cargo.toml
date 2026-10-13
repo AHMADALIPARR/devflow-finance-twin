@@ -7,7 +7,7 @@ version = "0.1.0"
 edition = "2024"
 rust-version = "1.85"
 description = "Formal tensor/array library with pure mathematical verification"
-license = "MIT OR Apache-2.0 OR GPL-3.0-or-later"
+license-file = "../LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt"
 
 [dependencies]
 ndarray = { version = "0.17", features = ["rayon", "approx"] }

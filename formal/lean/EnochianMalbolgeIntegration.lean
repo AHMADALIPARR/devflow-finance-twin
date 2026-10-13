@@ -16,7 +16,7 @@
 -/
 
 -- Copyright (c) 2026 SnapKittyWest. Ahmad Ali Parr, Bel Esprit D'Accord Irrevocable Trust.
--- SPDX-License-Identifier: FSL-1.1
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 -- â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
 -- â”‚ SOVEREIGN DEED: ENOCHIAN_MALBOLGE_INTEGRATION                               â”‚
 -- â”‚ "Call9 Breathes Chaos. Call16 Scans The Abyss."                             â”‚

@@ -1,3 +1,5 @@
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+
 SOVEREIGN LEVIATHAN LICENSE GENERATOR
 =====================================
 
@@ -216,6 +218,8 @@ SL-020 Language and Interpretation
  * ========================================================================
  *
  * License-ID: SL-AGPL3-001
+ * SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+ * SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
  * Covenant-Version: 1.0
  * Clause-Registry: sovereign-leviathan://clauses
  * Node-ID: <NODE-ID>
