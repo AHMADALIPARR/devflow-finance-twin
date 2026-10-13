@@ -1,6 +1,6 @@
 -- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 module Main
-import CloneGate
+import CloneGate.Linear
 import Data.Vect
 import System
 %default total

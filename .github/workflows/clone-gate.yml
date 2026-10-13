@@ -44,15 +44,23 @@ jobs:
           mkdir -p evidence
           idris2 --version | tee evidence/compiler.txt
           idris2 --total --check CloneGate.idr 2>&1 | tee evidence/gate.txt
+          idris2 --total --check CloneGate/Linear.idr 2>&1 | tee evidence/linear.txt
           idris2 --total --check Main.idr 2>&1 | tee evidence/consumer.txt
           idris2 --total -o clone-gate-test Main.idr 2>&1 | tee evidence/build.txt
           build/exec/clone-gate-test | tee evidence/smoke.txt
           grep -Fx 'clone-gate: checks passed' evidence/smoke.txt
+          idris2 --total -o attestation-test AttestationSmoke.idr 2>&1 | tee evidence/attestation-build.txt
+          build/exec/attestation-test | tee evidence/attestation-smoke.txt
+          grep -Fx 'attestation: checks passed' evidence/attestation-smoke.txt
+          idris2 --build clone-gate.ipkg 2>&1 | tee evidence/package.txt
+          build/exec/clone-gate | tee evidence/entry-point.txt
+          printf '==> Clone gate open.\n==> Executing guarded payload.\n' > evidence/expected-entry.txt
+          diff -u evidence/expected-entry.txt evidence/entry-point.txt
       - name: Require invalid external callers to fail typechecking
         run: |
           export PATH="$HOME/.idris2/bin:$PATH"
           cd formal/clone-gate
-          for fixture in Negative/Locked.idr Negative/Spent.idr Negative/Reuse.idr Negative/Forged.idr; do
+          for fixture in Negative/Locked.idr Negative/Spent.idr Negative/Reuse.idr Negative/Forged.idr Negative/Bypass.idr; do
             name=$(basename "$fixture" .idr)
             if idris2 --total --check "$fixture" > "evidence/$name.txt" 2>&1; then
               cat "evidence/$name.txt"
@@ -60,7 +68,7 @@ jobs:
               exit 1
             fi
             cat "evidence/$name.txt"
-            grep -Eiq 'mismatch|linear|accessible|undefined name|multiplicit|used' "evidence/$name.txt"
+            grep -Eiq 'mismatch|linear|accessible|undefined name|multiplicit|used|private' "evidence/$name.txt"
           done
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()

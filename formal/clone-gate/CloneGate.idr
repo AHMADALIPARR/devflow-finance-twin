@@ -1,153 +1,108 @@
 -- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 module CloneGate
-
 import Data.Vect
+import Data.Fin
 import Data.Bits
 import Decidable.Equality
-
 %default total
 
 public export
 Byte : Type
 Byte = Bits8
-
 public export
-AESState : Type
-AESState = Vect 4 (Vect 4 Byte)
-
+Word : Type
+Word = Vect 4 Byte
+public export
+State : Type
+State = Vect 4 Word
+public export
+Key256 : Type
+Key256 = Vect 32 Byte
 public export
 Fingerprint : Type
-Fingerprint = Vect 16 Byte
+Fingerprint = State
 
--- The supplied toy transformation, not an AES implementation.
-export
+-- Supplied 14-round toy: not the AES S-box, schedule or inverse cipher.
 sbox : Byte -> Byte
 sbox b = b + 1
-
-export
-subBytes : AESState -> AESState
+rotL : Vect 4 a -> Vect 4 a
+rotL [a, b, c, d] = [b, c, d, a]
+rotVec : Vect (S n) a -> Vect (S n) a
+rotVec (x :: xs) = snoc xs x
+iterN : Nat -> (a -> a) -> a -> a
+iterN Z _ x = x
+iterN (S n) f x = iterN n f (f x)
+take16 : Vect 32 a -> Vect 16 a
+take16 = take 16
+-- Data.Vect has no reshape in the pinned compiler; fix the size explicitly.
+reshape : Vect 16 Byte -> State
+reshape [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p] = [[a,b,c,d],[e,f,g,h],[i,j,k,l],[m,n,o,p]]
+subBytes : State -> State
 subBytes = map (map sbox)
-
-export
-addRoundKey : AESState -> AESState -> AESState
+shiftRows : State -> State
+shiftRows [r0,r1,r2,r3] = [r0,rotL r1,rotL (rotL r2),rotL (rotL (rotL r3))]
+addRoundKey : State -> State -> State
 addRoundKey = zipWith (zipWith xor)
-
+roundF : State -> State -> State
+roundF k s = addRoundKey k (shiftRows (subBytes s))
+deriveRoundKey : Key256 -> Fin 15 -> State
+deriveRoundKey k r = reshape (take16 (iterN (finToNat r) rotVec k))
+keySchedule : Key256 -> Vect 15 State
+keySchedule k = tabulate (deriveRoundKey k)
 export
-aesRound : AESState -> AESState -> AESState
-aesRound st k = addRoundKey (subBytes st) k
-
+encrypt : Key256 -> State -> State
+encrypt k s =
+  let rks = keySchedule k
+      st0 = addRoundKey s (head rks)
+  in foldl (\st, rk => roundF rk st) st0 (tail rks)
 export
-decryptChallenge : AESState -> AESState -> AESState
-decryptChallenge k ct = addRoundKey ct k
+decrypt : Key256 -> State -> State
+decrypt k = encrypt (Data.Vect.reverse k)
 
+-- Abstract exported type; Granted is private to this module.
 export
-flatten : AESState -> Fingerprint
-flatten (r1 :: r2 :: r3 :: r4 :: Nil) = r1 ++ r2 ++ r3 ++ r4
-
+data LicenseProof : (k : Key256) -> (ct : State) -> (expected : Fingerprint) -> Type where
+  Granted : (0 _ : decrypt k ct = expected) -> LicenseProof k ct expected
 export
-verifyCrypto : Fingerprint -> AESState -> AESState -> Bool
-verifyCrypto fp key challenge = flatten (decryptChallenge key challenge) == fp
-
+attest : (k : Key256) -> (ct : State) -> (expected : Fingerprint) -> Maybe (LicenseProof k ct expected)
+attest k ct expected =
+  case decEq (decrypt k ct) expected of
+    Yes prf => Just (Granted prf)
+    No _ => Nothing
 public export
-data LicenseStatus = Trial | Expired | Valid
-
--- Export the type, keeping its constructor inside this namespace.
+data GateState = Unattested | Attested
 export
-data LicenseProof : LicenseStatus -> Type where
-  ValidProof : LicenseProof Valid
-
--- Status is supplied by the caller; this prototype does not authenticate it.
-public export
-data LicenseToken : Type where
-  MkToken : (status : LicenseStatus) -> (fp : Fingerprint) -> LicenseToken
-
-noTrialValid : Trial = Valid -> Void
-noTrialValid Refl impossible
-
-noExpiredValid : Expired = Valid -> Void
-noExpiredValid Refl impossible
-
-noTrialExpired : Trial = Expired -> Void
-noTrialExpired Refl impossible
-
-decEqStatus : (a, b : LicenseStatus) -> Dec (a = b)
-decEqStatus Trial Trial = Yes Refl
-decEqStatus Trial Expired = No noTrialExpired
-decEqStatus Trial Valid = No noTrialValid
-decEqStatus Expired Trial = No (\eq => noTrialExpired (sym eq))
-decEqStatus Expired Expired = Yes Refl
-decEqStatus Expired Valid = No noExpiredValid
-decEqStatus Valid Trial = No (\eq => noTrialValid (sym eq))
-decEqStatus Valid Expired = No (\eq => noExpiredValid (sym eq))
-decEqStatus Valid Valid = Yes Refl
-
-public export
-DecEq LicenseStatus where
-  decEq = decEqStatus
-
+data EntryGate : GateState -> Type where
+  Locked : EntryGate Unattested
+  Unlocked : EntryGate Attested
 export
-decideLicense : LicenseToken -> AESState -> AESState -> Maybe (LicenseProof Valid)
-decideLicense (MkToken Trial _) _ _ = Nothing
-decideLicense (MkToken Expired _) _ _ = Nothing
-decideLicense (MkToken Valid fp) key challenge =
-  case verifyCrypto fp key challenge of
-    True => Just ValidProof
-    False => Nothing
-
-public export
-data GateState = Locked | Unlocked | Spent
-
+newEntryGate : EntryGate Unattested
+newEntryGate = Locked
 export
-data CloneGate : GateState -> Type where
-  LockedGate : (gateId : Int) -> CloneGate Locked
-  UnlockedGate : (gateId : Int) -> CloneGate Unlocked
-  SpentGate : (gateId : Int) -> CloneGate Spent
-
-export
-newGate : Int -> CloneGate Locked
-newGate = LockedGate
-
-export
-unlockGate : (0 _ : LicenseProof Valid) -> (1 g : CloneGate Locked) -> CloneGate Unlocked
-unlockGate _ (LockedGate i) = UnlockedGate i
-
-export
-cloneGate : (1 g : CloneGate Unlocked) -> (Vect 4 Byte, CloneGate Spent)
-cloneGate (UnlockedGate i) = (replicate 4 0, SpentGate i)
-
-export
-discardGate : (1 g : CloneGate Spent) -> ()
-discardGate (SpentGate _) = ()
-
-export
-gateFlow : LicenseToken -> AESState -> AESState -> Maybe (Vect 4 Byte)
-gateFlow token key challenge =
-  case decideLicense token key challenge of
+attestGate : EntryGate Unattested -> (k : Key256) -> (ct : State) -> (expected : Fingerprint)
+           -> Maybe (EntryGate Attested, LicenseProof k ct expected)
+attestGate Locked k ct expected =
+  case attest k ct expected of
     Nothing => Nothing
-    Just proof =>
-      let gate = newGate 0
-          unlocked = unlockGate proof gate
-          (payload, spent) = cloneGate unlocked
-      in case discardGate spent of
-           () => Just payload
-
-dummyKey : AESState
-dummyKey = replicate 4 (replicate 4 0)
-
-dummyChallenge : AESState
-dummyChallenge = replicate 4 (replicate 4 0)
-
-dummyFP : Fingerprint
-dummyFP = flatten (decryptChallenge dummyKey dummyChallenge)
-
-validToken : LicenseToken
-validToken = MkToken Valid dummyFP
-
-expiredToken : LicenseToken
-expiredToken = MkToken Expired dummyFP
-
-testValid : Maybe (Vect 4 Byte)
-testValid = gateFlow validToken dummyKey dummyChallenge
-
-testExpired : Maybe (Vect 4 Byte)
-testExpired = gateFlow expiredToken dummyKey dummyChallenge
+    Just prf => Just (Unlocked, prf)
+public export
+expectedFP : Fingerprint
+expectedFP = replicate 4 (replicate 4 14)
+export
+programMain : {0 k : Key256} -> {0 ct : State}
+           -> (0 _ : LicenseProof k ct expectedFP) -> EntryGate Attested -> IO ()
+programMain _ _ = do
+  putStrLn "==> Clone gate open."
+  putStrLn "==> Executing guarded payload."
+public export
+demoKey : Key256
+demoKey = replicate 32 0
+public export
+demoChallenge : State
+demoChallenge = replicate 4 (replicate 4 0)
+export
+main : IO ()
+main =
+  case attestGate Locked demoKey demoChallenge expectedFP of
+    Nothing => putStrLn "==> License check failed. Exiting."
+    Just (gate, proof) => programMain proof gate

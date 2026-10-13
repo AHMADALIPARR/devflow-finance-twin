@@ -1,0 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+package clone-gate
+sourcedir = "."
+modules = CloneGate, CloneGate.Linear, Main, AttestationSmoke
+main = CloneGate
+executable = "clone-gate"
