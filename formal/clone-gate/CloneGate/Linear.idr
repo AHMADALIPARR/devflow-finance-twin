@@ -124,9 +124,9 @@ gateFlow : LicenseToken -> AESState -> AESState -> Maybe (Vect 4 Byte)
 gateFlow token key challenge =
   case decideLicense token key challenge of
     Nothing => Nothing
-    Just proof =>
+    Just prf =>
       let gate = newGate 0
-          unlocked = unlockGate proof gate
+          unlocked = unlockGate prf gate
           (payload, spent) = cloneGate unlocked
       in case discardGate spent of
            () => Just payload

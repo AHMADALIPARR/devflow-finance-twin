@@ -35,6 +35,7 @@ iterN (S n) f x = iterN n f (f x)
 take16 : Vect 32 a -> Vect 16 a
 take16 = take 16
 -- Data.Vect has no reshape in the pinned compiler; fix the size explicitly.
+export
 reshape : Vect 16 Byte -> State
 reshape [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p] = [[a,b,c,d],[e,f,g,h],[i,j,k,l],[m,n,o,p]]
 subBytes : State -> State
@@ -105,4 +106,4 @@ main : IO ()
 main =
   case attestGate Locked demoKey demoChallenge expectedFP of
     Nothing => putStrLn "==> License check failed. Exiting."
-    Just (gate, proof) => programMain proof gate
+    Just (gate, prf) => programMain prf gate

@@ -56,6 +56,7 @@ jobs:
           build/exec/clone-gate | tee evidence/entry-point.txt
           printf '==> Clone gate open.\n==> Executing guarded payload.\n' > evidence/expected-entry.txt
           diff -u evidence/expected-entry.txt evidence/entry-point.txt
+          make check 2>&1 | tee evidence/native-interface.txt
       - name: Require invalid external callers to fail typechecking
         run: |
           export PATH="$HOME/.idris2/bin:$PATH"

@@ -8,6 +8,6 @@ bypassMain : IO ()
 bypassMain =
   let gate : EntryGate Attested
       gate = Unlocked
-      proof : LicenseProof demoKey demoChallenge expectedFP
-      proof = masterKey demoKey demoChallenge expectedFP
-  in programMain proof gate
+      prf : LicenseProof demoKey demoChallenge expectedFP
+      prf = masterKey demoKey demoChallenge expectedFP
+  in programMain prf gate
