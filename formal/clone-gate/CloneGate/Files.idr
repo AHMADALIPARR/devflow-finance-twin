@@ -10,9 +10,9 @@ import System.File.Buffer
 readVector : Buffer -> (n : Nat) -> Int -> IO (Vect n Byte)
 readVector buf Z offset = pure []
 readVector buf (S n) offset = do
-  value <- getByte buf offset
+  value <- getBits8 buf offset
   rest <- readVector buf n (offset + 1)
-  pure (cast value :: rest)
+  pure (value :: rest)
 
 export
 readBytesAt : String -> (n : Nat) -> IO (Either String (Vect n Byte))
