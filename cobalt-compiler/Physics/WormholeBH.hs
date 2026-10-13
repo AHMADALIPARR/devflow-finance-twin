@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- Physics.WormholeBH — Einstein-Rosen bridge + black hole event horizon
 -- حفظ جسر أينشتاين-روزن وأفق حدث الثقب الأسود
 -- Author: Ahmad Ali Parr — Bel Esprit D'Accord Irrevocable Trust

@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+# Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 """Phase 2 and 3 failure-mode tests."""
 from dream_rsi import RSIOrchestrator, PolicyDeveloper, ScoredPolicy, SearchPolicy, HistoricalReplay, SimulationBudget, SimulatorPool, DiscoveryTree
 

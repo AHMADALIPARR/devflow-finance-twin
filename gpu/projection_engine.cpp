@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 // projection_engine.cpp
 // Extracted from PHASE_7_PROJECTION_ENGINE_SPECIFICATION.md
 // Phase 7: Deterministic Projection Engine & GPU-Accelerated Rendering

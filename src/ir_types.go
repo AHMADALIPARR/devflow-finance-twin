@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 // Package ir provides the intermediate representation for ASP grounding and solving
 // This file defines the IR types that represent ground atoms, rules, and constraints
 package ir

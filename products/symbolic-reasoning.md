@@ -1,6 +1,6 @@
 # Symbolic Reasoning Toolkit
 
-ASP solver, Datalog sources, spatial/OWL reasoning and symbolic agents.
+ASP solver, Datalog sources and symbolic agent toolkit.
 
 Audience: Logic and constraint developers.
 

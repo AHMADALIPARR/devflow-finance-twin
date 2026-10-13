@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 //! SQLite persistence layer via sqlx.
 //!
 //! `PersistenceStore` wraps a `SqlitePool` and provides methods to flush the

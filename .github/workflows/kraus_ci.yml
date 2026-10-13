@@ -1,6 +1,11 @@
-name: Kraus CI
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+# Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
 
-on: [push, pull_request]
+name: Legacy Kraus research validation (manual)
+
+# The legacy research job needs its relocated paths and external toolchains restored.
+# Keep it available explicitly; the product-suite workflow validates current PRs.
+on: workflow_dispatch
 
 jobs:
   build-test:

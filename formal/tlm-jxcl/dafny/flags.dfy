@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 module Flags {
   datatype Flags = Flags(z: bool, n: bool, c: bool, v: bool)
   datatype FlagEffect = FlagEffect(z: bool, n: bool, c: bool, v: bool)

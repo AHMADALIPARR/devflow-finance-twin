@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 /*
  * TLM JXCL ISA — Execution stack stub implementations
  * Frama-C / ACSL formal verification target  (Frama-C 26+)

@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- | HSpec test suite for Devflow Telegram Bot.
 -- Tests cover command parsing, state transitions, and error handling.
 module Main (main) where

@@ -1,3 +1,8 @@
+(*
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+*)
+
 (* Top-level RetroGPU Compiler Pipeline
    Source -> AST -> Typed IR -> ... -> Hopper Backend
    Every stage exposes its intermediate representation.

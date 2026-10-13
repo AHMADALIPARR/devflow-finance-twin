@@ -1,3 +1,8 @@
+(*
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+*)
+
 theory Quipper_Kraus_Check
 imports Complex_Main "HOL-Algebra.Matrix" kraus_defs
 begin

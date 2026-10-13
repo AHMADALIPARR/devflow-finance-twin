@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- Physics.Godel — Gödel universe with parameterized cyclic time indices
 -- نموذج عالم جودل مع مؤشرات زمنية دائرية معلمية
 -- Author: Ahmad Ali Parr — Bel Esprit D'Accord Irrevocable Trust

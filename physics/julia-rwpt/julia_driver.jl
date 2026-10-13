@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+# Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 # julia_driver.jl
 # TCP server: receives Quipper measurement bits, applies EMA update per archetype,
 # records belief trajectories to CSV, and plots on shutdown.

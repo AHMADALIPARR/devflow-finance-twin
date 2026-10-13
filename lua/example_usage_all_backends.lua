@@ -1,4 +1,7 @@
 #!/usr/bin/env lua5.4
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- Example Usage Script: Complete Metabinary Module with All Three Backends
 -- Demonstrates AST construction, serialization, validation, and backend selection
 

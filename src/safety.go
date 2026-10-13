@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 // Package ground implements safety checking for ASP rules
 // Safety checking ensures that all variables in a rule head or constraints
 // appear in positive body literals (preventing unsafe instantiation)

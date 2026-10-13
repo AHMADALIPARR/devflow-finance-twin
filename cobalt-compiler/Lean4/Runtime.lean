@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- Cobalt Runtime Interface
 -- Axioms and types that Cobalt would fill in when the Rust MIR verifier is integrated.
 -- Each `axiom` here is a proof obligation for the Cobalt pipeline.

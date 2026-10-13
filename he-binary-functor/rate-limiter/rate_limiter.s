@@ -1,3 +1,8 @@
+/*
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+*/
+
 ; rate_limiter_step: (state*, time:u32, request:bool) -> (state*, grant:bool)
 ; a0=state, a1=time, a2=request
 ; Returns: a0=state (unchanged), a1=grant (0 or 1)

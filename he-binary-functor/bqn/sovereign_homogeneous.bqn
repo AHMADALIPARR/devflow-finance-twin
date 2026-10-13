@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+# Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 # =====================================================================
 # SOVEREIGN HOMOGENEOUS F64 CIRCUIT (BQN / CBQN)
 # Dense continuous state execution via array combinators and folds

@@ -1,0 +1,3848 @@
+{
+  "policy": "Preserve all existing grants and attribution; neutral references do not resolve conflicting scope.",
+  "scope": "Tracked and nonignored source files with supported comment syntax; binary, data and unsupported-language files are not edited.",
+  "files": [
+    {
+      "path": ".github/workflows/kraus_ci.yml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": ".github/workflows/product-suite.yml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-design-parser/Sources/AppearanceResolver.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-design-parser/Sources/AppleDesignParser_main.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-design-parser/Sources/CSSParser.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-design-parser/Sources/ColorClassifier.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-design-parser/Sources/ColorFormat.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-design-parser/Sources/ColorNormalizer.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-design-parser/Sources/HTMLParser.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-design-parser/Sources/PaletteGenerator.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-design-parser/Sources/PatternExtractor.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-design-parser/Sources/SemanticClassifier.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Common/types.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Gate/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Gate/crypto.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Gate/directive_guard.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Gate/entropy.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Gate/routing.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Gate/session.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Host/adapter.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Host/adapter_slot.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Host/block_layout.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Host/kv_test.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Host/safety.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Kernels/apple_metal.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Kernels/attention.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Kernels/decode.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Kernels/embedding.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Kernels/fused_qkv_tiled.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Kernels/gqa_strided.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Kernels/int4_transformer.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Kernels/kv_cache.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Kernels/linear.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Kernels/lora_delta.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Kernels/matmul.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Kernels/mlp.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Kernels/normalization.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Kernels/output.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Kernels/residual.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Kernels/rope.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple-metal-inference/Sources/Kernels/utils.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple6502x86/boot/boot.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple6502x86/boot/boot_diag.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple6502x86/memory/memory.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple6502x86/memory/memory_diag.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple6502x86/monitor/monitor.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple6502x86/monitor/monitor_diag.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple6502x86/rom/rom.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "apple6502x86/rom/rom_diag.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asm/crc32_dylan.S",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/asp.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/ast/types.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/go.mod",
+      "status": "header-added",
+      "sha256_before": "5d6faecf86b984a16d011b879d626aefe1f5ee2fff3d9247a0b9c7cbd4c46631",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "f9450cad5aa5a8a1c3d40c912021e0b9397563b34372d888feffd74f1b008f76"
+    },
+    {
+      "path": "asp/lexer/lexer.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/lexer/token.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/parser/doc.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/parser/example_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/parser/parser.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/parser/parser_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/propagation/propagation.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/semantics/checker.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/semantics/semantics_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/semantics/validator.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/solver/conflict.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/solver/heuristic.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/solver/search.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/solver/solver_integration_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/tests/advanced_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/tests/benchmark_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/tests/comprehensive_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/tests/grounder_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/tests/integration_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/tests/parser_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/tests/regression_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/tests/semantics_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "asp/tests/solver_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "assembly-120-strict-model/08_neural_accelerator_engine.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "assembly-120-strict-model/09_graphics.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "assembly-120-strict-model/11_toolbox.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "assembly-120-strict-model/15_scheduler.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "assembly-120-strict-model/18_dylan_runtime.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "assembly-120-strict-model/19_tests.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "assembly-120-strict-model/20_diagnostics.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "assembly-120-strict-model/PHASE_2_CPU_EXECUTION_ENGINE.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "assembly-120-strict-model/bit_pattern_kernel_avx2.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "assembly-120-strict-model/fibonacci_braid_x86.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "assembly-120-strict-model/firmware.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "astre-vault/astra-vault.unl",
+      "status": "header-added",
+      "sha256_before": "66acbe0417f416af58ce461d07d8ad442347e58621b05a92c4e2ce5633335510",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "40a155e7e317a9f66abae2fbc9563a082a539aa172bdb8f30001e29ac07284f9"
+    },
+    {
+      "path": "astre-vault/astra_math_vault.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "astre-vault/astra_owl_solver.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "astre-vault/rcc8_spatial.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "backend/coordinator.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "backend/test_session.sh",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "beam/config/config.exs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "beam/mix.exs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "benchmarks/rsi_lua/lua_audit.lua",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "benchmarks/rsi_lua/run.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "benchmarks/rsi_lua/summarize.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "boyer-moore-unix/bin/bm.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "build.zig",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "canvas-templates/canvas-coordinator.xml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "canvas-templates/canvas-pipeline.xml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "canvas-templates/canvas-schema.xsd",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "canvas-templates/canvas-swarm.xml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "canvas-templates/canvas-templates.xsl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "canvas-templates/canvas_processor.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cbmc/harness_call_core.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cbmc/harness_cuda_vsm.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cbmc/harness_fb_ledger.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cbmc/harness_fibraid.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cbmc/harness_frama_memory.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cbmc/harness_frama_parser.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cbmc/harness_frama_stack.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cbmc/harness_ledger.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cbmc/harness_word.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cbmc/harness_worker.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cbmc/harness_worm_commit.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cbmc/run_all.sh",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "classifier/audit/audit.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "classifier/audit/audit_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "classifier/backends/backend.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "classifier/batch/batch.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "classifier/batch/batch_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "classifier/classifier.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "classifier/examples/example.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "classifier/go.mod",
+      "status": "header-added",
+      "sha256_before": "543637870301b47785d4a1e39b3658136929f9eca5287d050b0dbb01541e0561",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "a0aa602c9f5e27fec04d4ef9557e6ccc1e7163c072db6fda3815c8184db13c18"
+    },
+    {
+      "path": "classifier/model/advanced.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "classifier/model/classifier.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "classifier/model/inference.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "classifier/primitives/types.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/Calculus/Derivative.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/Calculus/Integral.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/Calculus/Limit.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/Cobalt/Dense.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/Cobalt/Trilock.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/Core/Group.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/Core/Nat.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/ISA/Core.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/ISA/Examples.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/ISA/Macro.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/ISA/Program.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/Language/Fixpoint/LiquidOps/Kernel.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/Language/Fixpoint/Smt/Theories/Recurse.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/Language/Fixpoint/Solver/Eliminate.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/Language/Fixpoint/Solver/Simplify.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/Language/Haskell/Liquid/Transforms/CoreToLogic.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/Language/Haskell/Liquid/Transforms/DenseDex.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/Lean4/ConductorSpec.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/Lean4/Runtime.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/LiquidOps/Kernel.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/LiquidOps/KernelFull.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/LiquidOps/NAND.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/MagicCobalt.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/Physics/Godel.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/Physics/WormholeBH.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/X86BatchAssembler.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "cobalt-compiler/src/Main.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "conftest.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/adapters/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/adapters/base.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/audit/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/audit/event_types.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/audit/hashing.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/audit/seal.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/commands/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/commands/model_command.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/commands/python_command.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/commands/pytorch_command.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/commands/registry.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/constitution/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/constitution/constitution.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/constitution/datalog.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/constitution/evaluator.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/constraint_harness/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/constraint_harness/cli.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/mxml/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/mxml/parser.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/mxml/schema.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/mxml/validator.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/pyproject.toml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/runtime/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/runtime/context.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/runtime/executor.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/runtime/states.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/runtime/transitions.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/scheduler/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/scheduler/async_helpers.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/scheduler/dag.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/scheduler/scheduler.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/tests/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/tests/test_constitution.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/tests/test_dag.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/tests/test_executor.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/tests/test_mxml.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/verification/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "constraint-harness/verification/structural.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "datalog-engine/datalog/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "datalog-engine/datalog/errors.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "datalog-engine/datalog/terms.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "datalog-engine/datalog/unify.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/cli.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/core/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/core/legacy.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/core/orchestrator.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/discovery/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/discovery/agent.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/discovery/legacy.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/evaluation/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/evaluation/legacy.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/evaluation/protocol.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/experiments/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/experiments/baselines.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/experiments/legacy.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/experiments/runner.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/metrics/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/metrics/collector.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/metrics/legacy.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/persistence/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/persistence/legacy.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/persistence/worlds.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/policy/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/policy/engine.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/policy/legacy.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/pyproject.toml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/replay/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/replay/engine.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/replay/legacy.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/simulator/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/simulator/pool.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "dream_rsi/tree.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "examples/post_entry.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "examples/post_entry.pl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "examples/return_item.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "examples/return_item.pl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "examples/snapkitty.transducerDemo.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/cobol/ACHRTRN.cbl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/cobol/COBILT-ACH-TREASURY.cbl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/cobol/COBILT-DATAWORM.cbl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/cobol/COBILT-VAULT.cbl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/cobol/COBILT_DATAWORM_TREASURY.cob",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/cobol/LEDGER_POST.cbl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/cobol/LEDGWYCB.cbl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/cobol/worm_bridge.cob",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/csharp/LedgerGateway.cs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/csharp/RtpRailAdapter.cs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/rpgle/AGHENTSC.rpgle",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/rpgle/FNLIRTR.rpgle",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/rpgle/FNLIR_TEST.rpgle",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/rpgle/FNLIR_TEST_YAJL.rpgle",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/rpgle/JsonExtractField.rpgle",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/rpgle/LEDGWYRPG.rpgle",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/rpgle/LEDREVSRV.rpgle",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/rpgle/ORCGHSTROTR.rpgle",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/rpgle/eod-driver.rpgle",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/scala/SovereignTreasuryPipeline.scala",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "finance/scala/SovereignTreasuryZIO.scala",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/array-temporal/lakefile.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/CUDA/CooperativeGroups.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/CUDA_CooperativeGroups.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Certificate.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Cipher.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Cipher/ARX.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Cipher/Encryption.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Contracts.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Contracts/Core.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Contracts/VCGen.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Core/Formulas.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Core/Terms.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Core_Formulas.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Core_Terms.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Core_Types.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/GPU/CUDAAbstractModel.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/GPU/H100AbstractMachine.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/GPU_H100.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Integration.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Integration/Recursion.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/LLVM/AtomicRMW.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/LLVM/AtomicRMWProofs.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/LLVM/AtomicRMWSmoke.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/LLVM/AtomicRMWVerify.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/LLVM/Backend.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/LLVM/InvariantProofs.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/LLVM/NVPTXIntrinsics.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/LLVM_AtomicRMW.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/LLVM_Backend.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/ModelChecker.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/ModelChecker/Bounded.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Models/GGUF/loader.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/PTX_AtomicsBarriers.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/PTX_Tokeniser.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Proofs_CoreProofs.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Proofs_GPUInvariants.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Proofs_SMTInvariants.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/SMT/Constraints.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/SMT/DecisionProcedure.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/SMT_ClauseMinimization.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/SMT_OneUIP.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/SMT_UnitPropagation.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/StateMachine/State.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/StateMachine_Core.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Theorem/Kernel.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Theorem/Proofs.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/Theorem_Kernel.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/ZK.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/ZK/R1CS.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/formal-engine/ZK/Relations.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/lean/ArrayVerificationExamples.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/lean/ArrayVerification_Template.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/lean/BifrostCapabilityExchange.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/lean/BorrowchainStorageEngine.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/lean/EnochianEngineExecution.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/lean/EnochianEngineRoot.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/lean/EnochianMalbolgeIntegration.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/lean/FirmwareCreationEngine.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/lean/MalbolgePTXKernel.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/lean/MalbolgeProcessorRoot.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/lean/SHREWDWeightLoader.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/lean/ZeroSorryCore.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/lean/lean_jacobian_tensor_framework.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/lean/vsm_binary_semantics.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/lean/vsm_semantic_algebra.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/linear-algebra/coq/LinearAlgebra.v",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/linear-algebra/isabelle/LinearAlgebra.thy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/linear-algebra/lean/LinearAlgebraVerification.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/linear-algebra/lean/ProjectionVerification.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/linear-algebra/lean/Tests.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/linear-algebra/lean/lakefile.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/tlm-jxcl/dafny/alu.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/tlm-jxcl/dafny/control.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/tlm-jxcl/dafny/flags.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/tlm-jxcl/dafny/keyring.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/tlm-jxcl/dafny/registers.dfy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/tlm-jxcl/frama-c/alu_contracts.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/tlm-jxcl/frama-c/binary_parser.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/tlm-jxcl/frama-c/binary_parser.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/tlm-jxcl/frama-c/execution_stack.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/tlm-jxcl/frama-c/execution_stack.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/tlm-jxcl/frama-c/memory.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/tlm-jxcl/frama-c/memory.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/token-verification/coq/TokenModel.v",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/token-verification/isabelle/TokenModel.thy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/token-verification/lean/Dynamics.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/token-verification/lean/Projection.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/token-verification/lean/TokenModel.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/token-verification/recursive/RecursiveAudit.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/token-verification/recursive/RecursiveAudit.thy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "formal/token-verification/recursive/RecursiveAudit.v",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "frontend/auth/auth-guard.js",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "frontend/auth/jwt.js",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "frontend/auth/saml.js",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "frontend/visual-workplace.html",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "glm-evoke/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "glm-evoke/attest.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "glm-evoke/backends/torch_backend.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "glm-evoke/core/blocks.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "glm-evoke/core/kv_cache.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "glm-evoke/core/loader.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "glm-evoke/harness.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "glm-evoke/models/make_checkpoint.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "gpu/kernels/gpu_architecture_kernels.cu",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "gpu/kernels/gpu_projection_kernels.cu",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "gpu/projection_engine.cpp",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "haskell/CliIsa.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "haskell/ControlLoopSpecs.lhs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "haskell/KrausExtractor.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "haskell/KrausExtractorMain.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "haskell/KrausLH.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "haskell/KrausLHTest.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "haskell/PhaseEstimationQuipper.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "haskell/QuipperTcpSenderLH.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "haskell/WeakMeasureCircuit.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "haskell/WeakMeasureKrausLH.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/apl/BRAID_INTERPRETER.apl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/apl/EVIDENCE_GATES.apl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/apl/EXEC_INTERPRETER.apl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/apl/OPCODES_V1.apl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/apl/VECTORIZED_OPS.apl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/beam/call_functor.erl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/block-lace/BlocklaceRefinements.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/block-lace/blocklace_ledger.hpp",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/block-lace/re_invoke.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/bqn/sovereign_homogeneous.bqn",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/c-core/call_core.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/crypto/convergence.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/crypto/iamac.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/crypto/kernel.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/crypto/main.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/crypto/malleability.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/crypto/seal_chain.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/crypto/zeros.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/cuda-q/manifold_greedy.cu",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/FibRaid.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/Ledger.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/LiquidHaskell.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/LiquidHaskell_full.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/asm_x86/assembly.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/bqn/braid.bqn",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/bqn/fibonacci.bqn",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/bqn/ledger.bqn",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/bqn/ledger_full.bqn",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/bqn/tests.bqn",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/cpp/fbl_ledger.hpp",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/cpp/fib_braid_ledger.hpp",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/cpp/main.cpp",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/cpp/test_fib_braid_ledger.cpp",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/fbLedger.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/fbLedger.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/fb_append_rv64.s",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/fib.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/fib_braid.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/fibraid.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/ledger.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/ledger_append.s",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/transit_seal.s",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/fibonacci-braid-ledger/word.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/gfnand/bqn/workload.bqn",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/gfnand/kani/src/verification.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/gfnand/src/ir.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/gfnand/src/metrics.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/gfnand/src/nand_lowering.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/gfnand/src/parser.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/gfnand/src/refinement.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/haskell/Workerman/Calculus.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/kernel/Kernel.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/kernel/StateMachine.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/kernel/StateMachineKernel.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/kernel/dense_kernel.s",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/kernel/pseudo_stack_kernel.s",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/kernel/step_kernel.s",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/kernel/worker.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/lean4/sovereign_attractor.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/lean4/topological_quench.lean",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/nand-architecture/fsl/nand_vm.fsl",
+      "status": "header-added",
+      "sha256_before": "63fafc1aac19469f279df20b609dbbb1b4deeea80b460df4095559570d8105a3",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "c20d1a044ea91ca8276a12d91e1b89adaea03ea44c21906b4143d85cd841be14"
+    },
+    {
+      "path": "he-binary-functor/nand-architecture/kani/src/harnesses.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/nand-architecture/kani/src/verification.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/nand-architecture/rust/src/lib.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/rate-limiter/RateLimiter.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/rate-limiter/rate_limiter.s",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/rust/manifold_gradient.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/rust/pwc_verified/Cargo.toml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/rust/pwc_verified/examples/pipeline.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/rust/pwc_verified/src/lib.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/rust/pwc_verified/src/pwc_core.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/rust/pwc_verified/src/pwc_hardware.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/rust/pwc_verified/src/pwc_pipeline.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/rust/pwc_verified/src/pwc_transform.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/rust/pwc_verified/src/tau_model.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/rust/pwc_verified/src/tests.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/rust/smt_parser.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/rust/toy_sha512_attack.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/rust/wormhole_transform.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/sgl/Main.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/sgl/SGL.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/systemverilog/braid_chord_flop_rom.sv",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/systemverilog/pwc_hardware_accelerator.sv",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/systemverilog/pwc_timing_verification.sv",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/tensor-parser/ModelParserRefinement.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/xslt-wasm/Cargo.toml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/xslt-wasm/build.sh",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/xslt-wasm/examples/input.xml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/xslt-wasm/examples/sample.xslt",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/xslt-wasm/js/xslt_host.js",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/xslt-wasm/src/compiler.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "he-binary-functor/xslt-wasm/ts/xslt_parser.ts",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "isa-jvm/compiler/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "isa-jvm/compiler/bytecode.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "isa-jvm/compiler/ir.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "isa-jvm/compiler/parser.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "isa-jvm/compiler/regmap.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "isa-jvm/compiler/verifier.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "isa-jvm/isa/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "isa-jvm/isa/opcodes.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "isa-jvm/isa/types.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "isa-jvm/runtime/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "isa-jvm/runtime/agents.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "isa-jvm/runtime/interpreter.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "isa-jvm/runtime/invokedynamic_stub.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "isa-jvm/runtime/loader.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "isa-jvm/tests/test_differential.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "isa-jvm/tests/test_isa.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "isa-jvm/tools/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "isa-jvm/tools/trace_viewer.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "kernel-language/include/ast.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "kernel-language/include/codegen.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "kernel-language/include/ir.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "kernel-language/include/lexer.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "kernel-language/include/parser.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "kernel-language/include/regalloc.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "kernel-language/include/symtab.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "kernel-language/include/token.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "kernel-language/runtime/cpl_bridge.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "kernel-language/runtime/cpl_bridge.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "kernel-language/runtime/st80_runtime.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "kernel-language/src/codegen.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "kernel-language/src/ir.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "kernel-language/src/lexer.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "kernel-language/src/main.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "kernel-language/src/parser.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "kernel-language/src/regalloc.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "kernel-language/src/symtab.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "languages/apl/06a76100741e52c56f5e9c588bd0f572.apl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "languages/apl/LiquidAssert.apl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "languages/apl/transformer.apl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "languages/braid/algebra/generator.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "languages/chisel/WormHardwareAccelerator.scala",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "languages/eclipse/eclipse_parlog_fused_kernel.ecl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "languages/futhark/wigner_futhark.fut",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "languages/logtalk/godel_symbolic_kernel.lgt",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "languages/mathematics/topology/manifold.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "languages/prolog/funnel_backend.pl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "languages/ptx/host_launcher.cu",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "languages/ptx/malbolge_step_kernel.cu",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "languages/ptx/micro_kernel.ptx",
+      "status": "header-added",
+      "sha256_before": "4348e9358cc2b7650418b0fd57f63c88a3a2536997212db4b66eb74d8ae75ffe",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "7f3d642bdf8b01c4350325146661176d086020775b0057286f23ffacfb32a8c8"
+    },
+    {
+      "path": "languages/ptx/ptx_inverted_softmax.ptx",
+      "status": "header-added",
+      "sha256_before": "19c85732994b08ae1e20aa75686434aa5294cca0da0dc1a21cd6a507b7714b72",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "39fcbcec4fbab8c305527d9a993c7314c6e6d0c4a348928517810b2071640708"
+    },
+    {
+      "path": "languages/topos/pipeline.pl",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "languages/x86_64/quantum_validation.s",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "languages/x86_64/treasury_serialization.nasm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "languages/x86_64/treasury_worm_ipl.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "lua/example_usage_all_backends.lua",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "lua/init.lua",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "lua/metabinary.lua",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "lua/metabinary_builder_facade.lua",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "lua/metabinary_codec.lua",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "lua/metabinary_complete.lua",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "lua/metabinary_ffi_bindings.lua",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "lua/metabinary_final_assembly.lua",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Package.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/AgentUX/AgentUIState.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/AgentUX/AppleRecreationView.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/AgentUX/AssemblyBridge.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/AgentUX/DylanClient.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/AgentUX/DylanFrame.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/AgentUX/Shaders/AvatarShaders.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/MetalTransformer/MetalTransformer.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/MetalTransformer/Transformer.metal",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/SwiftTinyLLM/Model.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/SwiftTinyLLM/ModelConfig.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/SwiftTinyLLM/RMSNorm.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/SwiftTinyLLM/Random.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/SwiftTinyLLM/RoPE.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/SwiftTinyLLM/Runtime.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/SwiftTinyLLM/SwiGLU.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/SwiftTinyLLM/Tensor.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/SwiftTinyLLM/Tokenizer.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/SwiftTinyLLM/WebServer.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Sources/SwiftTinyLLM/main.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/Tests/MetalTransformerTests.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/frontend/quantum_shadow_ledger.html",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/frontend/source/util.ts",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/m5-gateway/M5OSApp.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "metal/m5-gateway/m5_gateway.wat",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "occam-b-bscl/include/types.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "occam-b-bscl/src/bscl.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "occam-b-bscl/src/cli.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "occam-b-bscl/src/compiler.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "occam-b-bscl/src/emit.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "occam-b-bscl/src/ir.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "occam-b-bscl/tests/test_channels.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "occam-b-bscl/tests/test_compiler.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "occam-b-bscl/tests/test_ir.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "occam-b-bscl/tests/test_lexer.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "occam-b-bscl/tests/test_parser.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "occam-b-bscl/tests/test_scheduler.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "occam-b-bscl/tests/test_vm.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "occam-b-bscl/tests/test_wordcode.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "physics/hawking-radiation/dissipationOperator.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "physics/hawking-radiation/horizonFluctuations.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "physics/hawking-radiation/incomingMode.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "physics/hawking-radiation/modeSpectrum.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "physics/hawking-radiation/outgoingMode.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "physics/hawking-radiation/phaseOperator.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "physics/julia-rwpt/FPGAMock.jl",
+      "status": "header-added",
+      "sha256_before": "bec52d5a1174590dd6cd895e59a472d34ff7832d098fb2bcb67aa1f6e48f89dc",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "23b97e543b54fb1b7d065ab59623e0e717641bbf57b24425b1d975c1b390c9d0"
+    },
+    {
+      "path": "physics/julia-rwpt/FPGA_API.jl",
+      "status": "header-added",
+      "sha256_before": "1e48689edeb6fdd7bf6ac870c961ea09bff36148d744058dd161335f12965c20",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "3c2514f6fa1c0f4d39e6dc7e4e29a91e2d02ab581ad96a4e7e17ce3d85b787e7"
+    },
+    {
+      "path": "physics/julia-rwpt/FutharkFFI.jl",
+      "status": "header-added",
+      "sha256_before": "a20d6bbb24ac0456f6e8f53b67e1481df6db9feb5c2bd5e77b5e7c6a4ab965fd",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "2f2a6ef78ad004fca8d1ef63cd02985dc085a34a7dbffe0eec3d02c70ecba988"
+    },
+    {
+      "path": "physics/julia-rwpt/RWPT.jl",
+      "status": "header-added",
+      "sha256_before": "72b287e5ff0d00f03187b0f6a275697c97efdeb24d72b0fc133f2675043fc360",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "725ed8e6d44c10e17dafb08af5189cd1c6ec5594bf47118c44cb0e4534343964"
+    },
+    {
+      "path": "physics/julia-rwpt/e2e_sim_harness.jl",
+      "status": "header-added",
+      "sha256_before": "a6ca9fb7934bd339469ef34f9262d52596c7c45213a4139bab3c8fd896648ee8",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "51fb128ff7a7cb599cfa297795d515fde0eeaa2e41ca1d8e688400e0e4d37bd8"
+    },
+    {
+      "path": "physics/julia-rwpt/julia_driver.jl",
+      "status": "header-added",
+      "sha256_before": "a96f935d743400948f56afbfb94a68a51825788ee2657dd57993eabc3f60ec73",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "80370253022a1a0506c0ef2abee134bf58d6cfe7be6377c54871906e3b47fb0f"
+    },
+    {
+      "path": "physics/julia-rwpt/jung_rwpt_sim.jl",
+      "status": "header-added",
+      "sha256_before": "83b510ae31d6b134829a24d1c9699a7ea6ec2e800368d0d1ef61c612635c47c7",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "fff0e703cc635d51bc92dec03b3f290db2cafe4fd8c6dd11ea4de168269a98ec"
+    },
+    {
+      "path": "physics/julia-rwpt/jung_sim.jl",
+      "status": "header-added",
+      "sha256_before": "1f182c26c8a96ff67a422d267998eaf9d443a935ec0e800c7945f3b08c75294b",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "70a8376be49b18b17bf887d18fee92cc1921d646984bfbf23cfc9f36c9f8b662"
+    },
+    {
+      "path": "physics/julia-rwpt/quipper_client.jl",
+      "status": "header-added",
+      "sha256_before": "7d1f4b34e4ae55ab1022fbe5a1e572c1e3bcf93895affdbe998618372900203e",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "9a8899b866508b07f06b7cf83e7b8a412f8d5e22f2d53207995122db21b9ce33"
+    },
+    {
+      "path": "physics/jungian-dynamics/Almost_Sure_Convergence.thy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "physics/jungian-dynamics/Control_Invariants.thy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "physics/jungian-dynamics/Density_Matrix.thy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "physics/jungian-dynamics/GKSL_Semigroup.thy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "physics/jungian-dynamics/Jungian_Formalization.thy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "physics/jungian-dynamics/Jungian_Prob_Dynamics.thy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "physics/jungian-dynamics/Jungian_Stochastic_Convergence_Full.thy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "physics/jungian-dynamics/Lindblad_GKSL.thy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "physics/jungian-dynamics/Quantum_Jump_Update.thy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "physics/jungian-dynamics/Quipper_Kraus_Check.thy",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "polyglot/asm/switchboard_optimizations.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "polyglot/interop_ffi.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "polyglot/polyglot_builder.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "polyglot/polyglot_builder.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "polyglot/polyglot_builder.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "polyglot/turing_binary_foundation.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "polyglot/turing_cfg_ptm.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "polyglot/turing_quipper_jcl.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "products/bank-commercial/pyproject.toml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "products/bank_sandbox.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "qflow/compiler/AST.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "qflow/compiler/Lexer.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "qflow/compiler/Main.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "qflow/compiler/Parser.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/algorithms/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/algorithms/advanced.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/algorithms/topological.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/circuit/advanced_optimizer.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/circuit/circuit.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/circuit/dag.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/circuit/optimizer.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/circuit/scheduler.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/core/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/core/complex.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/core/matrix.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/core/register.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/core/state.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/error_correction/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/gates/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/hardware/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/noise/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/noise/advanced.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/serialization/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/tests/test_extended.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/tests/test_full.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/tests/test_simulator.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/validation/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/vm/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "quantum_computer/vm/simulator.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/ALU.occ",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/GlobalMemory.occ",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/Registers.occ",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/RetroGPUCompiler.occ",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/RetroGPUTypes.occ",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/SharedMemory.occ",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/Synchronization.occ",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/Tensor.occ",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/Warp.occ",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/examples/gemm.occ",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/ocaml/examples/GemmKernel.ml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/ocaml/src/alu/ALU.ml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/ocaml/src/compiler/RetroCompiler.ml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/ocaml/src/interpreter/Interpreter.ml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/ocaml/src/registers/Registers.ml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/ocaml/src/shared/SharedMemory.ml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/ocaml/src/types/RetroGPUTypes.ml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/ocaml/src/warp/Warp.ml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/ocaml/tests/BlockTests.ml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/ocaml/tests/test_full_pipeline.ml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/ocaml/tests/test_registers.ml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/sml/ALU.sml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/sml/Compiler.sml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/sml/GEMM.sml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/sml/Hopper.sml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/sml/Instruction.sml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/sml/Interpreter.sml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/sml/Kernel.sml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/sml/Memory.sml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/sml/RetroGPUCore.sml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/sml/Scheduler.sml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/sml/Sync.sml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/sml/Tensor.sml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/sml/Warp.sml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/sml/types/RetroGPUTypes.sml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/src/RetroGPU.occ",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "retro-gpu/tests/test.occ",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/Cargo.toml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/assert_q/constraint.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/assert_q/formula.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/assert_q/mod.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/assert_q/propagation.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/assert_q/reactive_store.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/assert_q/solver.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/cbmc.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/cbmc_binary_semantics.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/cbmc_binary_semantics_assembly.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/crux/ast.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/crux/lean_backend.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/crux/lean_monad_stack.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/crux/mod.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/crux/omega.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/crux/pcc.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/crux/pipeline.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/crux/russian.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/crux/sas_backend.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/crux/z3_backend.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/eclipse_parlog/arithmetic.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/eclipse_parlog/domain.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/eclipse_parlog/globals.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/eclipse_parlog/mod.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/eclipse_parlog/parlog.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/eclipse_parlog/search.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/eclipse_parlog/suspension.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/lib.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/qa5/clause.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/qa5/mod.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/qa5/prover.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/qa5/racket_morph.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/qa5/reactive.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/qa5/resolution.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/qa5/strategy.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/qa5/unification.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/sovereign_neural_saas_core.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "rust/fsl/src/theorem_ledger.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "schema/ORC_SCHEMA.sql",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "schema/schema-extended.sql",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "scripts/add-license-headers.ps1",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "scripts/build.sh",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "scripts/build_all.sh",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "scripts/check_deep_imports.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "scripts/compile_wasm.js",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "scripts/extract_bank_product.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "scripts/funnelc.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "scripts/generate_diagrams.sh",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "scripts/license_headers.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "scripts/make_gif.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "scripts/product_suite.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "scripts/prove_memory_manager.sh",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "scripts/publish-watch.sh",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "scripts/publish.sh",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "scripts/run_pipeline.sh",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "scripts/synthesize_ptx.sh",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "scripts/test_runner.sh",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "scripts/verify_product_bundles.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "semiconductor/mosfet_to_cpu.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "semiconductor/sk_attention_matvec.vhd",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "semiconductor/sk_logic_cells.vhd",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "semiconductor/sk_transformer.vhd",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "semiconductor/transformer_matlab.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "sovereign/glm/gguf_loader.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "sovereign/ledger/event.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "sovereign/ledger/example_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "sovereign/ledger/go.mod",
+      "status": "header-added",
+      "sha256_before": "9d0226729bcd8748c82b306538eb829f565f8ca80a1272355b42099a0793e952",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "f1d1ca33cc591b2247b159d3d29918dcbd134d33a9e00c154737768bcf7ea807"
+    },
+    {
+      "path": "sovereign/ledger/io.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "sovereign/ledger/ledger.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "sovereign/ledger/ledger_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "sovereign/ledger/serialization.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/a68/activ.a68",
+      "status": "header-added",
+      "sha256_before": "68df144921eba5f6f665aa50d5717a02af0ee04e933bb051d552294b671040ec",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "00a4c10a70f823b68df0eb727391e4dc99d49fa868b376c3a11ff811b729d66f"
+    },
+    {
+      "path": "src/a68/attention.a68",
+      "status": "header-added",
+      "sha256_before": "b3d7ecaf0edb7d1f9145828f1de7721d03659c600e777b1666bc7f8315278e34",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "e00f3919c1ceaa5980453cbe2d44de6f287999ef05b77085520b22029a36d332"
+    },
+    {
+      "path": "src/a68/attn_core.a68",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/a68/benchmark.a68",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/a68/determinism_suite.a68",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/a68/embedding.a68",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/a68/evaluation.a68",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/a68/inference.a68",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/a68/invariant_registry.a68",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/a68/jacobian.a68",
+      "status": "header-added",
+      "sha256_before": "8c994afc79929563ac48433628c49669947ae790b7f87ce0180eec811e56fc57",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "c324a87668a23d1705c78c5238441a8eab547a7dc27fcc0efae4691b81dd90a2"
+    },
+    {
+      "path": "src/a68/main.a68",
+      "status": "header-added",
+      "sha256_before": "25f3e3c25ec44b8096c3bb33ac565522e50c9c8dca2d3b2f227f122fcfde0193",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "7c864efbe133c2cf1cd6bc299a3033b8f73067f0bee0e313a07100597366068e"
+    },
+    {
+      "path": "src/a68/mlp.a68",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/a68/model.a68",
+      "status": "header-added",
+      "sha256_before": "b563de604fcad21590616ad2cee7b028c6f38ec9789e4acb2160178cfc6f589f",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "714298127eb1858414d4cf8af8acc9ad06ec7b90bedffd8b79eefe9af74d2568"
+    },
+    {
+      "path": "src/a68/norm.a68",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/a68/optimizer.a68",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/a68/oss1230_manifest.a68",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/a68/output_head.a68",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/a68/pos_enc.a68",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/a68/serialization.a68",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/a68/tensor.a68",
+      "status": "header-added",
+      "sha256_before": "f9bdc5042f9541658b791ee4ce971ecc6dc91d955c50c6276446b2b71e7ac491",
+      "license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+      "sha256_after": "9319704db38192454f05650044faa6e3882772c689a497c1ca3647ceb2743861"
+    },
+    {
+      "path": "src/a68/transformer_block.a68",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/a68/transformer_model.a68",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/acceptance-tests.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/acceptance_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/agol86_activ.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/agol86_attention.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/agol86_block.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/agol86_export_onnx.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/agol86_infer.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/agol86_jacobian.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/agol86_mixed_precision.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/agol86_model.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/agol_activ.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/agol_attention.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/agol_block.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/agol_infer.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/agol_model.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/ddp_train.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/export_onnx.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/main.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/main_agol86.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/mixed_precision_train.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/agol86/triton_attention.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/api.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/api/PublicAPI.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/archive-extract-verify.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/archive-tools.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/asp/incremental/incremental.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/asp/incremental/incremental_advanced.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/asp/incremental/incremental_utils.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/audit-module.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/audit-seal.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/audit-verify.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/audit.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/bqn/transformer.bqn",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/cli.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/cli/CLI.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/cli_isa.ts",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/cold_boot.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/control-dag.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/control-policy.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/cuda/cuda_shim.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/cuda/cuda_softmax_masked.cu",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/cuda/vector_add.cu",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/cuda/verify_softmax_fd.cu",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/example_abstention.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/example_consistency_validator.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/example_math_routing.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/example_test.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/ground_advanced.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/ground_optimization.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/grounder.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/gui-main.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/icp_anchor.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/ir_types.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/jax_functional_transformer.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/jax_gpt_model.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/jax_sequential_jacobian.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/jax_transformer_harness.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/jit_webllm_toy_transformer.js",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/loader.ts",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/main-app.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/native/wasm_loader.zig",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/native/worm_block.h",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/native/worm_commit.c",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/nct_resonance_simulator.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/omega_jax_pivot.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/oscillator_fixedpoints.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/pascal/Activations.pas",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/pascal/Attention.pas",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/pascal/JacobianCore.pas",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/pascal/Main.pas",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/pascal/Model.pas",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/pascal/TensorCore.pas",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/pascal/Training.pas",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/pascal/TransformerBlock.pas",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/pascal/gpu_host.pas",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/pascal/transformer_pascal_200.pas",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/pcode_vm_full_stack.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/python/astra_hardened_ingestion.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/quantum.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/safety.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/sandbox-boundary.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/sandbox-module.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/simulate_gate_list.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/souffle_symbolic_agent.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/state_machine_core.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/substitution.go",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/switchboard_core.asm",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/switchboard_ffi.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/twin.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/virtual_switchboard.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "src/worm.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/docker/docker-compose.yml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/haskell/package.yaml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/haskell/src/Agent.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/haskell/src/Bot.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/haskell/src/Commands/Issue.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/haskell/src/Commands/Scrum.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/haskell/src/Main.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/haskell/src/Types.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/haskell/test/Spec.hs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/node/src/agent.mjs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/node/src/bot.mjs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/node/src/commands/agent.mjs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/node/src/commands/issue.mjs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/node/src/commands/scrum.mjs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/node/src/index.js",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/rust/Cargo.toml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/rust/examples/basic_bot.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/rust/examples/full_featured.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/rust/src/agent.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/rust/src/bot.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/rust/src/commands/agent.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/rust/src/commands/issue.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/rust/src/commands/mod.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/rust/src/commands/scrum.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/rust/src/error.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/rust/src/integrations/mod.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/rust/src/integrations/ollama.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/rust/src/integrations/persistence.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/rust/src/lib.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/rust/src/state.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/rust/src/types.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/rust/tests/integration.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "telegram-bot-sdk/tests/integration_test.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/Cargo.toml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/examples/batch_contraction.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/examples/creation_and_views.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/examples/elementwise_and_broadcast.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/examples/matmul.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/examples/parallel_operations.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/examples/reductions.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/nraay-tensor/Cargo.toml",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/nraay-tensor/examples/basic_usage.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/nraay-tensor/examples/materialization.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/nraay-tensor/examples/slicing.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/nraay-tensor/src/error.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/nraay-tensor/src/lemmas.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/nraay-tensor/src/lib.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/nraay-tensor/src/ml.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/nraay-tensor/src/raw_route.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/nraay-tensor/src/tensor.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/nraay-tensor/tests/integration.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/src/error.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/src/lib.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/src/ops.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/src/random.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tensor-core/src/tensor.rs",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/__init__.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/swift-objc/CompleteTests.swift",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/swift-objc/testAuditSeal.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/swift-objc/testConservation.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/swift-objc/testDissipation.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/swift-objc/testMassInvariance.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/swift-objc/testOmegaEST.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/swift-objc/testResonance.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/swift-objc/testSpiralConsistency.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/swift-objc/testTorsionPhase.m",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/test_bank_commit.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/test_cold_boot_icp.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/test_dream_rsi.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/test_dream_rsi_audit.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/test_dream_rsi_extensions.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/test_dream_rsi_full.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/test_dream_rsi_phase23.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/test_lua_engine.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/test_product_suite.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "tests/test_stack.py",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "vsm2500/p2_fabric.cpp",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "vsm2500/p2_hardware_parallel_fabric.cpp",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "vsm2500/p3_binary_microcode_p2_fabric.cpp",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "vsm2500/p4_microcode_vsm2500.cpp",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "vsm2500/vsm2500_core.sv",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "vsm2500/vsm2500_cuda_execution_block.cu",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "vsm2500/vsm2500_h100_sass_bridge.cu",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "vsm2500/vsm2500_isa_kernel.cu",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "vsm2500/vsm2500_semantic_cuda.cu",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "wasm/account_registry.wat",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "wasm/isa.wat",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "wasm/ledger_replay.wat",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "wasm/runtime.wat",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "wasm/sha256.wat",
+      "status": "existing-notice-preserved"
+    },
+    {
+      "path": "wasm/worm_frame.wat",
+      "status": "existing-notice-preserved"
+    }
+  ]
+}

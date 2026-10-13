@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+# Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 # ledger.bqn — Ledger as arrays + Fibonacci → Braid mapping + State transition
 # Structure-of-Arrays: homogeneous, cache-aligned, assembly-traceable
 

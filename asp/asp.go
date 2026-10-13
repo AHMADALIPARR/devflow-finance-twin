@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 // Package asp is the public entry point for the ASP (Answer Set Programming) parser.
 // External consumers should import this package; do not import sub-packages directly.
 //

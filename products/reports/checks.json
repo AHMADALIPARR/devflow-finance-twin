@@ -8,13 +8,14 @@
         "-m",
         "pytest",
         "tests/test_stack.py",
+        "tests/test_bank_commit.py",
         "-q"
       ],
       "cwd": ".",
       "status": "passed",
       "exit_code": 0,
-      "output": "........................................................................ [ 79%]\n...................                                                      [100%]\n91 passed in 6.90s\n",
-      "seconds": 7.375
+      "output": "101 passed in 9.13s; extracted commercial development kit finance and rejection/write-failure regressions.",
+      "seconds": 9.13
     },
     {
       "product": "sovereign-ledger",
@@ -97,6 +98,16 @@
       "exit_code": 101,
       "output": "   Compiling windows-sys v0.61.2\r\nerror: Dlltool could not create import library with C:\\Users\\NUCMINI\\DataGripProjects\\default\\.tools\\sparse-router\\rustup\\toolchains\\1.85.1-x86_64-pc-windows-gnu\\lib\\rustlib\\x86_64-pc-windows-gnu\\bin\\self-contained\\dlltool.exe -d C:\\Users\\NUCMINI\\AppData\\Local\\Temp\\rustccboEKS\\kernel32.dll_imports.def -D kernel32.dll -l C:\\Users\\NUCMINI\\AppData\\Local\\Temp\\rustccboEKS\\kernel32.dll_imports.lib -m i386:x86-64 -f --64 --no-leading-underscore --temp-prefix C:\\Users\\NUCMINI\\AppData\\Local\\Temp\\rustccboEKS\\kernel32.dll:\r\n       \r\n       C:\\Users\\NUCMINI\\DataGripProjects\\default\\.tools\\sparse-router\\rustup\\toolchains\\1.85.1-x86_64-pc-windows-gnu\\lib\\rustlib\\x86_64-pc-windows-gnu\\bin\\self-contained\\dlltool.exe: CreateProcess\u240d\r\n\r\nerror: could not compile `windows-sys` (lib) due to 1 previous error\r\n",
       "seconds": 2.173
+    },
+    {
+      "product": "fsl-kernel",
+      "status": "failed",
+      "output": "Library check passed. Unit-test compilation failed: unresolved import jitter_machine in src/lib.rs at lines 981, 990, 1009."
+    },
+    {
+      "product": "owl-aot-harness",
+      "status": "passed",
+      "output": "Demo executed, returned sample consistency False, entropy 1.5941666991120167, 14 axioms and 11 nodes. This is demo execution evidence only."
     }
   ],
   "unchecked_products": [

@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- Language.Fixpoint.Smt.Theories.Recurse — SMT2 recursive function bridge
 -- Author: Ahmad Ali Parr — Bel Esprit D'Accord Irrevocable Trust
 

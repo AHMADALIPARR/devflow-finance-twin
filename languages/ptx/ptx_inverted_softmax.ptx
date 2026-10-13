@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 // ptx_inverted_softmax.ptx
 // PTX kernel implementing numerically stable softmax per row (inverted softmax variant).
 // This PTX is a template for small seq_len <= 128 and uses shared memory per block.

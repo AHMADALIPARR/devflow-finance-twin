@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- Run from repository root: lua benchmarks/rsi_lua/lua_audit.lua
 -- JSON lines; any failed assertion or benchmark makes the process fail.
 package.path = "./lua/?.lua;" .. package.path

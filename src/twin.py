@@ -14,6 +14,8 @@
 # ========================================================================
 
 from decimal import Decimal, ROUND_HALF_EVEN, InvalidOperation
+import copy
+import threading
 import json
 import hashlib
 import logging
@@ -49,6 +51,8 @@ def quantize_money(amount: Any) -> Decimal:
     except (InvalidOperation, ValueError) as e:
         raise ValueError(f"Invalid monetary amount: {amount!r} â€” {e}")
 
+    if not d.is_finite():
+        raise ValueError("Monetary amounts must be finite.")
     if d < 0:
         raise ValueError(f"Negative amounts not permitted: {d}")
     if d > MAX_BALANCE:
@@ -96,6 +100,7 @@ class FinanceTwinEngine:
         self.event_count = 0
         self.latest_decision_seal: Optional[Dict[str, Any]] = None
         self._rate_limiter = RateLimiter()
+        self._command_lock = threading.RLock()
         self.rebuild_state()
 
     def compute_state_hash(self) -> str:
@@ -158,6 +163,9 @@ class FinanceTwinEngine:
             if not all([tx_id, from_acc, to_acc, amount_str]):
                 raise ValueError("POST_TRANSACTION requires transaction_id, from_account, to_account, and amount.")
 
+            if tx_id in self.transactions:
+                raise ValueError(f"Transaction {tx_id} already exists.")
+
             amount = quantize_money(amount_str)
 
             if from_acc not in self.accounts:
@@ -170,6 +178,8 @@ class FinanceTwinEngine:
                 raise ValueError(f"Insufficient funds in {from_acc}: {self.accounts[from_acc]} < {amount}")
             if amount > MAX_TRANSACTION_AMOUNT:
                 raise ValueError(f"Transaction amount exceeds limit: {amount}")
+            if self.accounts[to_acc] + amount > MAX_BALANCE:
+                raise ValueError("Destination balance exceeds maximum.")
 
             self.accounts[from_acc] -= amount
             self.accounts[to_acc] += amount
@@ -223,6 +233,9 @@ class FinanceTwinEngine:
             to_acc = original["from_account"]
             amount = quantize_money(original["amount"])
 
+            if self.accounts.get(from_acc, Decimal("0")) < amount:
+                raise ValueError("Insufficient funds to reverse transaction.")
+
             if from_acc in self.accounts:
                 self.accounts[from_acc] -= amount
             if to_acc in self.accounts:
@@ -250,6 +263,11 @@ class FinanceTwinEngine:
         )
 
     def execute_command(self, operation: str, actor: str, data: Dict[str, Any]) -> Dict[str, Any]:
+        """Serialize commands and publish state only after a durable append."""
+        with self._command_lock:
+            return self._execute_command(operation, actor, data)
+
+    def _execute_command(self, operation: str, actor: str, data: Dict[str, Any]) -> Dict[str, Any]:
         """
         Execute a financial command with full production hardening:
         - Rate limiting
@@ -282,7 +300,7 @@ class FinanceTwinEngine:
             "timestamp": timestamp,
             "actor": actor,
             "operation": operation,
-            "data": data
+            "data": copy.deepcopy(data)
         }
 
         # Business logic pre-validation
@@ -294,12 +312,21 @@ class FinanceTwinEngine:
             if self.accounts[from_acc] < amount:
                 raise ValueError(f"Insufficient balance in {from_acc}.")
 
-        # Append to WORM
+        # Validate every business rule on isolated state before touching history.
+        state_fields = ("accounts", "transactions", "invoices", "liabilities",
+                        "assets", "approvals", "latest_decision_seal", "event_count")
+        candidate = copy.copy(self)
+        for name in state_fields:
+            setattr(candidate, name, copy.deepcopy(getattr(self, name)))
+        candidate._apply_event_to_memory(event_payload, "")
+        candidate.event_count += 1
+
+        # A failed append leaves the live state unchanged.
         worm_record = self.storage.append(event_payload)
 
         # Apply locally and update seal
-        self._apply_event_to_memory(event_payload, worm_record["record_hash"])
-        self.event_count += 1
+        for name in state_fields:
+            setattr(self, name, getattr(candidate, name))
 
         logger.info("Executed %s by %s â€” event %s", operation, actor, event_id)
 

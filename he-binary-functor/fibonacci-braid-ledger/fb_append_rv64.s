@@ -1,3 +1,8 @@
+/*
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+*/
+
 # FBL-RV64 — Dense Fibonacci Braid Ledger (RV64I)
 # 64-byte entries, FNV-1a-64 seal, 48-bit state, no allocator
 
