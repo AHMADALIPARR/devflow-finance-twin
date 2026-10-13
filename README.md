@@ -1,3 +1,10 @@
+---
+pretty_name: DevFlow Finance Twin Source Mirror
+license: other
+license_name: sovereign-leviathan-sl-agpl3-001
+license_link: https://huggingface.co/datasets/Snapkitty/devflow-finance-twin/blob/main/LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt
+---
+
 <!--
 License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
 SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
