@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Covenant: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt
+
 #import <Metal/Metal.h>
 #import <Foundation/Foundation.h>
 #include <Security/Security.h>
