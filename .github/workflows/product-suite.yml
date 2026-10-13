@@ -1,0 +1,50 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+# Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
+name: Product source suite
+on:
+  push:
+    paths: ['products/**', 'scripts/product_suite.py', 'scripts/verify_product_bundles.py', 'tests/test_product_suite.py', 'src/**', 'dream_rsi/**', 'constraint-harness/**']
+  pull_request:
+    paths: ['products/**', 'scripts/product_suite.py', 'scripts/verify_product_bundles.py', 'tests/test_product_suite.py', 'src/**', 'dream_rsi/**', 'constraint-harness/**']
+permissions:
+  contents: read
+jobs:
+  source-packaging:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      CUDA_VISIBLE_DEVICES: ''
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install 'pytest>=8,<9' pytest-asyncio 'setuptools>=77' wheel build
+      - name: Verify packaging and CPU components
+        run: |
+          python -m pytest tests/test_product_suite.py tests/test_license_headers.py tests/test_stack.py tests/test_bank_commit.py tests/test_dream_rsi.py tests/test_dream_rsi_audit.py tests/test_dream_rsi_extensions.py tests/test_dream_rsi_full.py tests/test_dream_rsi_phase23.py -q
+          (cd constraint-harness && python -m pytest tests -q)
+          python products/bank_sandbox.py
+          python products/bank_sandbox.py --probe-rejection
+      - name: Inventory and build source artifacts
+        run: |
+          python scripts/product_suite.py inventory
+          python -c "import json,subprocess,sys; d=json.load(open('products/catalog.json')); [subprocess.run([sys.executable,'scripts/product_suite.py','bundle',p['id']],check=True) for p in d['products']]"
+          python scripts/verify_product_bundles.py
+          python scripts/extract_bank_product.py --destination build/bank-product
+          python -m build --wheel --no-isolation build/bank-product
+          python -m pip install --no-deps build/bank-product/dist/*.whl
+          byob-bank --help
+      - uses: actions/upload-artifact@v4
+        with:
+          name: product-source-suite
+          path: |
+            dist/*.zip
+            products/reports/*.json
+            products/reports/INVENTORY.md
+            build/bank-product/dist/*.whl

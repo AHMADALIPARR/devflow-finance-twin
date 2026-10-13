@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- Lua 5.4 Complete Metabinary Module
 -- Prototype Lua + binary implementation; see README.md for validation scope
 -- Combines AST → binary semantics → binary implementations → Lua layer

@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 /* verify_softmax_fd.cu
    Compute softmax on GPU and finite-difference Jacobian on GPU to compare with CPU analytic Jacobian.
    This file provides a test harness that can be compiled into a small executable to run on RTX-4090.

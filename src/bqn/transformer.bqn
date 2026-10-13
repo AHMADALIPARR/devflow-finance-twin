@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+# Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 # Decoder-only Transformer in pure BQN (CBQN)
 # Lines: ~185
 # Functions: MatMul, Transpose, Softmax, SoftmaxJac, LayerNorm, GelU,

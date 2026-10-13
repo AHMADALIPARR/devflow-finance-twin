@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 /* Minimal Smalltalk-80 inspired object runtime - dense hand-rolled.
    Used only for thick annotation objects and host-side metadata;
    the KERNEL LANGUAGE itself stays BLISS/PLM/CORAL.

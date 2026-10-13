@@ -1,0 +1,689 @@
+{
+  "schema_version": 1,
+  "baseline": "289e05876f15965a95f990ed178961aee0ebcb73",
+  "reviewed_revision": "1c187bb",
+  "policy": "Main project policy: Sovereign Leviathan mutated AGPLv3, SL-AGPL3-001. Preserve component and third-party grants and source notices. Source packaging is not production certification.",
+  "products": [
+    {
+      "id": "nand-dsl",
+      "name": "NAND DSL and Refinement Platform",
+      "audience": "Compiler and binary semantics developers",
+      "deliverable": "NAND#, NAND ISA, binary formats, GFNAND parsing and refinement sources",
+      "roots": [
+        "he-binary-functor/nand-architecture",
+        "he-binary-functor/gfnand"
+      ],
+      "dependencies": [
+        "formal-assurance"
+      ],
+      "checks": [],
+      "gates": [
+        "Create executable parser/lowering and ISA conformance builds",
+        "Validate refinement statements with pinned prover toolchains"
+      ]
+    },
+    {
+      "id": "fsl-kernel",
+      "name": "FSL Formal Solver Kernel",
+      "audience": "Constraint compiler developers",
+      "deliverable": "Rust equality obligations, bit-vector/arithmetic IR, solver adapters and reactive proof modules",
+      "roots": [
+        "rust/fsl"
+      ],
+      "dependencies": [],
+      "checks": [
+        {
+          "cwd": "rust/fsl",
+          "argv": [
+            "cargo",
+            "test",
+            "--locked",
+            "-j",
+            "1"
+          ]
+        }
+      ],
+      "gates": [
+        "Compile and execute library fixtures; distinguish solver adapters from external solver execution",
+        "Library check passes, but unit tests cannot compile because jitter_machine is referenced without a module or dependency"
+      ]
+    },
+    {
+      "id": "owl-aot-harness",
+      "name": "OWL Constraint and AOT Harness",
+      "audience": "Ontology and ahead-of-time constraint developers",
+      "deliverable": "RDF/Turtle parsing, OWL tableau constraints and bounded reasoning sources",
+      "roots": [
+        "astre-vault/astra_owl_solver.py",
+        "astre-vault/rcc8_spatial.py"
+      ],
+      "dependencies": [
+        "constraint-runtime"
+      ],
+      "checks": [
+        {
+          "cwd": ".",
+          "argv": [
+            "{python}",
+            "astre-vault/astra_owl_solver.py"
+          ]
+        }
+      ],
+      "gates": [
+        "Locate and verify the owner-described AOT compiler entry point; current inspected entry point is tableau reasoning",
+        "Pin RDF dependencies and add ontology conformance and contradiction fixtures",
+        "A zero exit status for the demo is execution evidence, not proof of semantic correctness"
+      ]
+    },
+    {
+      "id": "astra-vault",
+      "name": "Astra Vault and Cryptographic Primitives",
+      "audience": "Cryptographic research and vault platform developers",
+      "deliverable": "Astra math/Unlambda vault and RSL/braid/Yang-Baxter primitive sources",
+      "roots": [
+        "astre-vault/astra_math_vault.m",
+        "astre-vault/astra-vault.unl",
+        "he-binary-functor/crypto"
+      ],
+      "dependencies": [],
+      "checks": [],
+      "gates": [
+        "Define the Astra primitive algorithm, security properties and threat model; obtain independent cryptanalysis",
+        "The OWL vault-close function reports entropy/consistency rather than a cryptographic commitment",
+        "The existing seal chain uses FNV-1a-64; establish a cryptographically appropriate authenticated construction before security use",
+        "Research novelty remains a contribution claim pending prior-art and comparative evidence"
+      ]
+    },
+    {
+      "id": "virtual-h100",
+      "name": "Virtual H100 Architecture and Execution Models",
+      "audience": "GPU model and verification developers",
+      "deliverable": "H100/CUDA abstract-machine specifications and VSM H100 execution bridge",
+      "roots": [
+        "formal/formal-engine/GPU",
+        "formal/formal-engine/GPU_H100.dfy",
+        "vsm2500/vsm2500_h100_sass_bridge.cu"
+      ],
+      "dependencies": [
+        "formal-assurance"
+      ],
+      "checks": [],
+      "gates": [
+        "Validate instruction and memory-model conformance against an explicit target specification",
+        "Run separate simulation, prover and real H100/CUDA jobs; an abstract model does not establish silicon execution"
+      ]
+    },
+    {
+      "id": "cuda-kernels",
+      "name": "CUDA Kernel SDK",
+      "audience": "GPU compute developers",
+      "deliverable": "CUDA projection, softmax, vector and PTX launcher kernels",
+      "roots": [
+        "src/cuda",
+        "gpu",
+        "languages/ptx"
+      ],
+      "dependencies": [
+        "formal-assurance"
+      ],
+      "checks": [],
+      "gates": [
+        "Pin CUDA toolkit and target architecture; run numerical parity, sanitizer, resource and performance jobs on supported hardware"
+      ]
+    },
+    {
+      "id": "build-your-own-bank",
+      "name": "Build Your Own Bank",
+      "audience": "Banking platform developers",
+      "deliverable": "Commercial treasury development kit with installable CLI and polyglot integration sources",
+      "roots": [
+        "finance",
+        "src/worm.py",
+        "src/twin.py",
+        "src/audit.py",
+        "src/quantum.py",
+        "src/cli.py",
+        "src/native",
+        "tests/test_stack.py",
+        "schema",
+        "languages/x86_64",
+        "languages/chisel",
+        "wasm",
+        "build.zig",
+        "Makefile",
+        "scripts/compile_wasm.js",
+        "products/bank_sandbox.py",
+        "src/icp_anchor.py",
+        "tests/test_cold_boot_icp.py",
+        "tests/test_bank_commit.py",
+        "products/bank-commercial",
+        "scripts/extract_bank_product.py"
+      ],
+      "dependencies": [
+        "sovereign-ledger",
+        "constraint-runtime"
+      ],
+      "checks": [
+        {
+          "cwd": ".",
+          "argv": [
+            "{python}",
+            "-m",
+            "pytest",
+            "tests/test_stack.py",
+            "tests/test_bank_commit.py",
+            "-q"
+          ]
+        }
+      ],
+      "gates": [
+        "Rejected commands and failed append isolation now pass regression tests; cross-process isolation remains required",
+        "Cross-process locking, crash recovery, transaction idempotency, authentication and authorization need validation",
+        "COBOL/RPGLE/PL-I/C#/Scala payment integrations require their own toolchains and end-to-end tests",
+        "No live payment connection or bank deployment is packaged"
+      ]
+    },
+    {
+      "id": "sovereign-ledger",
+      "name": "Sovereign Ledger SDK",
+      "audience": "Event storage developers",
+      "deliverable": "Go hash-chain, event, snapshot and query library",
+      "roots": [
+        "sovereign/ledger"
+      ],
+      "dependencies": [],
+      "checks": [
+        {
+          "cwd": "sovereign/ledger",
+          "argv": [
+            "go",
+            "test",
+            "./..."
+          ]
+        }
+      ],
+      "gates": [
+        "Run Go tests and race checks; verify durable storage, snapshot recovery and cross-language contracts"
+      ]
+    },
+    {
+      "id": "constraint-runtime",
+      "name": "Constraint Runtime SDK",
+      "audience": "Agent and policy developers",
+      "deliverable": "Python MXML contracts, Datalog constitution, DAG execution and audit seals",
+      "roots": [
+        "constraint-harness"
+      ],
+      "dependencies": [],
+      "checks": [
+        {
+          "cwd": "constraint-harness",
+          "argv": [
+            "{python}",
+            "-m",
+            "pytest",
+            "tests",
+            "-q"
+          ]
+        }
+      ],
+      "gates": [
+        "Model adapters are stubs; implement and test real provider boundaries",
+        "Local package declares MIT while several source headers declare additional terms; resolve release terms"
+      ]
+    },
+    {
+      "id": "decision-classifier",
+      "name": "Typed Decision SDK",
+      "audience": "Decision system developers",
+      "deliverable": "Go decision envelopes, model routing, batch inference and audit library",
+      "roots": [
+        "classifier"
+      ],
+      "dependencies": [],
+      "checks": [
+        {
+          "cwd": "classifier",
+          "argv": [
+            "go",
+            "test",
+            "./..."
+          ]
+        }
+      ],
+      "gates": [
+        "Verify actual backend and model behavior independently of README GPU claims",
+        "Define calibrated model artifacts and evaluation datasets",
+        "CPU backend ExecuteHeads currently returns fixed CLASS_A probabilities instead of a learned model"
+      ]
+    },
+    {
+      "id": "symbolic-reasoning",
+      "name": "Symbolic Reasoning Toolkit",
+      "audience": "Logic and constraint developers",
+      "deliverable": "ASP solver, Datalog sources and symbolic agent toolkit",
+      "roots": [
+        "asp",
+        "datalog-engine",
+        "astre-vault",
+        "src/souffle_symbolic_agent.py",
+        "src/grounder.go",
+        "src/ground_advanced.go",
+        "src/ground_optimization.go",
+        "src/substitution.go",
+        "src/ir_types.go",
+        "languages/prolog",
+        "languages/logtalk",
+        "languages/topos",
+        "languages/lisp",
+        "src/asp",
+        "languages/eclipse"
+      ],
+      "dependencies": [],
+      "checks": [
+        {
+          "cwd": "asp",
+          "argv": [
+            "go",
+            "test",
+            "./..."
+          ]
+        }
+      ],
+      "gates": [
+        "Grounder and incremental Go files remain outside the asp module; integrate package boundaries",
+        "Run solver correctness suites and supported Souffle/Prolog/Lisp toolchains"
+      ]
+    },
+    {
+      "id": "dream-rsi",
+      "name": "Dream-RSI Experiment Kit",
+      "audience": "Algorithm research teams",
+      "deliverable": "Python discovery, replay, evaluation, policy and simulator toolkit",
+      "roots": [
+        "dream_rsi",
+        "tests/test_dream_rsi.py",
+        "tests/test_dream_rsi_audit.py",
+        "tests/test_dream_rsi_extensions.py",
+        "tests/test_dream_rsi_full.py",
+        "tests/test_dream_rsi_phase23.py"
+      ],
+      "dependencies": [],
+      "checks": [
+        {
+          "cwd": ".",
+          "argv": [
+            "{python}",
+            "-m",
+            "pytest",
+            "tests/test_dream_rsi.py",
+            "tests/test_dream_rsi_audit.py",
+            "tests/test_dream_rsi_extensions.py",
+            "tests/test_dream_rsi_full.py",
+            "tests/test_dream_rsi_phase23.py",
+            "-q"
+          ]
+        }
+      ],
+      "gates": [
+        "Reconstruction and replay scores require external-task evaluation before performance claims",
+        "No automatic ledger write integration is established by packaging"
+      ]
+    },
+    {
+      "id": "tensor-core",
+      "name": "Tensor Core SDK",
+      "audience": "Numerical computing developers",
+      "deliverable": "Rust tensors, views, reductions, broadcasting and linear algebra",
+      "roots": [
+        "tensor-core/src",
+        "tensor-core/examples",
+        "tensor-core/Cargo.toml",
+        "tensor-core/Cargo.lock",
+        "tensor-core/README.md",
+        "tensor-core/FORMAL_SPEC.md",
+        "tensor-core/QUICKSTART.md",
+        "tensor-core/STRUCTURE.md",
+        "tensor-core/IMPLEMENTATION_NOTES.md",
+        "tensor-core/COMPLETION_SUMMARY.md"
+      ],
+      "dependencies": [],
+      "checks": [
+        {
+          "cwd": "tensor-core",
+          "argv": [
+            "cargo",
+            "test",
+            "--locked",
+            "-j",
+            "1"
+          ]
+        }
+      ],
+      "gates": [
+        "Validate ndarray version compatibility and optional BLAS toolchain",
+        "Proof descriptions are not prover execution evidence"
+      ]
+    },
+    {
+      "id": "governed-tensor",
+      "name": "Governed Tensor SDK",
+      "audience": "Safe ML runtime developers",
+      "deliverable": "Rust virtual slicing, temporal safety, RAW_ROUTE and pure ML layer",
+      "roots": [
+        "tensor-core/nraay-tensor"
+      ],
+      "dependencies": [],
+      "checks": [
+        {
+          "cwd": "tensor-core/nraay-tensor",
+          "argv": [
+            "cargo",
+            "test",
+            "--locked",
+            "-j",
+            "1"
+          ]
+        }
+      ],
+      "gates": [
+        "Temporal lemmas are executable Rust checks; distinguish them from machine-checked universal proofs"
+      ]
+    },
+    {
+      "id": "apple-inference",
+      "name": "Apple Inference and Agent UX",
+      "audience": "Apple application developers",
+      "deliverable": "Swift/Metal transformer, INT4 kernels, host interfaces and BEAM UX sources",
+      "roots": [
+        "apple-metal-inference",
+        "metal",
+        "beam",
+        "asm"
+      ],
+      "dependencies": [],
+      "checks": [],
+      "gates": [
+        "Requires macOS and supported Apple GPU; no GPU test runs on this Windows host",
+        "Validate tokenizer, weight conversion, decode quality, memory and kernel parity"
+      ]
+    },
+    {
+      "id": "apple-design",
+      "name": "Apple Design Parser",
+      "audience": "Design tooling developers",
+      "deliverable": "Swift HTML/CSS color, token and appearance extraction sources",
+      "roots": [
+        "apple-design-parser"
+      ],
+      "dependencies": [],
+      "checks": [],
+      "gates": [
+        "Establish Swift build manifest and parser fixtures; benchmark on real designs"
+      ]
+    },
+    {
+      "id": "neural-model-lab",
+      "name": "Neural Model Lab",
+      "audience": "Model architecture developers",
+      "deliverable": "GLM Evoke, GGUF loaders, JAX, Pascal and Algol transformer sources",
+      "roots": [
+        "glm-evoke",
+        "sovereign/glm",
+        "src/jax_gpt_model.py",
+        "src/jax_functional_transformer.py",
+        "src/jax_transformer_harness.py",
+        "src/jax_sequential_jacobian.py",
+        "src/pascal",
+        "src/a68",
+        "src/agol86",
+        "src/cuda",
+        "src/jit_webllm_toy_transformer.js",
+        "languages/apl"
+      ],
+      "dependencies": [],
+      "checks": [],
+      "gates": [
+        "No trained weights or architecture quality claims are implied",
+        "Large frameworks and model loading are disabled in the low-memory workflow",
+        "Each architecture needs compatible runtime, parity tests and model provenance"
+      ]
+    },
+    {
+      "id": "formal-assurance",
+      "name": "Formal Assurance Toolkit",
+      "audience": "Verification engineers",
+      "deliverable": "Dafny, Lean, CBMC and multi-prover specifications and harnesses",
+      "roots": [
+        "formal",
+        "cbmc"
+      ],
+      "dependencies": [],
+      "checks": [],
+      "gates": [
+        "Pin and execute each prover; separate axioms, bounded checks, placeholders and proven obligations",
+        "Formal engine includes experimental cipher/ZK abstractions and structural proof checking"
+      ]
+    },
+    {
+      "id": "compiler-platform",
+      "name": "Compiler and Binary Semantics Platform",
+      "audience": "Language and compiler developers",
+      "deliverable": "Cobalt, NAND/functor architecture, kernel language and polyglot toolchains",
+      "roots": [
+        "cobalt-compiler",
+        "he-binary-functor",
+        "kernel-language",
+        "polyglot",
+        "languages/braid",
+        "languages/ada",
+        "src/ebnf",
+        "rust",
+        "src/loader.ts"
+      ],
+      "dependencies": [
+        "formal-assurance"
+      ],
+      "checks": [],
+      "gates": [
+        "Define independent compiler builds and executable refinement fixtures",
+        "Preserve per-component licenses; no blanket relicensing"
+      ]
+    },
+    {
+      "id": "virtual-switchboard",
+      "name": "Virtual Switchboard",
+      "audience": "Orchestration runtime developers",
+      "deliverable": "Python and x86 assembly routing, state machines and FFI sources",
+      "roots": [
+        "src/virtual_switchboard.py",
+        "src/switchboard_ffi.py",
+        "src/switchboard_core.asm",
+        "src/state_machine_core.asm"
+      ],
+      "dependencies": [],
+      "checks": [],
+      "gates": [
+        "Build assembly library and verify ABI, rollback and bounded execution",
+        "Self-improvement mechanisms require isolated evaluation"
+      ]
+    },
+    {
+      "id": "hardware-design",
+      "name": "Hardware and Semiconductor Kit",
+      "audience": "Hardware research engineers",
+      "deliverable": "VHDL transformer RTL, SoC dossier, VSM2500 and GPU fabric sources",
+      "roots": [
+        "semiconductor",
+        "vsm2500",
+        "gpu",
+        "languages/ptx"
+      ],
+      "dependencies": [
+        "formal-assurance"
+      ],
+      "checks": [],
+      "gates": [
+        "Run HDL simulation, synthesis and timing/resource reports",
+        "Physical design and manufacturing docs are not fabricated silicon evidence",
+        "CUDA/H100 execution is not validated on this machine"
+      ]
+    },
+    {
+      "id": "retro-compute",
+      "name": "Retro Compute Kit",
+      "audience": "VM and systems language developers",
+      "deliverable": "6502/x86 machine, Occam wordcode, JVM ISA and retro GPU simulators",
+      "roots": [
+        "apple6502x86",
+        "retro-gpu",
+        "occam-b-bscl",
+        "isa-jvm",
+        "assembly-120-strict-model",
+        "src/pcode_vm_full_stack.py"
+      ],
+      "dependencies": [],
+      "checks": [],
+      "gates": [
+        "Pin each assembler/compiler and provide machine conformance fixtures"
+      ]
+    },
+    {
+      "id": "quantum-simulation",
+      "name": "Quantum Simulation and Physics Lab",
+      "audience": "Simulation researchers",
+      "deliverable": "Python circuits, state vectors, noise, quantum compiler and physics sources",
+      "roots": [
+        "quantum_computer",
+        "qflow",
+        "physics",
+        "haskell",
+        "languages/futhark",
+        "languages/mathematics",
+        "src/oscillator_fixedpoints.py",
+        "src/nct_resonance_simulator.py",
+        "src/omega_jax_pivot.py",
+        "src/simulate_gate_list.py"
+      ],
+      "dependencies": [],
+      "checks": [],
+      "gates": [
+        "Simulation results do not establish physical quantum hardware or claimed novel physics",
+        "Haskell/MATLAB/Julia/Isabelle paths need independent toolchains",
+        "Existing quantum test files execute at import and call sys.exit; run them as bounded standalone jobs, not pytest collection"
+      ]
+    },
+    {
+      "id": "telegram-agent-sdk",
+      "name": "Telegram Agent SDK",
+      "audience": "Bot and workflow developers",
+      "deliverable": "Node, Rust and Haskell bots with persistence and agent adapters",
+      "roots": [
+        "telegram-bot-sdk"
+      ],
+      "dependencies": [],
+      "checks": [],
+      "gates": [
+        "Network bot tests require explicit credentials and isolated test workspace",
+        "Lock dependencies and verify migrations, permissions and message delivery before deployment"
+      ]
+    },
+    {
+      "id": "workflow-workplace",
+      "name": "Workflow Workplace",
+      "audience": "Workflow application developers",
+      "deliverable": "Browser workplace, authentication helpers, coordinator and canvas templates",
+      "roots": [
+        "frontend",
+        "backend",
+        "canvas-templates"
+      ],
+      "dependencies": [],
+      "checks": [],
+      "gates": [
+        "Backend coordinator is an in-memory sketch; add persistence and session authorization",
+        "Pin FastAPI/Pydantic dependencies and exercise the browser-to-backend flow"
+      ]
+    },
+    {
+      "id": "audit-archive",
+      "name": "Audit and Archive Workbench",
+      "audience": "Archive and evaluation tooling developers",
+      "deliverable": "Go archive control, safety, sandbox and audit source modules",
+      "roots": [
+        "src/api.go",
+        "src/acceptance-tests.go",
+        "src/acceptance_test.go",
+        "src/archive-extract-verify.go",
+        "src/archive-tools.go",
+        "src/audit-module.go",
+        "src/audit-seal.go",
+        "src/audit-verify.go",
+        "src/control-dag.go",
+        "src/control-policy.go",
+        "src/gui-main.go",
+        "src/main-app.go",
+        "src/safety.go",
+        "src/sandbox-boundary.go",
+        "src/sandbox-module.go",
+        "src/example_test.go",
+        "src/example_abstention.go",
+        "src/example_consistency_validator.go",
+        "src/example_math_routing.go"
+      ],
+      "dependencies": [
+        "decision-classifier"
+      ],
+      "checks": [],
+      "gates": [
+        "Multiple Go packages share src without a go.mod; repair build boundaries before shipping",
+        "Evaluation specifications alone do not establish an executable evaluation product"
+      ]
+    },
+    {
+      "id": "boyer-moore",
+      "name": "Verified Search Toolkit",
+      "audience": "Search and algorithm developers",
+      "deliverable": "Boyer-Moore source and associated formal verification artifacts",
+      "roots": [
+        "boyer-moore-unix"
+      ],
+      "dependencies": [],
+      "checks": [],
+      "gates": [
+        "Run native search fixtures and verify associated proof obligations"
+      ]
+    },
+    {
+      "id": "lua-rsi",
+      "name": "Lua RSI Runtime",
+      "audience": "Embedded experiment developers",
+      "deliverable": "Lua experiment engine, codec and benchmark fixtures",
+      "roots": [
+        "lua",
+        "benchmarks/rsi_lua",
+        "tests/test_lua_engine.py"
+      ],
+      "dependencies": [],
+      "checks": [],
+      "gates": [
+        "Run supported Lua runtime tests and compare benchmark provenance"
+      ]
+    },
+    {
+      "id": "platform-support",
+      "name": "Shared Platform Support",
+      "audience": "Maintainers of the product suite",
+      "deliverable": "Repository documentation, licenses, orchestration scripts, configuration and remaining research artifacts",
+      "roots": [
+        "."
+      ],
+      "dependencies": [],
+      "checks": [],
+      "gates": [
+        "Fallback ownership is explicit and not a claim that every residual artifact is integrated",
+        "Review inventory for paths to promote into supported product builds"
+      ]
+    }
+  ]
+}

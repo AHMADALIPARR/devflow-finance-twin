@@ -1,3 +1,6 @@
+% SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+% Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 %% transformer_forward_fixed.m
 % Fixed-point transformer forward pass with Weyl deformation layer.
 % Domain: D=768, q=32, p=3, vocab=32000, seq_len=16.

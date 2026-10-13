@@ -1,3 +1,6 @@
+; SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+; Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 ;================================================================================
 ; MODULE 20_DIAGNOSTICS - 1000 LOC EXACT
 ; PHASE 5: Complete System Diagnostics Suite

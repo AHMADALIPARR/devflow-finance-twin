@@ -1,0 +1,234 @@
+[
+  {
+    "product": "nand-dsl",
+    "artifact": "nand-dsl.zip",
+    "bytes": 515566,
+    "files": 168,
+    "sha256": "2b7cbf3dd718a80b8869759d34cf83003e9fbff4a9befe13daba30725f963710",
+    "integrity_verified": true
+  },
+  {
+    "product": "fsl-kernel",
+    "artifact": "fsl-kernel.zip",
+    "bytes": 173616,
+    "files": 57,
+    "sha256": "43d1f68f68ce510f200e9e09ad4b4d36449703cf87ba9d94115bc5b291b271bd",
+    "integrity_verified": true
+  },
+  {
+    "product": "owl-aot-harness",
+    "artifact": "owl-aot-harness.zip",
+    "bytes": 117158,
+    "files": 62,
+    "sha256": "7e777c7c34ddf88ef25fc0e16455dcd21530d6ac4b7294a172d0acc8313ea770",
+    "integrity_verified": true
+  },
+  {
+    "product": "astra-vault",
+    "artifact": "astra-vault.zip",
+    "bytes": 93186,
+    "files": 34,
+    "sha256": "49f23d6064a815b6d8be600e1e3807d10518ae4024ab5fdfd77a5bcc029b1b93",
+    "integrity_verified": true
+  },
+  {
+    "product": "virtual-h100",
+    "artifact": "virtual-h100.zip",
+    "bytes": 494670,
+    "files": 149,
+    "sha256": "3215466c6e549296f17e1371f795fdfcbfdca0681c6bed9f3a27a7640140b893",
+    "integrity_verified": true
+  },
+  {
+    "product": "cuda-kernels",
+    "artifact": "cuda-kernels.zip",
+    "bytes": 512131,
+    "files": 156,
+    "sha256": "80da1261efaa86a241e9175095b718725971bb861cbc3c446bd3d9f5abe12503",
+    "integrity_verified": true
+  },
+  {
+    "product": "build-your-own-bank",
+    "artifact": "build-your-own-bank.zip",
+    "bytes": 271555,
+    "files": 135,
+    "sha256": "0dc9820eaf3eb8de84a1a34d54aaacf2292890b9902f2a3a905cb05df141cf77",
+    "integrity_verified": true
+  },
+  {
+    "product": "sovereign-ledger",
+    "artifact": "sovereign-ledger.zip",
+    "bytes": 92370,
+    "files": 28,
+    "sha256": "7bc7fcdc2c2a61bed541edebd4c0ba30302f0583609f02d972a02e185466e0ce",
+    "integrity_verified": true
+  },
+  {
+    "product": "constraint-runtime",
+    "artifact": "constraint-runtime.zip",
+    "bytes": 105738,
+    "files": 59,
+    "sha256": "b56777cca9a2744c08305d157cc19d5dc05d46df1c96550edaac600436b91236",
+    "integrity_verified": true
+  },
+  {
+    "product": "decision-classifier",
+    "artifact": "decision-classifier.zip",
+    "bytes": 106973,
+    "files": 32,
+    "sha256": "0de4d147541088f3712c5920cf35b62a39514c05ca4d1d913d22e5b52c48ae8e",
+    "integrity_verified": true
+  },
+  {
+    "product": "symbolic-reasoning",
+    "artifact": "symbolic-reasoning.zip",
+    "bytes": 223762,
+    "files": 75,
+    "sha256": "19aec6bc31da878ab068a088e68fcbb3c972b57e01eacbba0bd46ad674a34bf2",
+    "integrity_verified": true
+  },
+  {
+    "product": "dream-rsi",
+    "artifact": "dream-rsi.zip",
+    "bytes": 104067,
+    "files": 55,
+    "sha256": "f24124ffeee3ef9c3ba36c21cf006c76121791f4b16e694abe050ac30954b23e",
+    "integrity_verified": true
+  },
+  {
+    "product": "tensor-core",
+    "artifact": "tensor-core.zip",
+    "bytes": 107836,
+    "files": 37,
+    "sha256": "8c56aef399535ea7eed155afe1c7c644b54898089d66ab8f7fb1d5de771ea6a3",
+    "integrity_verified": true
+  },
+  {
+    "product": "governed-tensor",
+    "artifact": "governed-tensor.zip",
+    "bytes": 94965,
+    "files": 31,
+    "sha256": "eb6a63227b5665b1bfe52bcf21c699abbf9bf6a893fab3d191c1e3c0b85e068d",
+    "integrity_verified": true
+  },
+  {
+    "product": "apple-inference",
+    "artifact": "apple-inference.zip",
+    "bytes": 154350,
+    "files": 78,
+    "sha256": "4567f2733f709be55a49aacb5ab7394e57f97bb81e31f73601a695bdaa49e049",
+    "integrity_verified": true
+  },
+  {
+    "product": "apple-design",
+    "artifact": "apple-design.zip",
+    "bytes": 108257,
+    "files": 29,
+    "sha256": "cea409ff0730e8b68e00ee5833529b413b83661afc19241c79adbc45c20cb3c7",
+    "integrity_verified": true
+  },
+  {
+    "product": "neural-model-lab",
+    "artifact": "neural-model-lab.zip",
+    "bytes": 214766,
+    "files": 88,
+    "sha256": "0b65365509871b2f7b721bb5ce825614a40af65d438a817d36c63d0215c56a23",
+    "integrity_verified": true
+  },
+  {
+    "product": "formal-assurance",
+    "artifact": "formal-assurance.zip",
+    "bytes": 480822,
+    "files": 144,
+    "sha256": "bdf9c10549119378f5be81e63645ef2980514cfb1e38027fe8448be6bc96f204",
+    "integrity_verified": true
+  },
+  {
+    "product": "compiler-platform",
+    "artifact": "compiler-platform.zip",
+    "bytes": 911616,
+    "files": 388,
+    "sha256": "1e2f5378b41d8a350626a6ba21773d613c3a383f9eb2ab00f2d8b59755463432",
+    "integrity_verified": true
+  },
+  {
+    "product": "virtual-switchboard",
+    "artifact": "virtual-switchboard.zip",
+    "bytes": 112868,
+    "files": 22,
+    "sha256": "7d9aee59b4b0f0fcca37b5840903559ee98e2a66fa39e4e39d51107ac37c9dc5",
+    "integrity_verified": true
+  },
+  {
+    "product": "hardware-design",
+    "artifact": "hardware-design.zip",
+    "bytes": 589210,
+    "files": 169,
+    "sha256": "079ca4147dfd52cf648e448d135740d8fd6b5d2b170296c40a655646dba0d0d5",
+    "integrity_verified": true
+  },
+  {
+    "product": "retro-compute",
+    "artifact": "retro-compute.zip",
+    "bytes": 357485,
+    "files": 133,
+    "sha256": "d6f0bba6c2bb3cdbd200138589159361a0b5e013c8c36ab8d53cae8ecdb1ffec",
+    "integrity_verified": true
+  },
+  {
+    "product": "quantum-simulation",
+    "artifact": "quantum-simulation.zip",
+    "bytes": 226981,
+    "files": 91,
+    "sha256": "3205bded2020cb7996e04c4341c467e8d7bf5914e4f0224ce45ec144d7536baa",
+    "integrity_verified": true
+  },
+  {
+    "product": "telegram-agent-sdk",
+    "artifact": "telegram-agent-sdk.zip",
+    "bytes": 204419,
+    "files": 63,
+    "sha256": "2f3823f0074674c0d1240953794e49d9aecbc233cb9cf0f6f635b39659c4011d",
+    "integrity_verified": true
+  },
+  {
+    "product": "workflow-workplace",
+    "artifact": "workflow-workplace.zip",
+    "bytes": 200913,
+    "files": 30,
+    "sha256": "35dd24f6691d703a6f75efba6a467dbdccaf757d01bfa118da316a577da4729f",
+    "integrity_verified": true
+  },
+  {
+    "product": "audit-archive",
+    "artifact": "audit-archive.zip",
+    "bytes": 161444,
+    "files": 52,
+    "sha256": "eb5eba2f31b4cbf00a3ef036f4e26ce061dfc35716e7c3d1b2bf5cc00b48fb73",
+    "integrity_verified": true
+  },
+  {
+    "product": "boyer-moore",
+    "artifact": "boyer-moore.zip",
+    "bytes": 75785,
+    "files": 23,
+    "sha256": "2c421086d2572cde586ee211614d4f5749ffb1e002738f6a65b64c68e80ddec0",
+    "integrity_verified": true
+  },
+  {
+    "product": "lua-rsi",
+    "artifact": "lua-rsi.zip",
+    "bytes": 122135,
+    "files": 41,
+    "sha256": "bbafeb47652a46d5b4028b33af2f4396ac57029a5d4d5a1d5478a7a446d8ce63",
+    "integrity_verified": true
+  },
+  {
+    "product": "platform-support",
+    "artifact": "platform-support.zip",
+    "bytes": 93289235,
+    "files": 267,
+    "sha256": "c7556912b3dabf27803695ce26dc593b8079cb6356aaa3714c926e3764541517",
+    "integrity_verified": true
+  }
+]

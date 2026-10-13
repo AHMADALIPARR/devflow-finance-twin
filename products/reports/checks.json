@@ -1,0 +1,130 @@
+{
+  "revision": "1c187bbbd8e73ad60542f75b0db673ff2c3f6bb2",
+  "checks": [
+    {
+      "product": "build-your-own-bank",
+      "argv": [
+        "{python}",
+        "-m",
+        "pytest",
+        "tests/test_stack.py",
+        "tests/test_bank_commit.py",
+        "-q"
+      ],
+      "cwd": ".",
+      "status": "passed",
+      "exit_code": 0,
+      "output": "101 passed in 9.13s; extracted commercial development kit finance and rejection/write-failure regressions.",
+      "seconds": 9.13
+    },
+    {
+      "product": "sovereign-ledger",
+      "status": "blocked",
+      "error": "[WinError 2] The system cannot find the file specified",
+      "seconds": 0.0
+    },
+    {
+      "product": "constraint-runtime",
+      "argv": [
+        "{python}",
+        "-m",
+        "pytest",
+        "tests",
+        "-q"
+      ],
+      "cwd": "constraint-harness",
+      "status": "passed",
+      "exit_code": 0,
+      "output": "..............                                                           [100%]\n14 passed in 0.06s\n",
+      "seconds": 0.547
+    },
+    {
+      "product": "decision-classifier",
+      "status": "blocked",
+      "error": "[WinError 2] The system cannot find the file specified",
+      "seconds": 0.0
+    },
+    {
+      "product": "symbolic-reasoning",
+      "status": "blocked",
+      "error": "[WinError 2] The system cannot find the file specified",
+      "seconds": 0.0
+    },
+    {
+      "product": "dream-rsi",
+      "argv": [
+        "{python}",
+        "-m",
+        "pytest",
+        "tests/test_dream_rsi.py",
+        "tests/test_dream_rsi_audit.py",
+        "tests/test_dream_rsi_extensions.py",
+        "tests/test_dream_rsi_full.py",
+        "tests/test_dream_rsi_phase23.py",
+        "-q"
+      ],
+      "cwd": ".",
+      "status": "passed",
+      "exit_code": 0,
+      "output": "....................................................                     [100%]\n52 passed in 0.31s\n",
+      "seconds": 0.828
+    },
+    {
+      "product": "tensor-core",
+      "argv": [
+        "cargo",
+        "test",
+        "--locked",
+        "-j",
+        "1"
+      ],
+      "cwd": "tensor-core",
+      "status": "failed",
+      "exit_code": 101,
+      "output": "   Compiling getrandom v0.3.4\r\nerror: Dlltool could not create import library with C:\\Users\\NUCMINI\\DataGripProjects\\default\\.tools\\sparse-router\\rustup\\toolchains\\1.85.1-x86_64-pc-windows-gnu\\lib\\rustlib\\x86_64-pc-windows-gnu\\bin\\self-contained\\dlltool.exe -d C:\\Users\\NUCMINI\\AppData\\Local\\Temp\\rustcDBtzkJ\\bcryptprimitives.dll_imports.def -D bcryptprimitives.dll -l C:\\Users\\NUCMINI\\AppData\\Local\\Temp\\rustcDBtzkJ\\bcryptprimitives.dll_imports.lib -m i386:x86-64 -f --64 --no-leading-underscore --temp-prefix C:\\Users\\NUCMINI\\AppData\\Local\\Temp\\rustcDBtzkJ\\bcryptprimitives.dll:\r\n       \r\n       C:\\Users\\NUCMINI\\DataGripProjects\\default\\.tools\\sparse-router\\rustup\\toolchains\\1.85.1-x86_64-pc-windows-gnu\\lib\\rustlib\\x86_64-pc-windows-gnu\\bin\\self-contained\\dlltool.exe: CreateProcess\u240d\r\n\r\nerror: could not compile `getrandom` (lib) due to 1 previous error\r\n",
+      "seconds": 0.702
+    },
+    {
+      "product": "governed-tensor",
+      "argv": [
+        "cargo",
+        "test",
+        "--locked",
+        "-j",
+        "1"
+      ],
+      "cwd": "tensor-core/nraay-tensor",
+      "status": "failed",
+      "exit_code": 101,
+      "output": "   Compiling windows-sys v0.61.2\r\nerror: Dlltool could not create import library with C:\\Users\\NUCMINI\\DataGripProjects\\default\\.tools\\sparse-router\\rustup\\toolchains\\1.85.1-x86_64-pc-windows-gnu\\lib\\rustlib\\x86_64-pc-windows-gnu\\bin\\self-contained\\dlltool.exe -d C:\\Users\\NUCMINI\\AppData\\Local\\Temp\\rustccboEKS\\kernel32.dll_imports.def -D kernel32.dll -l C:\\Users\\NUCMINI\\AppData\\Local\\Temp\\rustccboEKS\\kernel32.dll_imports.lib -m i386:x86-64 -f --64 --no-leading-underscore --temp-prefix C:\\Users\\NUCMINI\\AppData\\Local\\Temp\\rustccboEKS\\kernel32.dll:\r\n       \r\n       C:\\Users\\NUCMINI\\DataGripProjects\\default\\.tools\\sparse-router\\rustup\\toolchains\\1.85.1-x86_64-pc-windows-gnu\\lib\\rustlib\\x86_64-pc-windows-gnu\\bin\\self-contained\\dlltool.exe: CreateProcess\u240d\r\n\r\nerror: could not compile `windows-sys` (lib) due to 1 previous error\r\n",
+      "seconds": 2.173
+    },
+    {
+      "product": "fsl-kernel",
+      "status": "failed",
+      "output": "Library check passed. Unit-test compilation failed: unresolved import jitter_machine in src/lib.rs at lines 981, 990, 1009."
+    },
+    {
+      "product": "owl-aot-harness",
+      "status": "passed",
+      "output": "Demo executed, returned sample consistency False, entropy 1.5941666991120167, 14 axioms and 11 nodes. This is demo execution evidence only."
+    }
+  ],
+  "unchecked_products": [
+    "apple-inference",
+    "apple-design",
+    "neural-model-lab",
+    "formal-assurance",
+    "compiler-platform",
+    "virtual-switchboard",
+    "hardware-design",
+    "retro-compute",
+    "quantum-simulation",
+    "telegram-agent-sdk",
+    "workflow-workplace",
+    "audit-archive",
+    "boyer-moore",
+    "lua-rsi",
+    "platform-support"
+  ]
+}

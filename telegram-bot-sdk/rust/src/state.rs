@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 //! Shared application state: sprint/issue/session stores behind `Arc<RwLock>`.
 //!
 //! `AppState` is the single source of truth for all in-memory data.  Every

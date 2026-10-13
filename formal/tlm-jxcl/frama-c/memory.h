@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 /*
  * TLM JXCL ISA — Memory subsystem
  * Frama-C / ACSL formal specification  (Frama-C 26+ / E-ACSL)

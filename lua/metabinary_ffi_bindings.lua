@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- Lua FFI Bindings Module
 -- FFI declarations for C/Rust/Go binary implementations
 -- Supports transparent backend selection: C (speed), Rust (safety), Go (cross-platform)

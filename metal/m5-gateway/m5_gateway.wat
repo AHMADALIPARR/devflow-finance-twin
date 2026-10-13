@@ -1,3 +1,6 @@
+;; SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+;; Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 (module
   ;; Allocate 1 page (64KB) of linear memory to comfortably house the 4096-byte M5 buffer.
   ;; Exported directly so the host environment can act as the frame buffer without UI bridging.

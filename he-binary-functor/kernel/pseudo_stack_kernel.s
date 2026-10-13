@@ -1,3 +1,8 @@
+/*
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+*/
+
 /* pseudo-stack kernel state machine */
 /* r1 = current state, r2 = message, r3 = scratch, r4 = target */
 

@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+# Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 # e2e_sim_harness.jl — end-to-end RWPT simulation with FPGA mock and Allan deviation output
 using RWPT, FPGAMock, Plots, Statistics
 

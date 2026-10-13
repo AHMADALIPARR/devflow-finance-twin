@@ -1,4 +1,7 @@
 **free
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 ctl-opt dftactgrp(*no) actgrp('PRPG') bnddir('PRPGBNDDIR') option(*srcstmt : *nodebugio);
 
 /**********************************************************************

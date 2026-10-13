@@ -1,0 +1,24 @@
+{
+  "main_license": "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001",
+  "bank_finance_tests_passed": 101,
+  "dream_rsi_tests_passed": 52,
+  "packaging_tests_passed": 3,
+  "constraint_tests_passed": 14,
+  "total_scoped_tests_passed": 174,
+  "owl_demo": {
+    "executed": true,
+    "sample_consistency": false,
+    "status": "demo-executed-not-conformance-certified"
+  },
+  "fsl": {
+    "library_check": "passed",
+    "unit_tests": "blocked-by-missing-jitter_machine-module",
+    "evidence": "build/fsl-staging-check.txt"
+  },
+  "models_loaded": false,
+  "gpu_inference_used": false,
+  "commercial_bank_stage": "installable-local-development-kit",
+  "hosted_bank_stage": "not-pilot-ready",
+  "header_existing_source_count": 515,
+  "license_header_tests_passed": 4
+}

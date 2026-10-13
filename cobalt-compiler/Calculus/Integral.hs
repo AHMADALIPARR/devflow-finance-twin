@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- Calculus.Integral — Riemann integration + Fundamental Theorem
 -- Author: Ahmad Ali Parr — Bel Esprit D'Accord Irrevocable Trust
 

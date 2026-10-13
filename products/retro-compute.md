@@ -1,0 +1,26 @@
+# Retro Compute Kit
+
+6502/x86 machine, Occam wordcode, JVM ISA and retro GPU simulators.
+
+Audience: VM and systems language developers.
+
+Source roots:
+
+- `apple6502x86`
+- `retro-gpu`
+- `occam-b-bscl`
+- `isa-jvm`
+- `assembly-120-strict-model`
+- `src/pcode_vm_full_stack.py`
+
+Dependencies: None declared.
+
+Package from the repository root:
+
+```powershell
+python scripts/product_suite.py bundle retro-compute
+```
+
+Release gates:
+
+- Pin each assembler/compiler and provide machine conformance fixtures

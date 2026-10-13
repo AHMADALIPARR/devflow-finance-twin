@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 module ALU {
   const MAX64: int := 0x1_0000_0000_0000_0000
   const MAX63: int := 0x8000_0000_0000_0000

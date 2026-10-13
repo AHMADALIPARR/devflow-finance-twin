@@ -1,3 +1,6 @@
+; SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+; Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 ;================================================================================
 ; PHASE 1: ROM VERIFICATION DIAGNOSTICS
 ; Module: 02_rom_diag
