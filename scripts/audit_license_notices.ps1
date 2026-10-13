@@ -5,6 +5,7 @@ $identifier='LicenseRef-Sovereign-Leviathan-SL-AGPL3-001'
 $encoding=[Text.UTF8Encoding]::new($false,$true)
 $sourceExtensions=@('.py','.rs','.go','.hs','.dfy','.c','.swift','.lean','.asm','.h','.a68','.ads','.m','.metal','.adb','.sml','.thy','.cu','.sh','.occ','.ml','.pas','.jl','.s','.va','.lua','.rpgle','.apl','.b','.bqn','.dl','.cpp','.wat','.js','.mjs','.ts','.mod','.def','.kl','.ua','.isa','.fnl','.scala','.agda','.vhd','.v','.sql','.exs','.fst','.cs','.cbl','.cob','.pli','.zig','.lisp','.lhs','.unl','.fut','.ecl','.haskell','.nasm','.circom','.ps1','.qflow','.qrisp','.qs','.lgt','.l','.k','.mm','.mlw','.a86','.ebnf','.cuh','.bas','.basic','.vb')
 $records=@()
+$sourceExtensions+=@('.idr','.ipkg')
 $sourceExtensions+=@('.hpp','.sbt','.erl','.gpr','.mli','.fsl','.mxml','.html','.xml','.xsl','.xslt','.xsd','.svg','.css')
 foreach($path in @(git -C $RepositoryRoot ls-files --cached --others --exclude-standard|Sort-Object -Unique)){
  $file=Join-Path $RepositoryRoot $path
