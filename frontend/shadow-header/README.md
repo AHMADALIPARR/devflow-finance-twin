@@ -9,6 +9,6 @@ Compile with an installed wabt package:
     node test.cjs
     node --check app.js
 
-The browser uses public all-zero demo key/challenge bytes and a sixteen-byte 0e fingerprint. Its check implements the supplied Idris toy transform: reverse the 32-byte key, initial XOR, fourteen increment/row-shift/rotated-key-XOR rounds. This is not AES-256, a decryption inverse, a secret-bearing license system, or browser access enforcement. The negative-check button changes the expected fingerprint and shows the actual WAT denial.
+The browser uses public all-zero demo key/challenge bytes and a sixteen-byte 0e fingerprint. Its check implements the supplied Idris toy transform: reverse the 32-byte key, initial XOR, fourteen increment/row-shift/rotated-key-XOR rounds. This transformation is not AES-256 or a decryption inverse. The browser exercises the check without handling production credentials. The negative-check button changes the expected fingerprint and shows the actual WAT denial. The Hugging Face dataset separately requires manual access approval for downloads.
 
 The supplied shader inspired the palette, interference, scanlines, frame and cube. This bounded CPU implementation does not execute the GLSL shader or incomplete Forth/assembly snippets. WAT source and generated WASM are included; the binary has an adjacent Covenant SPDX notice.
