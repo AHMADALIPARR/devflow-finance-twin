@@ -1,0 +1,18 @@
+{
+  "wheel": "devflow_build_your_own_bank-0.1.0a1-py3-none-any.whl",
+  "sha256": "0adadc406047e63d51ccde7c5a2d6ba7510c6d6aeeda54b0cdf734a117a6ee26",
+  "bytes": 50743,
+  "installed_cli_smoke": "passed",
+  "operations": 5,
+  "events": 3,
+  "history_verified": true,
+  "license_expression_verified": true,
+  "covenant_bytes_verified": true,
+  "outputs": [
+    "Account Created: evt_03b39548b699\n  WORM Hash: 285fc6f8e6e0aa96...\n  State Hash: 59ba7377c6616f1e...",
+    "Account Created: evt_cead2d0896d0\n  WORM Hash: 97b6b68d67832ba0...\n  State Hash: 973402070ec48886...",
+    "Transaction Posted: evt_6a93359c1f98\n  WORM Hash: 785480e71d42bdf7...\n  State Hash: 339cfa3037610318...",
+    "VERIFICATION SUCCESSFUL: Ledger integrity and state replay verified.",
+    "Event Count:   3\nAccounts:      2\nTransactions:  1\nInvoices:      0\nObligations:   0\nLatest Seal:   3911bca5ed275005..."
+  ]
+}

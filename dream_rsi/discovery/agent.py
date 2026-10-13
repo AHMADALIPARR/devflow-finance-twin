@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+# Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 """Fixed discovery-agent boundary used only by online exploration."""
 from dataclasses import dataclass
 from typing import Any, Dict, Protocol

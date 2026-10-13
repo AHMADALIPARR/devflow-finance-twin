@@ -2,13 +2,140 @@
   "schema_version": 1,
   "baseline": "289e05876f15965a95f990ed178961aee0ebcb73",
   "reviewed_revision": "1c187bb",
-  "policy": "Source packages preserve original paths and licenses. Packaging is not production certification. No model weights, dependencies, credentials, or runtime data are bundled.",
+  "policy": "Main project policy: Sovereign Leviathan mutated AGPLv3, SL-AGPL3-001. Preserve component and third-party grants and source notices. Source packaging is not production certification.",
   "products": [
+    {
+      "id": "nand-dsl",
+      "name": "NAND DSL and Refinement Platform",
+      "audience": "Compiler and binary semantics developers",
+      "deliverable": "NAND#, NAND ISA, binary formats, GFNAND parsing and refinement sources",
+      "roots": [
+        "he-binary-functor/nand-architecture",
+        "he-binary-functor/gfnand"
+      ],
+      "dependencies": [
+        "formal-assurance"
+      ],
+      "checks": [],
+      "gates": [
+        "Create executable parser/lowering and ISA conformance builds",
+        "Validate refinement statements with pinned prover toolchains"
+      ]
+    },
+    {
+      "id": "fsl-kernel",
+      "name": "FSL Formal Solver Kernel",
+      "audience": "Constraint compiler developers",
+      "deliverable": "Rust equality obligations, bit-vector/arithmetic IR, solver adapters and reactive proof modules",
+      "roots": [
+        "rust/fsl"
+      ],
+      "dependencies": [],
+      "checks": [
+        {
+          "cwd": "rust/fsl",
+          "argv": [
+            "cargo",
+            "test",
+            "--locked",
+            "-j",
+            "1"
+          ]
+        }
+      ],
+      "gates": [
+        "Compile and execute library fixtures; distinguish solver adapters from external solver execution",
+        "Library check passes, but unit tests cannot compile because jitter_machine is referenced without a module or dependency"
+      ]
+    },
+    {
+      "id": "owl-aot-harness",
+      "name": "OWL Constraint and AOT Harness",
+      "audience": "Ontology and ahead-of-time constraint developers",
+      "deliverable": "RDF/Turtle parsing, OWL tableau constraints and bounded reasoning sources",
+      "roots": [
+        "astre-vault/astra_owl_solver.py",
+        "astre-vault/rcc8_spatial.py"
+      ],
+      "dependencies": [
+        "constraint-runtime"
+      ],
+      "checks": [
+        {
+          "cwd": ".",
+          "argv": [
+            "{python}",
+            "astre-vault/astra_owl_solver.py"
+          ]
+        }
+      ],
+      "gates": [
+        "Locate and verify the owner-described AOT compiler entry point; current inspected entry point is tableau reasoning",
+        "Pin RDF dependencies and add ontology conformance and contradiction fixtures",
+        "A zero exit status for the demo is execution evidence, not proof of semantic correctness"
+      ]
+    },
+    {
+      "id": "astra-vault",
+      "name": "Astra Vault and Cryptographic Primitives",
+      "audience": "Cryptographic research and vault platform developers",
+      "deliverable": "Astra math/Unlambda vault and RSL/braid/Yang-Baxter primitive sources",
+      "roots": [
+        "astre-vault/astra_math_vault.m",
+        "astre-vault/astra-vault.unl",
+        "he-binary-functor/crypto"
+      ],
+      "dependencies": [],
+      "checks": [],
+      "gates": [
+        "Define the Astra primitive algorithm, security properties and threat model; obtain independent cryptanalysis",
+        "The OWL vault-close function reports entropy/consistency rather than a cryptographic commitment",
+        "The existing seal chain uses FNV-1a-64; establish a cryptographically appropriate authenticated construction before security use",
+        "Research novelty remains a contribution claim pending prior-art and comparative evidence"
+      ]
+    },
+    {
+      "id": "virtual-h100",
+      "name": "Virtual H100 Architecture and Execution Models",
+      "audience": "GPU model and verification developers",
+      "deliverable": "H100/CUDA abstract-machine specifications and VSM H100 execution bridge",
+      "roots": [
+        "formal/formal-engine/GPU",
+        "formal/formal-engine/GPU_H100.dfy",
+        "vsm2500/vsm2500_h100_sass_bridge.cu"
+      ],
+      "dependencies": [
+        "formal-assurance"
+      ],
+      "checks": [],
+      "gates": [
+        "Validate instruction and memory-model conformance against an explicit target specification",
+        "Run separate simulation, prover and real H100/CUDA jobs; an abstract model does not establish silicon execution"
+      ]
+    },
+    {
+      "id": "cuda-kernels",
+      "name": "CUDA Kernel SDK",
+      "audience": "GPU compute developers",
+      "deliverable": "CUDA projection, softmax, vector and PTX launcher kernels",
+      "roots": [
+        "src/cuda",
+        "gpu",
+        "languages/ptx"
+      ],
+      "dependencies": [
+        "formal-assurance"
+      ],
+      "checks": [],
+      "gates": [
+        "Pin CUDA toolkit and target architecture; run numerical parity, sanitizer, resource and performance jobs on supported hardware"
+      ]
+    },
     {
       "id": "build-your-own-bank",
       "name": "Build Your Own Bank",
       "audience": "Banking platform developers",
-      "deliverable": "Local treasury sandbox and polyglot integration source kit",
+      "deliverable": "Commercial treasury development kit with installable CLI and polyglot integration sources",
       "roots": [
         "finance",
         "src/worm.py",
@@ -27,7 +154,10 @@
         "scripts/compile_wasm.js",
         "products/bank_sandbox.py",
         "src/icp_anchor.py",
-        "tests/test_cold_boot_icp.py"
+        "tests/test_cold_boot_icp.py",
+        "tests/test_bank_commit.py",
+        "products/bank-commercial",
+        "scripts/extract_bank_product.py"
       ],
       "dependencies": [
         "sovereign-ledger",
@@ -41,12 +171,13 @@
             "-m",
             "pytest",
             "tests/test_stack.py",
+            "tests/test_bank_commit.py",
             "-q"
           ]
         }
       ],
       "gates": [
-        "Rejected operations currently append before complete business validation in src/twin.py; atomic validation and commit are required",
+        "Rejected commands and failed append isolation now pass regression tests; cross-process isolation remains required",
         "Cross-process locking, crash recovery, transaction idempotency, authentication and authorization need validation",
         "COBOL/RPGLE/PL-I/C#/Scala payment integrations require their own toolchains and end-to-end tests",
         "No live payment connection or bank deployment is packaged"
@@ -130,7 +261,7 @@
       "id": "symbolic-reasoning",
       "name": "Symbolic Reasoning Toolkit",
       "audience": "Logic and constraint developers",
-      "deliverable": "ASP solver, Datalog sources, spatial/OWL reasoning and symbolic agents",
+      "deliverable": "ASP solver, Datalog sources and symbolic agent toolkit",
       "roots": [
         "asp",
         "datalog-engine",
@@ -295,7 +426,7 @@
       "id": "neural-model-lab",
       "name": "Neural Model Lab",
       "audience": "Model architecture developers",
-      "deliverable": "GLM Evoke, GGUF loaders, JAX, Pascal, Algol and CUDA transformer sources",
+      "deliverable": "GLM Evoke, GGUF loaders, JAX, Pascal and Algol transformer sources",
       "roots": [
         "glm-evoke",
         "sovereign/glm",

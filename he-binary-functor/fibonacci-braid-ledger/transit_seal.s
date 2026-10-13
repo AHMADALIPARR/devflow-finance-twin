@@ -1,3 +1,8 @@
+/*
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+*/
+
 ; a0=prev_state a1=&word a2=len -> a0=new_state
 transit:
         mv t0,a0

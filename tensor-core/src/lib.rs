@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 //! # Tensor Core: Formal Array/Tensor Library for Rust 2024
 //!
 //! A high-performance, formally verified tensor/array library built on `ndarray`.

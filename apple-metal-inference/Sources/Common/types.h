@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 #ifndef SOVEREIGN_INFERENCE_TYPES_H
 #define SOVEREIGN_INFERENCE_TYPES_H
 

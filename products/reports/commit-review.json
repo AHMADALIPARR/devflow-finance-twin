@@ -21,8 +21,10 @@
     "date": "2026-09-06T14:28:15-06:00",
     "subject": "Merge branch 'master' of https://github.com/SNAPKITTYWEST/devflow-finance-twin",
     "products": [
+      "astra-vault",
       "build-your-own-bank",
       "compiler-platform",
+      "nand-dsl",
       "platform-support",
       "quantum-simulation",
       "workflow-workplace"
@@ -507,10 +509,15 @@
     "date": "2026-09-16T05:27:38-06:00",
     "subject": "merge: keep local cobalt-compiler Haskell drop (19 modules + LH bridge v0.2.0)",
     "products": [
+      "astra-vault",
       "build-your-own-bank",
       "compiler-platform",
       "constraint-runtime",
+      "cuda-kernels",
+      "fsl-kernel",
+      "nand-dsl",
       "neural-model-lab",
+      "owl-aot-harness",
       "platform-support",
       "quantum-simulation",
       "retro-compute",
@@ -1761,6 +1768,7 @@
       "apple-inference",
       "build-your-own-bank",
       "compiler-platform",
+      "cuda-kernels",
       "formal-assurance",
       "hardware-design",
       "neural-model-lab",
@@ -1768,6 +1776,7 @@
       "quantum-simulation",
       "retro-compute",
       "symbolic-reasoning",
+      "virtual-h100",
       "workflow-workplace"
     ],
     "changed_paths": [
@@ -2612,8 +2621,9 @@
     "subject": "chore: full repo reorganization — every file given a proper home",
     "products": [
       "compiler-platform",
+      "cuda-kernels",
       "formal-assurance",
-      "hardware-design",
+      "fsl-kernel",
       "neural-model-lab",
       "platform-support",
       "retro-compute"
@@ -2712,10 +2722,11 @@
       "build-your-own-bank",
       "compiler-platform",
       "constraint-runtime",
+      "cuda-kernels",
       "decision-classifier",
       "dream-rsi",
+      "fsl-kernel",
       "lua-rsi",
-      "neural-model-lab",
       "platform-support",
       "quantum-simulation",
       "retro-compute",
@@ -2990,7 +3001,8 @@
     "date": "2026-09-19T20:12:33-06:00",
     "subject": "Port Ahmad's formal verification engine (19 Dafny modules + GGUF loader)",
     "products": [
-      "formal-assurance"
+      "formal-assurance",
+      "virtual-h100"
     ],
     "changed_paths": [
       "formal/formal-engine/Cipher/ARX.dfy",
@@ -3055,7 +3067,8 @@
     "date": "2026-09-19T22:15:25-06:00",
     "subject": "Port formal-engine core Dafny modules: Core.Types, Core.Terms, Core.Formulas, GPU.H100",
     "products": [
-      "formal-assurance"
+      "formal-assurance",
+      "virtual-h100"
     ],
     "changed_paths": [
       "formal/formal-engine/Core_Formulas.dfy",
@@ -3139,7 +3152,8 @@
     "products": [
       "formal-assurance",
       "neural-model-lab",
-      "tensor-core"
+      "tensor-core",
+      "virtual-h100"
     ],
     "changed_paths": [
       "formal/formal-engine/CUDA/CooperativeGroups.dfy",
@@ -3465,9 +3479,11 @@
       "build-your-own-bank",
       "compiler-platform",
       "constraint-runtime",
+      "cuda-kernels",
       "decision-classifier",
       "dream-rsi",
       "formal-assurance",
+      "fsl-kernel",
       "governed-tensor",
       "hardware-design",
       "lua-rsi",
@@ -3479,6 +3495,7 @@
       "symbolic-reasoning",
       "telegram-agent-sdk",
       "tensor-core",
+      "virtual-h100",
       "virtual-switchboard",
       "workflow-workplace"
     ],

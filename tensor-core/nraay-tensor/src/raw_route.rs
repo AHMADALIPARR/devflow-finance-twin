@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 //! RAW_ROUTE: memory-region-affine task routing for worker deques.
 //!
 //! Implements the given specification verbatim:

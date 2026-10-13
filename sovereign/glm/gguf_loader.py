@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+# Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 # === BLOCK 1: GGUF LOADER + FULL INFERENCE ENGINE ===
 import struct, json, os, hashlib
 import torch, torch.nn as nn

@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 // gpu_projection_kernels.cu
 // CUDA/HIP GPU Compute Kernels — 3D→2D Projection Pipeline
 // Architecture: x86-64 + A100-40GB

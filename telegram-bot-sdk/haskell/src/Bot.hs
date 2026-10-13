@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- | Core bot module.
 -- Bot type with STM state, command dispatch table, message handler,
 -- error recovery, and graceful shutdown.

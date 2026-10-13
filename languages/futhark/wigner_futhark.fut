@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- wigner_futhark.fut
 -- Futhark kernels for discrete Wigner transform (1-mode truncated Fock) and Monte Carlo resampling.
 -- Compile with: futhark opencl wigner_futhark.fut  (or futhark c)

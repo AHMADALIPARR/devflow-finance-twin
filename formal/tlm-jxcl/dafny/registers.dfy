@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 module Registers {
   const MAX64: int := 0x1_0000_0000_0000_0000
   newtype Word = x: int | 0 <= x < 0x1_0000_0000_0000_0000

@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 //! Pure ML layer built on NraayTensor governance model.
 //!
 //! No external ML frameworks — dense layers, activations, losses, and SGD are

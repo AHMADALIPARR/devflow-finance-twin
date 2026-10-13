@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- | Entry point for the Devflow Telegram Bot.
 -- Loads config, initializes state, and starts the polling loop.
 module Main (main) where

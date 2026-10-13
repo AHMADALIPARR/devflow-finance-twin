@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 // gpu_architecture_kernels.cu
 // GPU Memory Architecture, Data Structures, and Reverse-Lookup Kernels
 // Specification: PHASE_6_GPU_ARCHITECTURE_SPEC.md

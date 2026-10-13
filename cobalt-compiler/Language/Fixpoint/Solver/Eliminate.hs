@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- Language.Fixpoint.Solver.Eliminate — KV scope solver and constraint elimination
 -- Author: Ahmad Ali Parr — Bel Esprit D'Accord Irrevocable Trust
 

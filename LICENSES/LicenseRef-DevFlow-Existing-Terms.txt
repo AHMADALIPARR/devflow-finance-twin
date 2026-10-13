@@ -1,0 +1,15 @@
+DevFlow existing licensing terms reference
+
+This identifier references the existing repository and component licensing
+materials. It is not a new license, grant, restriction, copyright attribution,
+or assertion of exclusive ownership. It does not resolve conflicting scope.
+
+Preserve all existing contributor and third-party notices. Consult, as applicable:
+LICENSE-AGPL-3.0; LICENSE-FSL-1.1; SNAPKITTY OPAQUE SOURCE LICENSE v1.0;
+src/LICENSE; src/LICENSE-RECURSIVE-INFECTION; component package manifests;
+and existing per-file licensing statements.
+
+Some files and component manifests have conflicting declarations. A file bearing
+this reference remains subject to its applicable existing grants. A proprietary
+or alternative commercial distribution requires a separate, path-specific rights
+determination; this reference alone does not supply one.

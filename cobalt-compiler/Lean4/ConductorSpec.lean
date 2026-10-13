@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- Cobalt Conductor Specification
 -- Formal contract for the Rust `sovereign_conductor::handler::handle_task_complete` function.
 -- When Cobalt tooling is available, replace `sorry` with `exact cobalt_discharge ...`

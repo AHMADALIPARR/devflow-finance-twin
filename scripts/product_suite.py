@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+# Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 """Source-backed product inventory, CPU checks and reproducible source bundles.
 
 Original source licenses remain authoritative; this tool does not relicense them.

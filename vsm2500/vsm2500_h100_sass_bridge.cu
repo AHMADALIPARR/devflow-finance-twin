@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 #ifndef VSM2500_H100_SASS_BRIDGE_CU
 #define VSM2500_H100_SASS_BRIDGE_CU
 

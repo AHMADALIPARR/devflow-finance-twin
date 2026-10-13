@@ -1,3 +1,6 @@
+% SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+% Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % godel_symbolic_kernel.lgt
 % Dense symbolic kernel: Gödel numbering + formal arithmetic + provability

@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- Lua 5.4 Metabinary Module
 -- Binary serialization/deserialization for HE-BINARY-FUNCTOR and NAND binary formats
 -- Supports AST manipulation, constraint validation, and introspection

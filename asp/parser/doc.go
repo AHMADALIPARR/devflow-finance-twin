@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 // Package parser implements a recursive descent parser for Answer Set Programming (ASP) syntax.
 //
 // The parser transforms a stream of tokens from the lexer into an Abstract Syntax Tree (AST)

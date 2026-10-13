@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- Lua Final Assembly Module
 -- Complete integrated Lua + binary implementation
 -- Combines metabinary.lua + FFI bindings + builder facade

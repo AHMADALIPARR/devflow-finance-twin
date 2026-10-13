@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+# Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 # fibonacci.bqn — Bounded Fibonacci array layer
 # Dense array-oriented construction. No imperative loops.
 

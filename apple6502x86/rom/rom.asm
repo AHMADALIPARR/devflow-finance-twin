@@ -1,3 +1,6 @@
+; SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+; Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 ;================================================================================
 ; APPLE II 6502 ROM FIRMWARE - COMPLETE IMPLEMENTATION
 ; Module: 01_rom

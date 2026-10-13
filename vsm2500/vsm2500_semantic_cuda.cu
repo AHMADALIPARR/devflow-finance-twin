@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+// Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 // VSM-2500
 // Recursive semantic -> binary -> embedding -> convolution -> SM90 execution reference
 // Verification claims intentionally limited to source-level semantics.

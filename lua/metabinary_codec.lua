@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- Shared Lua 5.3+ codec. The checksum is deterministic error detection, NOT BLAKE3.
 -- Header offsets follow HE-BINARY-FUNCTOR-SPEC-001: integrity at 24, body at 32.
 local codec = {}

@@ -1,3 +1,8 @@
+/*
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+*/
+
 ; ledger_append pseudo-asm sketch
 ; r0 = ledger*, r1 = n, r2 = op, r3 = word*
 ; returns err in r0

@@ -1,6 +1,6 @@
 # Build Your Own Bank
 
-Local treasury sandbox and polyglot integration source kit.
+Commercial treasury development kit with installable CLI and polyglot integration sources.
 
 Audience: Banking platform developers.
 
@@ -24,6 +24,9 @@ Source roots:
 - `products/bank_sandbox.py`
 - `src/icp_anchor.py`
 - `tests/test_cold_boot_icp.py`
+- `tests/test_bank_commit.py`
+- `products/bank-commercial`
+- `scripts/extract_bank_product.py`
 
 Dependencies: sovereign-ledger, constraint-runtime.
 
@@ -35,7 +38,7 @@ python scripts/product_suite.py bundle build-your-own-bank
 
 Release gates:
 
-- Rejected operations currently append before complete business validation in src/twin.py; atomic validation and commit are required
+- Rejected commands and failed append isolation now pass regression tests; cross-process isolation remains required
 - Cross-process locking, crash recovery, transaction idempotency, authentication and authorization need validation
 - COBOL/RPGLE/PL-I/C#/Scala payment integrations require their own toolchains and end-to-end tests
 - No live payment connection or bank deployment is packaged

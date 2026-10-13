@@ -1,3 +1,8 @@
+(*
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+*)
+
 theory Jungian_Stochastic_Convergence_Full
 imports Complex_Main "HOL-Probability.Probability" "HOL-Analysis.Analysis"
 begin

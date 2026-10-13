@@ -1,6 +1,6 @@
 # Neural Model Lab
 
-GLM Evoke, GGUF loaders, JAX, Pascal, Algol and CUDA transformer sources.
+GLM Evoke, GGUF loaders, JAX, Pascal and Algol transformer sources.
 
 Audience: Model architecture developers.
 

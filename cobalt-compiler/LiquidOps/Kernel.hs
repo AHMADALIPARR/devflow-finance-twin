@@ -1,3 +1,6 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+-- Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
+
 -- LiquidOps.Kernel — Educational pipeline: HExpr → P4 → LiquidOp IR
 -- Simple standalone version for learning and prototyping.
 -- For the full production pipeline (ISA integration, NandTree, Logic IR) see
