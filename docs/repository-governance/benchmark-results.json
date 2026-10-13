@@ -1,0 +1,118 @@
+{
+  "source_commit": "289e05876f15965a95f990ed178961aee0ebcb73",
+  "python": "3.12.10",
+  "platform": "Windows-10-10.0.19041-SP0",
+  "workload": "synthetic 512-character ASCII data field plus integer sequence; local tempfile; fsync included",
+  "warmups_per_size": 1,
+  "measured_trials_per_size": 5,
+  "trials": [
+    {
+      "records": 100,
+      "trial": 1,
+      "total_append_ms": 4478.2669,
+      "median_append_ms": 19.9011,
+      "p95_append_ms": 152.2934,
+      "records_read": 100,
+      "chain_valid": true,
+      "error": null
+    },
+    {
+      "records": 100,
+      "trial": 2,
+      "total_append_ms": 2913.0737,
+      "median_append_ms": 20.3173,
+      "p95_append_ms": 87.7628,
+      "records_read": 100,
+      "chain_valid": true,
+      "error": null
+    },
+    {
+      "records": 100,
+      "trial": 3,
+      "total_append_ms": 2445.3608,
+      "median_append_ms": 18.527500000000003,
+      "p95_append_ms": 68.4859,
+      "records_read": 100,
+      "chain_valid": true,
+      "error": null
+    },
+    {
+      "records": 100,
+      "trial": 4,
+      "total_append_ms": 3360.7006,
+      "median_append_ms": 18.920949999999998,
+      "p95_append_ms": 121.6387,
+      "records_read": 100,
+      "chain_valid": true,
+      "error": null
+    },
+    {
+      "records": 100,
+      "trial": 5,
+      "total_append_ms": 1711.3593,
+      "median_append_ms": 14.960899999999999,
+      "p95_append_ms": 31.8208,
+      "records_read": 100,
+      "chain_valid": true,
+      "error": null
+    },
+    {
+      "records": 250,
+      "trial": 1,
+      "total_append_ms": 10614.8491,
+      "median_append_ms": 23.9525,
+      "p95_append_ms": 182.0451,
+      "records_read": 250,
+      "chain_valid": true,
+      "error": null
+    },
+    {
+      "records": 250,
+      "trial": 2,
+      "total_append_ms": 7450.4397,
+      "median_append_ms": 21.901850000000003,
+      "p95_append_ms": 98.5836,
+      "records_read": 250,
+      "chain_valid": true,
+      "error": null
+    },
+    {
+      "records": 250,
+      "trial": 3,
+      "total_append_ms": 9379.7593,
+      "median_append_ms": 22.3966,
+      "p95_append_ms": 126.2181,
+      "records_read": 250,
+      "chain_valid": true,
+      "error": null
+    },
+    {
+      "records": 250,
+      "trial": 4,
+      "total_append_ms": 8958.6221,
+      "median_append_ms": 24.53505,
+      "p95_append_ms": 131.2658,
+      "records_read": 250,
+      "chain_valid": true,
+      "error": null
+    },
+    {
+      "records": 250,
+      "trial": 5,
+      "total_append_ms": 10865.2578,
+      "median_append_ms": 27.3449,
+      "p95_append_ms": 124.3408,
+      "records_read": 250,
+      "chain_valid": true,
+      "error": null
+    }
+  ],
+  "lf_experiment": {
+    "host": "Windows; controlled LF text-write experiment, not native POSIX execution",
+    "expected_records": 2,
+    "observed_records": 1,
+    "chain_valid": false,
+    "error": "Chain break at record 0: expected prev_hash 0000000000000000000000000000000000000000000000000000000000000000, got 5b924b9cd8cae57e7c56c9224970786cc3935b3a0b8f28e5ff6861936e9402b5",
+    "source_modified": false
+  }
+}
