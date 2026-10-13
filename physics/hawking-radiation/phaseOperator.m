@@ -31,6 +31,7 @@ function phase_op = snapkitty.quantum.phaseOperator(torsion_phase, resonance_ind
     % ========================================================================
     % SOVEREIGN LEVIATHAN NODE LICENSE
     % License-ID: SL-AGPL3-001 | Covenant-Version: 1.0
+    % SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
     % Copyright (C) 2026 SnapKittyWest. Ahmad Ali Parr, Bel Esprit D'Accord Irrevocable Trust.
     % ========================================================================
     % BELESPRIT D'ACCORD COVENANT HEADER

@@ -14,7 +14,7 @@
  * ======================================================================== */
 
 // Copyright (c) 2026 SnapKittyWest. Ahmad Ali Parr, Bel Esprit D'Accord Irrevocable Trust.
-// SPDX-License-Identifier: AGPL-3.0-or-later
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 // DEED-089: Sovereign Treasury Engine â€” C WORM Commit + FFI Shim
 // SHA-256 hashing, append-only disk write, fsync, DPI-C bridge to Chisel.
 

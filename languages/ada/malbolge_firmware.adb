@@ -3,7 +3,7 @@
 -- Provides hardware entropy source via chaotic ternary computation
 
 -- Copyright (c) 2026 SnapKittyWest. Ahmad Ali Parr, Bel Esprit D'Accord Irrevocable Trust.
--- SPDX-License-Identifier: FSL-1.1
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 
 with Interfaces; use Interfaces;
 with System; use System;

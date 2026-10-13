@@ -1,3 +1,10 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Architecture Deep Reference
 
 > Five-layer architecture with full component diagrams, interface boundaries, data flow between layers, execution model, boot sequence, state management, error propagation, and configuration hierarchy.
@@ -1140,7 +1147,7 @@ No artifact can enter a downstream layer without its hash being recorded in the 
 Three license layers apply simultaneously:
 
 1. **AGPL-3.0** — Copyleft; any network-accessible service using this code must release modifications
-2. **FSL-1.1** (Functional Source License) — Commercial use restricted to licensor-approved use cases for 2 years, then converts to Apache 2.0
+2. **Sovereign Leviathan Covenant** — LICENSE-FSL-1.1 is a compatibility redirect to LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; no automatic license conversion applies.
 3. **Sovereign Leviathan Node License** — Additional overlay in Lean 4, Haskell, and Python source headers; primarily attribution and covenant terms
 
 License headers in Python/Haskell source:

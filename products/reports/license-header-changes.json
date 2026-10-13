@@ -1,3 +1,5 @@
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+
 {
   "policy": "Owner-selected Sovereign Leviathan mutated AGPLv3, SL-AGPL3-001; existing component grants and third-party notices preserved. No original license texts removed.",
   "baseline": "55b8d41",

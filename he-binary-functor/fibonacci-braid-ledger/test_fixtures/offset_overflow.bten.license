@@ -1,0 +1,6 @@
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: he-binary-functor/fibonacci-braid-ledger/test_fixtures/offset_overflow.bten
+Source-SHA256: 89aeb058ee1b4ea80fd1f3045ba9338f093d9b407a9b3ae4bcf7e52dd31bee2a

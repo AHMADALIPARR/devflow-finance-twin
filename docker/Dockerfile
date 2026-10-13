@@ -1,6 +1,6 @@
 # Devflow Finance Twin — Production Dockerfile
 # Multi-stage build for minimal attack surface
-# SPDX-License-Identifier: AGPL-3.0-or-later
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 
 # ── Stage 1: Build ────────────────────────────────────────────────────────────
 FROM python:3.12.8-slim AS builder

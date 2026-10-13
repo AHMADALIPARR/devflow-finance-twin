@@ -1,3 +1,10 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Constraint Runtime SDK
 
 Python MXML contracts, Datalog constitution, DAG execution and audit seals.
@@ -19,4 +26,4 @@ python scripts/product_suite.py bundle constraint-runtime
 Release gates:
 
 - Model adapters are stubs; implement and test real provider boundaries
-- Local package declares MIT while several source headers declare additional terms; resolve release terms
+- Main project policy: Sovereign Leviathan, License-ID SL-AGPL3-001. See LICENSE_POLICY.md.

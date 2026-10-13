@@ -1,3 +1,10 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Dream-RSI Reconstruction
 
 This is an independent, auditable reconstruction of the **mechanism** in the supplied Dream-RSI brief. It is not Google's proprietary implementation, and the `~22,000 LOC` number is treated as an engineering budget rather than a measurement of Google's source.

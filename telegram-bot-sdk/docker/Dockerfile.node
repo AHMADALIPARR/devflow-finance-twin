@@ -12,7 +12,7 @@
 #   - node:lts-alpine3.20 base for minimal attack surface
 #   - NODE_ENV=production disables source maps / dev middleware
 #
-# License: GPL-3.0-or-later OR Apache-2.0
+# License: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 # ---------------------------------------------------------------------------
 
 # ---- Stage 1: dependency installer -----------------------------------------
@@ -62,7 +62,7 @@ EXPOSE ${PORT}
 LABEL org.opencontainers.image.title="telegram-bot-sdk-node" \
       org.opencontainers.image.description="Node.js Telegram bot — devflow-finance-twin" \
       org.opencontainers.image.source="https://github.com/SNAPKITTYWEST/devflow-finance-twin" \
-      org.opencontainers.image.licenses="GPL-3.0-or-later OR Apache-2.0"
+      org.opencontainers.image.licenses="LicenseRef-Sovereign-Leviathan-SL-AGPL3-001"
 
 # Use tini as PID 1 to forward signals correctly (alpine ships it).
 ENTRYPOINT ["/sbin/tini", "--"]

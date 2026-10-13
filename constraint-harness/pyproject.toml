@@ -10,7 +10,7 @@ name = "constraint-harness"
 version = "0.1.0"
 description = "Deterministic MXML / Datalog / Python constraint harness with optional PyTorch"
 readme = "README.md"
-license = {text = "MIT"}
+license = {text = "LicenseRef-Sovereign-Leviathan-SL-AGPL3-001"}
 requires-python = ">=3.10"
 authors = [{name = "Constraint Harness Contributors"}]
 dependencies = []

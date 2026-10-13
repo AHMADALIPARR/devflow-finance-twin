@@ -1,3 +1,10 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Copyleft and commercial governance review
 
 Status: **unresolved effective scope; proposed owner release hold**. This document records evidence and release controls. It grants no new rights, changes no existing license and supplies no enforceability opinion.
@@ -7,7 +14,7 @@ Status: **unresolved effective scope; proposed owner release hold**. This docume
 | Evidence | Observed terms/scope | Required resolution |
 |---|---|---|
 | [Root AGPL notice](../../LICENSE-AGPL-3.0) | Explicitly lists ten WASM/WAT artifacts; assigns all other files to FSL. It is a short notice, not the complete standard license text. | Reconcile with node headers and root claims; supply full operative text in a future authorized release |
-| [Root FSL-named text](../../LICENSE-FSL-1.1) | Royalty-free grant; section 2 perpetual/no-charge/irrevocable copyright permissions; section 3 conversion to Apache 2.0 two years after initial distribution; Wyoming law | Do not infer a restrictive commercial license from its filename. Identify initial distribution dates and actual covered artifacts; verify standard-license equivalence before using a standard identifier |
+| [Legacy root license redirects](../../LICENSE-FSL-1.1) | LICENSE-FSL-1.1 and LICENSE-AGPL-3.0 now refer to the Sovereign Leviathan covenant, following explicit owner approval | Use LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; no automatic license conversion applies |
 | [Opaque source license](../../SNAPKITTY%20OPAQUE%20SOURCE%20LICENSE%20v1.0) | Separate written permission for commercial exploitation; preserves attribution/provenance; no patent grant; English controls | Identify specifically covered works and rights holder; reconcile with prior grants |
 | [Covenant](../../SOVEREIGN_LEVIATHAN_COVENANT.md), [src license](../../src/LICENSE) | Claims AGPL foundation plus commercial/governance conditions, England and Wales jurisdiction and broad wrapper forfeiture language | Resolve incompatibilities; do not treat forfeiture or automatic ownership transfer assertions as established legal effects |
 | [Recursive license](../../src/LICENSE-RECURSIVE-INFECTION) | Distinguishes covered works, combined works and independent interfaces; preserves AGPL operative terms | Reconcile contrary automatic scope assertions elsewhere |

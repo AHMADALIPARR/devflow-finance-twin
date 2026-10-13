@@ -1,5 +1,5 @@
 -- Copyright (c) 2026 SnapKittyWest. Ahmad Ali Parr, Bel Esprit D'Accord Irrevocable Trust.
--- SPDX-License-Identifier: FSL-1.1
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 -- DEED-088: Native WASM Loader — Ada Control Layer Implementation
 -- State machine, validation, safety invariants, error handling.
 

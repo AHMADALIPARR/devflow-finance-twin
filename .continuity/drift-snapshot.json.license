@@ -1,0 +1,7 @@
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: .continuity/drift-snapshot.json
+Source-SHA256: ee5b81534f0c7b065d6f1a7c19b3cc72014483ef730ffd382adf55116afe14bd

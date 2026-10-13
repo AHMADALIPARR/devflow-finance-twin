@@ -1,3 +1,10 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Commercial product plan
 
 Product: Build Your Own Bank. Initial buyer: financial software teams needing an extensible treasury development kit. First deliverable: installable local treasury engine with documented source adapters. Later customer deliverables: authenticated bank-builder workspace, policy configuration, account and payment operations, reconciliation and auditable reporting.

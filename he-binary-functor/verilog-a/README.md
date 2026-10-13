@@ -1,3 +1,10 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # verilog-a
 
 **Analog/Mixed-Signal Circuits** — Continuous-time trigonometric processors, Riemann zeta zero unfolding, Chua's circuit integration, and cross-domain SPARK-to-Verilog-A mapping.
