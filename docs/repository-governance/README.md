@@ -1,5 +1,7 @@
 # Documentation and governance baseline
 
+Historical snapshot. For the expanded repository, use the [current product suite](../../products/README.md) and [83-commit inventory](../../products/reports/INVENTORY.md).
+
 Review date: 2026-10-07. Source revision: `289e05876f15965a95f990ed178961aee0ebcb73`. These documents report that snapshot, not an inspection of every historical commit or an externally certified release.
 
 | Read next | Purpose |
