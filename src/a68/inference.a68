@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001 #
+
 ! inference.a68
 ! INFERENCE ENGINE — OSS 1230
 ! TARGET: GREEDY DECODING + TEMPERATURE SAMPLING + TOP-K + TOP-P

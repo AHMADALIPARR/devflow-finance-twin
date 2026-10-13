@@ -1,0 +1,25 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+name: WAT shadow header
+on:
+  push:
+    paths: ['frontend/shadow-header/**', '.github/workflows/shadow-header.yml']
+  pull_request:
+    paths: ['frontend/shadow-header/**', '.github/workflows/shadow-header.yml']
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Require reproducible WAT build and actual model/render behavior
+        run: |
+          npm install --prefix "$RUNNER_TEMP/wat-build" --no-package-lock --ignore-scripts wabt@1.0.39
+          cp frontend/shadow-header/hologram.wasm "$RUNNER_TEMP/expected.wasm"
+          node frontend/shadow-header/build.cjs "$RUNNER_TEMP/wat-build/node_modules/wabt"
+          cmp "$RUNNER_TEMP/expected.wasm" frontend/shadow-header/hologram.wasm
+          node frontend/shadow-header/test.cjs
+          node --check frontend/shadow-header/app.js

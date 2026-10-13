@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 # ---------------------------------------------------------------------------
 # Dockerfile.node — Production image for the Node.js Telegram bot
 #

@@ -1,0 +1,8 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+const assert=require('node:assert/strict');const fs=require('node:fs');const path=require('node:path');
+function reference(key,challenge){const reversed=[...key].reverse();let state=challenge.map((v,i)=>v^reversed[i]);for(let r=1;r<=14;r++){state=state.map((_,i)=>{const row=i>>2,col=i%4;return ((state[row*4+(col+row)%4]+1)&255)^reversed[(i+r)%32];});}return state;}
+(async()=>{const {instance}=await WebAssembly.instantiate(fs.readFileSync(path.join(__dirname,'hologram.wasm')),{math:{sin:Math.sin,cos:Math.cos}});const w=instance.exports,b=new Uint8Array(w.memory.buffer);b.fill(0,0,48);b.fill(14,48,64);assert.equal(w.attest(),1);b[48]=15;assert.equal(w.attest(),0);
+// Deterministic varied vectors validate key reversal, row shifts and wrapping.
+for(let seed=0;seed<30;seed++){const key=Array.from({length:32},(_,i)=>(seed*73+i*19)&255),ct=Array.from({length:16},(_,i)=>(seed*29+i*37)&255),expected=reference(key,ct);b.set(key,0);b.set(ct,32);b.set(expected,48);assert.equal(w.attest(),1);b[seed%16+48]^=1;assert.equal(w.attest(),0);}
+b.fill(123,1024);for(const [width,height] of [[0,160],[321,160],[320,161],[-1,160]])assert.equal(w.render(width,height,0),0);assert.equal(b[1024],123);
+assert.equal(w.render(320,160,0),204800);const first=b.slice(1024,205824);assert.equal(b[205824],123);assert.equal(b[1023],0);for(let i=3;i<first.length;i+=4)assert.equal(first[i],255);w.render(320,160,1);assert.notDeepEqual(b.slice(1024,205824),first);console.log('PASS: toy attestation parity (30 vectors), denial, framebuffer bounds, alpha, time variation');})();

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+
 namespace ManifoldOptimization {
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Canon;

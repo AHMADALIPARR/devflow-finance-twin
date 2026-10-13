@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+
 PROGRAM ach_return.
 
 FILE achitem USING ACHITEM

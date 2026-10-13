@@ -1,3 +1,5 @@
+(* SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001 *)
+
 DEFINITION MODULE Registers;
 
 (* Register abstraction: Complete register file management *)

@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001 #
+
 ! optimizer.a68
 ! OPTIMIZER AND TRAINING LOOP — OSS 1230
 ! TARGET: ADAM OPTIMIZER + SGD + GRADIENT CLIPPING + LR SCHEDULE

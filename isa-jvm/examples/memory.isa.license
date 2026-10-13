@@ -3,4 +3,4 @@ SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
 Existing file, component and third-party notices and grants are preserved.
 Source-Path: isa-jvm/examples/memory.isa
-Source-SHA256: 4f6329e486f3d6075904af8e8e1e46241078b574d7f784170930f1ba50997045
+Source-SHA256: 7655c8caa187c514a63289d5834bdb1af0f6132e6fac8ada406a486466544d2a

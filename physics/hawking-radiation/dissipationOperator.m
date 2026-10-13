@@ -1,3 +1,5 @@
+% SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+
 function psi_diss = snapkitty.horizon.dissipationOperator(psi_in, projector, phi_hf)
     % Dissipation operator D_hf
     % ψ_diss = D_hf (I - P_res) ψ_in

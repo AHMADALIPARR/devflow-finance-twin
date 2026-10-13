@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 # ---------------------------------------------------------------------------
 # Dockerfile.rust — Multi-stage production build for the Rust Telegram bot
 #

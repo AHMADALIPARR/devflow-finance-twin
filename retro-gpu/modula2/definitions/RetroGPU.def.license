@@ -3,4 +3,4 @@ SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
 Existing file, component and third-party notices and grants are preserved.
 Source-Path: retro-gpu/modula2/definitions/RetroGPU.def
-Source-SHA256: 16c9a2792567b7e919159e464d7211806bea1ef8bf4ca5f289d89207044e41eb
+Source-SHA256: c6d5e18da61e331659eae03d96f83171f26e2f18d7907a456cef0dbf5e4c95bf

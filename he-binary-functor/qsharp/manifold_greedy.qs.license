@@ -3,4 +3,4 @@ SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
 Existing file, component and third-party notices and grants are preserved.
 Source-Path: he-binary-functor/qsharp/manifold_greedy.qs
-Source-SHA256: 39cc555ed70e4289e6fa387bc87570d209169fd993eb15e2b099bfae6933f4b0
+Source-SHA256: 47f1b8755ab9cfc13366ace3f708013cf46b67144a4ae976ec6e4238a1ca9dec

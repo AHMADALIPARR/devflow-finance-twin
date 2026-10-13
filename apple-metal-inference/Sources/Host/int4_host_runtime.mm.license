@@ -3,4 +3,4 @@ SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
 Existing file, component and third-party notices and grants are preserved.
 Source-Path: apple-metal-inference/Sources/Host/int4_host_runtime.mm
-Source-SHA256: af6b2ce09475a7b145a879d11c3bc57cb15709abc94f5dbf5f2de272a14602d9
+Source-SHA256: 1db0eda3849aa9c6cca916ce8b6a96dc2a39778da56e47ade8c82def76792e38

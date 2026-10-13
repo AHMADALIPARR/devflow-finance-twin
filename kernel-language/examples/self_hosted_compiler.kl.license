@@ -3,4 +3,4 @@ SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
 Existing file, component and third-party notices and grants are preserved.
 Source-Path: kernel-language/examples/self_hosted_compiler.kl
-Source-SHA256: 614f1412b73c61b34ad4e3ca17f4f4da9f4c8c30c916e3fe996855af9d39f5ca
+Source-SHA256: 19be03d8bb230484b401f0f38479d8b0fe18d089dfebd344e1e08cfa095a2065

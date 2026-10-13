@@ -1,0 +1,7 @@
+-- SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+package clone-gate-exe
+sourcedir = "."
+modules = CloneGate, CloneGate.Files, CLI
+main = CLI
+executable = "clone_gate"
+opts = "--codegen refc"

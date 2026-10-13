@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+
 ; --- Quantum State Definitions ---
 InitState = [0.5 0.5 0.5 0.5]
 
