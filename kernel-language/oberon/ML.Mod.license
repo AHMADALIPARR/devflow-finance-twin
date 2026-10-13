@@ -1,0 +1,5 @@
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: kernel-language/oberon/ML.Mod
+Source-SHA256: 386ed82a5b3ef37b506643fb84c1f1040a240848e9a5be4f396f10745a8f1ce1

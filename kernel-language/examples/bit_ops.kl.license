@@ -1,0 +1,5 @@
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: kernel-language/examples/bit_ops.kl
+Source-SHA256: 7f2e7d03e8475562a75ba49c17824ca7f3549a98f0677fc012b258569517ad8f

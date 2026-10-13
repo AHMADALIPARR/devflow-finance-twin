@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # DevFlow product suite
 
 This suite packages the current code into 29 source products with declared audiences, source ownership, dependencies, check recipes and release gates. The reviewed upstream revision is `1c187bb`; the old atlas at `289e058` is historical. The inventory and commit review are rebuilt from Git and source files, not copied from the old atlas. [Production staging](PRODUCTION_STAGING.md) identifies the Apple neural, NAND DSL, FSL, CUDA/Metal, virtual H100, switchboard, OWL and Astra Vault boundaries. [License policy](../LICENSE_POLICY.md) records the owner-selected mutated AGPLv3 covenant and preserved component exceptions.

@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Production staging and architecture
 
 The current product catalog is the canonical component ownership registry. Keep source paths stable while converting each independently into a supported build. The old atlas is historical. The owner-requested component boundaries are explicit products rather than buried inside generic compiler, neural or symbolic categories.

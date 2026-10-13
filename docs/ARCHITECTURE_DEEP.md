@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Architecture Deep Reference
 
 > Five-layer architecture with full component diagrams, interface boundaries, data flow between layers, execution model, boot sequence, state management, error propagation, and configuration hierarchy.

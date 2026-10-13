@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # PHASE 5: Implementation Guide and Verification Checklist
 
 **Objective**: Implement 760-million-neuron neural dynamics engine with recurrent connectivity, individual state preservation, and deterministic reproducibility.

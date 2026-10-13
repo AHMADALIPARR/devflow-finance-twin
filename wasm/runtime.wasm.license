@@ -1,0 +1,5 @@
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: wasm/runtime.wasm
+Source-SHA256: 9cd281ccf676a56b5c37106fa753166ba67901ca7796b88298fb0b5e5146d785

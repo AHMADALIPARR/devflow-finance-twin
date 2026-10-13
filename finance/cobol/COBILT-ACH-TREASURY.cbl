@@ -1,3 +1,7 @@
+      *> License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+      *> Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+      *> Existing file, component and third-party notices and grants are preserved.
+
       *> SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
       *> Licensing: see LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt; preserve existing contributor notices.
 

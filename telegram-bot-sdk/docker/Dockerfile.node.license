@@ -1,0 +1,5 @@
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: telegram-bot-sdk/docker/Dockerfile.node
+Source-SHA256: b127ba91e389b0bce8b5d99cea421754ffc36cb33f5890e9ccbd86e10159da5e

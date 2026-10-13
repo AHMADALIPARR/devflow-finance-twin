@@ -1,3 +1,7 @@
+-- License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+-- Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+-- Existing file, component and third-party notices and grants are preserved.
+
 -- format.adb — LE decoders, element sizes, CRC32, power-of-two
 with Interfaces; use Interfaces;
 

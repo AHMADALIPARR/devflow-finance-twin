@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 <!-- sas_dataflow.svg -->
 <svg width="1000pt" height="440pt" viewBox="0.00 0.00 1000.00 440.00" xmlns="http://www.w3.org/2000/svg">
   <defs>

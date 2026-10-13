@@ -1,0 +1,5 @@
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: he-binary-functor/fibonacci-braid-ledger/test_fixtures/inconsistent_bytecount.bten
+Source-SHA256: b455df83ad07658359d57208b83ca0e361243e962c97846acf815538db824151

@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Raw Metal Transformer
 
 Apple Silicon-only, dependency-free Metal compute reference for incremental inference with per-row signed INT4 weights and FP16 activations/accumulation. It is an implementation target for a compressed ~3B decoder Transformer, not Apple's Siri implementation or weights.

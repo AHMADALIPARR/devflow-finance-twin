@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Copyleft and commercial governance review
 
 Status: **unresolved effective scope; proposed owner release hold**. This document records evidence and release controls. It grants no new rights, changes no existing license and supplies no enforceability opinion.

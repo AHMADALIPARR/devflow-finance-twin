@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # PHASE 5: FORMAL VERIFICATION + ADVERSARIAL AUDIT (LARGE-SCALE)
 
 **Purpose**: Independently verify that 760M-neuron system maintains all Phase 4 invariants at scale  

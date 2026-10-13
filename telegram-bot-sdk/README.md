@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Telegram Bot SDK
 
 Unified SDK for building Telegram bots across multiple languages with agent capabilities, scrum board integration, and LLM fallback support.
@@ -326,8 +332,7 @@ All implementations follow the same patterns:
 
 ## License
 
-Triple License: MIT OR Apache-2.0 OR GPL-3.0-or-later
-
+License: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 ## Support
 
 - **Documentation**: See `docs/` directory

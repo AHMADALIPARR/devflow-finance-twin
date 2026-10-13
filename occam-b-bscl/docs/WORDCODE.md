@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # docs/WORDCODE.md — instruction reference
 One Word per instruction: [op:8|a:16|b:20|c:20].
 - Data movement: CONST r imm40 · LOAD r slot · STORE slot r · PUSH r · POP r · DROP · DUP

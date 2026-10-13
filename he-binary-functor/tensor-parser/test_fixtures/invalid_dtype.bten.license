@@ -1,0 +1,5 @@
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: he-binary-functor/tensor-parser/test_fixtures/invalid_dtype.bten
+Source-SHA256: d4d5aa311e0441c022c8c75e157d6a0b26c9873cb84390861f2150e0f24af5d9

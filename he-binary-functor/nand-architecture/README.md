@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # nand-architecture
 
 **NAND# Architecture Specification** — Complete formal specification of the NAND# instruction set architecture, binary encoding, grammar, and verification infrastructure.

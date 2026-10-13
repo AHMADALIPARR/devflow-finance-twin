@@ -1,0 +1,5 @@
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: benchmarks/rsi_lua/results/lua-examples.txt
+Source-SHA256: bb6f5e04b27c4c7b4bb6717b7ec57bac6636556c926a8c4528bc6507e6dbbfd5

@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Finance unittest execution transcript
 
 Captured on 2026-10-07 at the recorded baseline; this repeat captured the raw assertions without changing source. Runner time varies with host activity.

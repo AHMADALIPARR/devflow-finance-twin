@@ -1,0 +1,5 @@
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: rust/fsl/Cargo.lock
+Source-SHA256: dfc15103aba2cd3a4febc1a1f73c02ef2046aaff6453a581001b2da89ae938f5

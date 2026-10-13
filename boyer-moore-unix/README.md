@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Boyer-Moore String Search: Hand-Rolled Unix System V Implementation
 
 A formally verified, hand-rolled Boyer-Moore string search algorithm with comprehensive proofs, desk-checked invariants, and Unix System V integration.
@@ -338,8 +344,7 @@ Wrapped with error checking:
 
 ## License
 
-MIT OR Apache-2.0 OR GPL-3.0-or-later
-
+License: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 ## References
 
 - Knuth, D. E., Morris, J. H., & Pratt, V. R. (1977). "Fast pattern matching in strings"

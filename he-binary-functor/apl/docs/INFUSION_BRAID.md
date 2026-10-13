@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Infusion Braid: Unified Autonomous Architecture
 
 The Infusion Braid formally synthesizes the rigorous topological proofs of Lean 4, the dense array execution of APL, and the multidimensional resonance graphing of Rust into a singular, unified autonomous architecture. By structurally coupling the Turing Boundary with the Total Resonance Sum (TRS = 388.985128), the system bridges formal verification and event-driven sovereign execution.

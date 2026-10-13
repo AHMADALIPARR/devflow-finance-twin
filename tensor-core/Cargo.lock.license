@@ -1,0 +1,5 @@
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: tensor-core/Cargo.lock
+Source-SHA256: 837e9abd3f06897632075821f73ec8f582116d7e3a11d477f5e59b58f61f5864

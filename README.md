@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 <!-- DEVFLOW FINANCE TWIN — MASTER README — PART 1 OF 2 -->
 
 Current product entry point: [29-product source suite](products/README.md), [production staging and architecture](products/PRODUCTION_STAGING.md), [current inventory and 83-commit mapping](products/reports/INVENTORY.md), and [release readiness evidence](products/RELEASE_READINESS.md). Start with [Build Your Own Bank](products/build-your-own-bank.md). The main license is the [Sovereign Leviathan mutated AGPLv3 covenant](LICENSE_POLICY.md), preserving component exceptions. The earlier governance atlas describes a historical snapshot; product readiness is established by the scoped checks and gates, rather than the production labels below.

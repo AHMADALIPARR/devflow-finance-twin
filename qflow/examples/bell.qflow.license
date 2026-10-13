@@ -1,0 +1,5 @@
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: qflow/examples/bell.qflow
+Source-SHA256: 1be57826020b6078654bf3ff701cdb6b29344c0a66c294bba57d10b7b93e6b0c

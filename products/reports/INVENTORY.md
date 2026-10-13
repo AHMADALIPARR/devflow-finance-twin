@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Current product inventory
 
 Reviewed revision: `1c187bbbd8e73ad60542f75b0db673ff2c3f6bb2`. Changes since `289e05876f15965a95f990ed178961aee0ebcb73`: **83 commits**.

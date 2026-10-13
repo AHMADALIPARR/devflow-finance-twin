@@ -1,0 +1,5 @@
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: isa-jvm/examples/memory.isa
+Source-SHA256: 4f6329e486f3d6075904af8e8e1e46241078b574d7f784170930f1ba50997045

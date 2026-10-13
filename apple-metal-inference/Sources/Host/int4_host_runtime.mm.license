@@ -1,0 +1,5 @@
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+Source-Path: apple-metal-inference/Sources/Host/int4_host_runtime.mm
+Source-SHA256: af6b2ce09475a7b145a879d11c3bc57cb15709abc94f5dbf5f2de272a14602d9

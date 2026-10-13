@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Prior art and attribution map
 
 Reviewed 2026-10-07. This is a bounded technical literature review, not a patent search, freedom-to-operate finding or proof of originality. Sources establish precedents; they do not prove equivalence to every local construction. No competitor performance is inferred.

@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Evidence-qualified novelty register
 
 Historical claims in the README and institutional documents are preserved unchanged. This register supplies scoped alternatives for future owner-reviewed publication. **Candidate** is not a finding of novelty. All comparisons below use the source baseline recorded in the index.

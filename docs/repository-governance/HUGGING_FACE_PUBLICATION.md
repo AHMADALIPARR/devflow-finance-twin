@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Hugging Face publication readiness
 
 Target Hub URL/type/revision: **not supplied**. No Hub publication or settings change occurred. The GitHub baseline contains source/research artifacts; no tracked GGUF/safetensors/checkpoint weights or LFS pointers were found. A code collection must not be advertised as an evaluated trained model without actual model artifacts.

@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # fibonacci-braid-ledger
 
 **Core FBL Research** — The Fibonacci Braid Ledger is the central experimental research framework investigating cryptographic constructions from braid algebra, array languages, and recursive state transitions.

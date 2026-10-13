@@ -1,3 +1,7 @@
+-- License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+-- Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+-- Existing file, component and third-party notices and grants are preserved.
+
 -- memory_manager.adb
 -- Ada/SPARK implementation for the memory manager spec.
 -- Uses a simple array of block records and proofs for invariants.

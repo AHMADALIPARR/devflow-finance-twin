@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Standard HMAC vs. Inverted Algebraic MAC (IAMAC)
 
 Standard HMAC relies on cryptographic one-wayness, bitwise XOR padding, and nested Merkle-Damgård hashing to prevent length-extension attacks. Inverting these mathematical properties transforms the MAC from an irreversible cryptographic hash wrapper into an algebraic, homomorphic verification primitive suitable for batch processing and verifiable multi-party computation.

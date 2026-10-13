@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Tensor Core: Quick Start Guide
 
 ## What is Tensor Core?
@@ -294,12 +300,8 @@ let empty = ndarray::Array::from(vec![]) as ndarray::Array1<f64>;
 
 ## License
 
-Triple License: MIT OR Apache-2.0 OR GPL-3.0-or-later
-
-Choose what fits your needs:
-- **MIT**: Simple, permissive
-- **Apache-2.0**: Patent protection
-- **GPL-3.0+**: Copyleft (with AI company restrictions in clause 5)
+License: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
+See the Sovereign Leviathan covenant in LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
 
 ---
 

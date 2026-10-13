@@ -1,9 +1,15 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # FILE REFERENCE: cobalt-compiler
 
 **Package:** `cobalt` v0.2.0
 **Synopsis:** localCobalt — Prolog-to-x86-64 + LiquidHaskell formal bridge
 **Author:** Ahmad Ali Parr — Bel Esprit D'Accord Irrevocable Trust
-**License:** MIT
+**License:** LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 **Build:** `cabal build` / `cabal build -f lh-bridge` (with liquid-fixpoint)
 
 ---

@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Main project license policy
 
 The owner identifies the main project license as **Sovereign Leviathan, the mutated AGPLv3 covenant**, License-ID `SL-AGPL3-001`, Covenant-Version `1.0`. The existing text is in [the covenant](docs/SOVEREIGN_LEVIATHAN_COVENANT.md) and copied without changes to [the release license reference](LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt).

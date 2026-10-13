@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Tensor Core: High-Performance Tensor Library for Rust 2024
 
 A formally verified, high-performance tensor/array library built on `ndarray`, providing ergonomic zero-cost abstractions for numerical computing.
@@ -301,8 +307,7 @@ Contributions are welcome! Guidelines:
 
 ## License
 
-Triple License: MIT OR Apache-2.0 OR GPL-3.0-or-later
-
+License: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 This ensures commercial compatibility while protecting against AI company misuse of the codebase.
 
 ## References

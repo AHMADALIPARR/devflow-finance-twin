@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Executed baseline: 2026-10-07
 
 Source: `289e05876f15965a95f990ed178961aee0ebcb73`. Host: Windows 10 Home 10.0.19041; Intel Core i7-8565U, 4 cores / 8 logical processors; approximately 7.92 GiB visible RAM; Python 3.12.10. This is a local development baseline, not an independent certification or production load test.

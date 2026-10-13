@@ -1,3 +1,9 @@
+<!--
+License-ID: SL-AGPL3-001 | Covenant-Version: 1.0 | Project policy reference
+Main project policy: LICENSES/LicenseRef-Sovereign-Leviathan-SL-AGPL3-001.txt.
+Existing file, component and third-party notices and grants are preserved.
+-->
+
 # Trigonometric Quantum Turing Operator
 
 A quantum Turing machine state transition can be formalized as a recursive operator acting on a tensor product space $\mathcal{H}_Q \otimes \mathcal{H}_T$, where head shifts and bit-flips are governed by trigonometric rotation matrices. Let the unitary transition operator $U(\theta)$ at recursion depth $n$ be parameterized by angle $\theta_n$ derived from the spectral parameter:
