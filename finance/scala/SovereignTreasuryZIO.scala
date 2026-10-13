@@ -14,7 +14,7 @@
 // ========================================================================
 
 // Copyright (c) 2026 SnapKittyWest. Ahmad Ali Parr, Bel Esprit D'Accord Irrevocable Trust.
-// SPDX-License-Identifier: AGPL-3.0-or-later
+// SPDX-License-Identifier: LicenseRef-Sovereign-Leviathan-SL-AGPL3-001
 // DEED-089: Sovereign Treasury Engine â€” Scala + ZIO Effectful Pipeline
 // Resource-safe WORM store, streaming, batch processing, effectful execution.
 
