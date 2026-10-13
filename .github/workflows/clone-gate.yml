@@ -61,7 +61,7 @@ jobs:
         run: |
           export PATH="$HOME/.idris2/bin:$PATH"
           cd formal/clone-gate
-          for fixture in Negative/Locked.idr Negative/Spent.idr Negative/Reuse.idr Negative/Forged.idr Negative/Bypass.idr; do
+          for fixture in Negative/Locked.idr Negative/Spent.idr Negative/Reuse.idr Negative/Forged.idr Negative/Bypass.idr Negative/Policy.idr; do
             name=$(basename "$fixture" .idr)
             if idris2 --total --check "$fixture" > "evidence/$name.txt" 2>&1; then
               cat "evidence/$name.txt"

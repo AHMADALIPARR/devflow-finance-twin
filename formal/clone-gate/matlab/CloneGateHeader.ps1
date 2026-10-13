@@ -51,11 +51,14 @@ try {
  if([Diagnostics.Debugger]::IsAttached){throw 'Debugger attached'}
  function Quote-Matlab([string]$Value){return "'"+$Value.Replace("'","''")+"'"}
  $folder=Quote-Matlab $PSScriptRoot
+ $pinnedFunction=Quote-Matlab $functionFile
  $arguments=@($ChallengeFile,$KeyFile,$ExpectedFingerprint,$IdrisBin)|ForEach-Object {Quote-Matlab $_}
- $statement="restoredefaultpath; addpath($folder); try; ok=cloneGateMATLAB("+($arguments -join ',')+"); if ok; exit(0); else; exit(1); end; catch ME; fprintf(2,'%s\n',ME.message); exit(2); end"
+ $statement="restoredefaultpath; cd($folder); addpath($folder); try; assert(strcmp(which('cloneGateMATLAB'),$pinnedFunction),'Unpinned MATLAB function'); ok=cloneGateMATLAB("+($arguments -join ',')+"); if ok; exit(0); else; exit(1); end; catch ME; fprintf(2,'%s\n',ME.message); exit(2); end"
  $start=[Diagnostics.ProcessStartInfo]::new()
  $start.FileName=$MatlabExe; $start.UseShellExecute=$false; $start.CreateNoWindow=$true
+ $start.WorkingDirectory=$PSScriptRoot
  $start.ArgumentList.Add('-batch'); $start.ArgumentList.Add($statement)
+ $start.ArgumentList.Add('-sd'); $start.ArgumentList.Add($PSScriptRoot)
  $start.ArgumentList.Add('-nojvm'); $start.ArgumentList.Add('-nodisplay'); $start.ArgumentList.Add('-nodesktop'); $start.ArgumentList.Add('-nosplash')
  $process=[Diagnostics.Process]::Start($start);$process.WaitForExit()
  $result=$process.ExitCode;$process.Dispose()

@@ -24,6 +24,7 @@ int clone_gate_entry(const char *challenge, const char *key, const char *expecte
     for (size_t i = 0; i < 32; ++i) if (!isxdigit((unsigned char)expected[i])) return 3;
 #ifdef _WIN32
     if (strpbrk(challenge, "\"\r\n") || strpbrk(key, "\"\r\n")) return 3;
+    if (challenge[strlen(challenge)-1] == '\\' || key[strlen(key)-1] == '\\') return 3;
     size_t size = strlen(CLONE_GATE_EXECUTABLE) + strlen(challenge) + strlen(key) + 128;
     if (size > 32767) return 3;
     char *command = malloc(size);
@@ -36,7 +37,12 @@ int clone_gate_entry(const char *challenge, const char *key, const char *expecte
     free(command);
     STARTUPINFOW startup = {0}; startup.cb = sizeof(startup);
     PROCESS_INFORMATION process = {0};
-    BOOL launched = CreateProcessW(NULL, wide, NULL, NULL, FALSE, CREATE_NO_WINDOW, NULL, NULL, &startup, &process);
+    int exe_count = MultiByteToWideChar(CP_UTF8, MB_ERR_INVALID_CHARS, CLONE_GATE_EXECUTABLE, -1, NULL, 0);
+    wchar_t *exe = exe_count ? malloc((size_t)exe_count * sizeof(wchar_t)) : NULL;
+    if (!exe) { free(wide); return 2; }
+    MultiByteToWideChar(CP_UTF8, MB_ERR_INVALID_CHARS, CLONE_GATE_EXECUTABLE, -1, exe, exe_count);
+    BOOL launched = CreateProcessW(exe, wide, NULL, NULL, FALSE, CREATE_NO_WINDOW, NULL, NULL, &startup, &process);
+    free(exe);
     free(wide);
     if (!launched) return 2;
     DWORD result = 2;

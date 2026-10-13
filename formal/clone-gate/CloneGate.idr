@@ -91,7 +91,7 @@ expectedFP : Fingerprint
 expectedFP = replicate 4 (replicate 4 14)
 export
 programMain : {0 k : Key256} -> {0 ct : State}
-           -> (0 _ : LicenseProof k ct expectedFP) -> EntryGate Attested -> IO ()
+           -> (0 _ : LicenseProof k ct CloneGate.expectedFP) -> EntryGate Attested -> IO ()
 programMain _ _ = do
   putStrLn "==> Clone gate open."
   putStrLn "==> Executing guarded payload."
@@ -101,7 +101,6 @@ demoKey = replicate 32 0
 public export
 demoChallenge : State
 demoChallenge = replicate 4 (replicate 4 0)
-export
 main : IO ()
 main =
   case attestGate Locked demoKey demoChallenge expectedFP of
