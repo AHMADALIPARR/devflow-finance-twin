@@ -21,19 +21,22 @@ readBytesAt path n = do
     | Left err => pure (Left (show err))
   Right size <- fileSize handle
     | Left err => do closeFile handle; pure (Left (show err))
-  if size /= cast n then do
-    closeFile handle
-    pure (Left "Invalid binary length")
-  else do
-    Just buf <- newBuffer size
-      | Nothing => do closeFile handle; pure (Left "Buffer allocation failed")
-    result <- readBufferData handle buf 0 size
-    closeFile handle
-    case result of
-      Left err => pure (Left (show err))
-      Right count => if count /= size
-                       then pure (Left "Truncated binary input")
-                       else do bytes <- readVector buf n 0; pure (Right bytes)
+  case size == cast n of
+    False => do
+      closeFile handle
+      pure (Left "Invalid binary length")
+    True => do
+      Just buf <- newBuffer size
+        | Nothing => do closeFile handle; pure (Left "Buffer allocation failed")
+      result <- readBufferData handle buf 0 size
+      closeFile handle
+      case result of
+        Left err => pure (Left (show err))
+        Right count => case count == size of
+          False => pure (Left "Truncated binary input")
+          True => do
+            bytes <- readVector buf n 0
+            pure (Right bytes)
 
 hexValue : Char -> Maybe Byte
 hexValue c =
